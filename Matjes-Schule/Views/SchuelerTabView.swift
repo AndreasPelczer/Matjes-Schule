@@ -10,6 +10,7 @@ import SwiftUI
 struct SchuelerTabView: View {
     @State private var selectedTab = 0
     @EnvironmentObject var appState: AppState
+    @EnvironmentObject var dataStore: DataStore
 
     var body: some View {
         TabView(selection: $selectedTab) {
@@ -31,10 +32,10 @@ struct SchuelerTabView: View {
             }
             .tag(1)
 
-            BuchReaderView()
+            SchuelerCodeView()
                 .tabItem {
-                    Image(systemName: "text.book.closed.fill")
-                    Text("Buch")
+                    Image(systemName: dataStore.aktuellerSchueler != nil ? "person.crop.circle.fill.badge.checkmark" : "ticket.fill")
+                    Text(dataStore.aktuellerSchueler != nil ? "Profil" : "Code")
                 }
                 .tag(2)
 

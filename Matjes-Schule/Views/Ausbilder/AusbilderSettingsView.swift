@@ -9,6 +9,8 @@ import SwiftUI
 
 struct AusbilderSettingsView: View {
     @EnvironmentObject var appState: AppState
+    @EnvironmentObject var dataStore: DataStore
+    @State private var showProfilBearbeiten = false
 
     var body: some View {
         NavigationStack {
@@ -34,6 +36,27 @@ struct AusbilderSettingsView: View {
                                 Text("Schule")
                                 Spacer()
                                 Text(ausbilder.schule)
+                                    .foregroundColor(.secondary)
+                            }
+                        }
+
+                        Section("Statistiken") {
+                            HStack {
+                                Text("Klassen")
+                                Spacer()
+                                Text("\(dataStore.klassenFuerAusbilder().count)")
+                                    .foregroundColor(.secondary)
+                            }
+                            HStack {
+                                Text("Sch\u{00FC}ler")
+                                Spacer()
+                                Text("\(dataStore.gesamtSchuelerAnzahl())")
+                                    .foregroundColor(.secondary)
+                            }
+                            HStack {
+                                Text("Fragenkataloge")
+                                Spacer()
+                                Text("\(dataStore.fragenkataloge.count)")
                                     .foregroundColor(.secondary)
                             }
                         }
