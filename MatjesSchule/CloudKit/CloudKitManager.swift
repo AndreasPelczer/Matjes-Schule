@@ -14,6 +14,7 @@
 
 import Foundation
 import CloudKit
+import Combine
 
 @available(iOS 17.0, *)
 class CloudKitManager: ObservableObject {
