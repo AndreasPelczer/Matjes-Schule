@@ -1,0 +1,2280 @@
+[
+  {
+    "id": "W-KART-001",
+    "name": "Kartoffel, festkochend",
+    "kategorie": "Kartoffeln",
+    "typ": "Grundprodukt",
+    "beschreibung": "Geringe Stärke, behält Form beim Kochen. Sorten: Linda, Sieglinde, Annabelle. Verwendung: Salzkartoffeln, Kartoffelsalat, Bratkartoffeln, Gratin. Erkennbar am länglichen Wuchs und glatten Schale.",
+    "lagerung": "Dunkel, kühl (4-8°C), trocken. Nicht neben Äpfeln (Ethylen beschleunigt Keimung). Licht = grün = Solanin = giftig.",
+    "saison": "Ernte Juni-Oktober, Lagerware ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 77,
+      "fett": 0.1,
+      "eiweiss": 2.0,
+      "kohlenhydrate": 17.0
+    }
+  },
+  {
+    "id": "W-KART-002",
+    "name": "Kartoffel, vorwiegend festkochend",
+    "kategorie": "Kartoffeln",
+    "typ": "Grundprodukt",
+    "beschreibung": "Mittlerer Stärkegehalt, Allrounder. Sorten: Laura, Gala, Marabel. Verwendung: Suppen, Eintöpfe, Ofenkartoffeln, Rösti. Die Sorte für fast alles.",
+    "lagerung": "Dunkel, kühl (4-8°C), trocken.",
+    "saison": "Ernte Juni-Oktober, Lagerware ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 77,
+      "fett": 0.1,
+      "eiweiss": 2.0,
+      "kohlenhydrate": 17.0
+    }
+  },
+  {
+    "id": "W-KART-003",
+    "name": "Kartoffel, mehligkochend",
+    "kategorie": "Kartoffeln",
+    "typ": "Grundprodukt",
+    "beschreibung": "Hoher Stärkegehalt, zerfällt beim Kochen. Sorten: Adretta, Augusta, Bintje. Verwendung: Püree, Klöße, Kroketten, Pommes frites. Stärke = knusprig außen, fluffig innen.",
+    "lagerung": "Dunkel, kühl (4-8°C), trocken.",
+    "saison": "Ernte August-Oktober, Lagerware ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 77,
+      "fett": 0.1,
+      "eiweiss": 2.0,
+      "kohlenhydrate": 17.0
+    }
+  },
+  {
+    "id": "W-KART-004",
+    "name": "Süßkartoffel",
+    "kategorie": "Kartoffeln",
+    "typ": "Grundprodukt",
+    "beschreibung": "Botanisch keine echte Kartoffel (Windengewächs). Süßlich, oranges Fleisch. Verwendung: Püree, Suppe, Ofengemüse, Pommes. Enthält mehr Beta-Carotin als normale Kartoffeln.",
+    "lagerung": "NICHT im Kühlschrank! Zimmertemperatur (12-16°C), trocken, dunkel. Kälte verändert Geschmack.",
+    "saison": "Import ganzjährig, deutsche Ernte September-November",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 86,
+      "fett": 0.1,
+      "eiweiss": 1.6,
+      "kohlenhydrate": 20.0
+    }
+  },
+  {
+    "id": "W-GEM-001",
+    "name": "Karotte / Möhre",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Wichtigstes Wurzelgemüse. Bestandteil von Suppengrün/Mirepoix. Sorten: Nantaise (dünn, süß), Chantenay (kurz, dick). Beta-Carotin wird erst mit Fett aufgenommen (fettlöslich!).",
+    "lagerung": "Grünzeug sofort entfernen (entzieht Wasser). 2-4°C, feucht, bis 2 Wochen.",
+    "saison": "Deutsche Ernte Juni-November, Lagerware ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 36,
+      "fett": 0.2,
+      "eiweiss": 0.9,
+      "kohlenhydrate": 7.6
+    }
+  },
+  {
+    "id": "W-GEM-002",
+    "name": "Knollensellerie",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Bestandteil von Suppengrün. Intensiver Geschmack. Verwendung: Suppen, Eintöpfe, Waldorfsalat, Schnitzel (paniert), Selleriepüree. Staudensellerie ist die Stängelversion.",
+    "lagerung": "2-4°C, feucht. Angeschnittene Fläche mit Zitronenwasser beträufeln (Oxidation).",
+    "saison": "September-März",
+    "allergene": "Sellerie (Hauptallergen Nr. 9)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 27,
+      "fett": 0.3,
+      "eiweiss": 1.5,
+      "kohlenhydrate": 4.2
+    }
+  },
+  {
+    "id": "W-GEM-003",
+    "name": "Petersilienwurzel",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Dritter im Bunde des Suppengrüns. Ähnlich wie Pastinake, aber schärfer/würziger. Spitze zeigt nach unten (Pastinake: dicker Kopf oben). Verwendung: Suppen, Eintöpfe, Püree.",
+    "lagerung": "2-4°C, feucht, 1-2 Wochen",
+    "saison": "Oktober-März",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 40,
+      "fett": 0.6,
+      "eiweiss": 2.9,
+      "kohlenhydrate": 5.4
+    }
+  },
+  {
+    "id": "W-GEM-004",
+    "name": "Pastinake",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Süßlich-nussig, wird nach Frost süßer (Stärke wird zu Zucker). Dicker Kopf (vs. Petersilienwurzel: dünn). Verwendung: Suppe, Püree, Ofengemüse, Babybrei. Renaissance-Gemüse.",
+    "lagerung": "2-4°C, feucht, bis 3 Wochen",
+    "saison": "Oktober-März (nach dem ersten Frost am besten)",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 59,
+      "fett": 0.3,
+      "eiweiss": 1.3,
+      "kohlenhydrate": 12.0
+    }
+  },
+  {
+    "id": "W-GEM-005",
+    "name": "Rote Bete",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Erdig-süßer Geschmack, färbt ALLES (Handschuhe!). Verwendung: Salat, Suppe (Borschtsch), Carpaccio, eingelegt. Farbe durch Betanin. Vorgekocht vakuumiert als Convenience beliebt.",
+    "lagerung": "2-4°C, Sand/Erde dran lassen, bis 4 Wochen",
+    "saison": "September-März",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 43,
+      "fett": 0.1,
+      "eiweiss": 1.5,
+      "kohlenhydrate": 8.4
+    }
+  },
+  {
+    "id": "W-GEM-010",
+    "name": "Zwiebel (Speisezwiebel)",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Basis JEDER Küche. Sorten: Gemüsezwiebel (groß, mild), Haushaltszwiebel (mittel, scharf). Enthält Schwefelverbindungen (deshalb weint man). Verwendung: Universell — roh, gedünstet, geröstet, frittiert.",
+    "lagerung": "Trocken, kühl, dunkel, luftig (Netz). NICHT im Kühlschrank (Feuchtigkeit = Fäulnis). 5-8°C ideal.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 28,
+      "fett": 0.3,
+      "eiweiss": 1.2,
+      "kohlenhydrate": 5.0
+    }
+  },
+  {
+    "id": "W-GEM-011",
+    "name": "Schalotte",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Feiner und milder als Zwiebel, süßlicher. Die 'elegante Schwester'. Standard in der französischen Küche. Verwendung: Saucen-Reduktionen, Vinaigrette, Fischgerichte, feine Küche. Karamellisiert besonders gut.",
+    "lagerung": "Trocken, kühl, dunkel. Wie Zwiebeln, aber empfindlicher.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 72,
+      "fett": 0.1,
+      "eiweiss": 2.5,
+      "kohlenhydrate": 16.8
+    }
+  },
+  {
+    "id": "W-GEM-012",
+    "name": "Knoblauch",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Knolle mit Zehen. Allicin (Wirkstoff) entsteht erst beim Schneiden. Je feiner geschnitten, desto intensiver. Grüner Keim = bitter, entfernen. Verwendung: Universell. Basis der Mittelmeerküche.",
+    "lagerung": "Trocken, Zimmertemperatur, luftig. Nicht im Kühlschrank.",
+    "saison": "Ganzjährig (frischer Knoblauch: Juni-August)",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 141,
+      "fett": 0.5,
+      "eiweiss": 6.4,
+      "kohlenhydrate": 28.4
+    }
+  },
+  {
+    "id": "W-GEM-013",
+    "name": "Lauch / Porree",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Milder als Zwiebel. Grüner Teil: würzig, zum Kochen. Weißer Teil: mild, auch roh. WICHTIG: Längs halbieren und gründlich waschen (Sand zwischen den Blättern!). Bestandteil von Suppengrün.",
+    "lagerung": "2-4°C, 1-2 Wochen. Geruch überträgt sich — getrennt lagern.",
+    "saison": "Sommer-Lauch: Juni-Oktober (dünn, mild). Winter-Lauch: November-April (dick, kräftig).",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 31,
+      "fett": 0.3,
+      "eiweiss": 2.2,
+      "kohlenhydrate": 3.5
+    }
+  },
+  {
+    "id": "W-GEM-020",
+    "name": "Weißkohl",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Deutschlands Kohl Nr. 1. Basis für Sauerkraut (Milchsäuregärung). Verwendung: Krautsalat, Kohlrouladen, Eintopf. Enthält viel Vitamin C (historisch wichtig gegen Skorbut auf Schiffen).",
+    "lagerung": "2-4°C, bis 3 Monate (ganze Köpfe). Angeschnitten: 1 Woche.",
+    "saison": "September-März, Lagerware länger",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 25,
+      "fett": 0.2,
+      "eiweiss": 1.3,
+      "kohlenhydrate": 4.2
+    }
+  },
+  {
+    "id": "W-GEM-021",
+    "name": "Rotkohl / Blaukraut",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Farbe ändert sich je nach pH: Säure (Essig/Apfel) = rot, Base (Natron) = blau. Deshalb in Süddeutschland 'Blaukraut'. Klassiker zu Wildgerichten und Gänsebraten.",
+    "lagerung": "2-4°C, bis 2 Monate. Nicht neben stark riechenden Lebensmitteln.",
+    "saison": "September-März",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 29,
+      "fett": 0.2,
+      "eiweiss": 1.5,
+      "kohlenhydrate": 4.8
+    }
+  },
+  {
+    "id": "W-GEM-022",
+    "name": "Grünkohl",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "DAS Wintergemüse. Wird nach Frost süßer (Stärke → Zucker). Superfood: extrem viel Vitamin C, K, Eisen. Verwendung: Traditionell mit Pinkel/Grützwurst, modern als Smoothie, Chips, Salat.",
+    "lagerung": "2-4°C, nur 3-5 Tage frisch. Blanchiert einfrierbar.",
+    "saison": "November-Februar (nach dem ersten Frost)",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 37,
+      "fett": 0.9,
+      "eiweiss": 4.3,
+      "kohlenhydrate": 2.5
+    }
+  },
+  {
+    "id": "W-GEM-023",
+    "name": "Blumenkohl",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Weiß (Blätter schützen vor Sonne), es gibt auch violette und grüne Sorten. Verwendung: Gratiniert, als Suppe, Püree, Schnitzel (Steak), polonaise. Muss blütenrein sein (keine braunen Stellen).",
+    "lagerung": "2-4°C, 4-7 Tage. In feuchtes Tuch wickeln.",
+    "saison": "Mai-November",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 25,
+      "fett": 0.3,
+      "eiweiss": 2.5,
+      "kohlenhydrate": 2.3
+    }
+  },
+  {
+    "id": "W-GEM-024",
+    "name": "Brokkoli",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Grüner Verwandter des Blumenkohls. Muss knackig-grün sein (gelbe Blüten = überreif). Blanchieren + Abschrecken = Farbe bleibt. Stiel ist essbar (schälen, dünn schneiden, mitgaren).",
+    "lagerung": "2-4°C, 3-5 Tage. Empfindlich, schnell verarbeiten.",
+    "saison": "Juni-November",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 34,
+      "fett": 0.4,
+      "eiweiss": 3.8,
+      "kohlenhydrate": 2.7
+    }
+  },
+  {
+    "id": "W-GEM-025",
+    "name": "Kohlrabi",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Typisch deutsch — in anderen Ländern fast unbekannt. Mild-süßlich. Roh oder gegart. Blätter sind essbar und nährstoffreich! Holzig wenn zu groß. Weiß oder violett (gleicher Geschmack).",
+    "lagerung": "2-4°C, ohne Blätter 1-2 Wochen. Mit Blättern nur 2-3 Tage.",
+    "saison": "Mai-Oktober",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 27,
+      "fett": 0.1,
+      "eiweiss": 1.7,
+      "kohlenhydrate": 3.7
+    }
+  },
+  {
+    "id": "W-GEM-030",
+    "name": "Tomate",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Botanisch eine Beere. Sorten: Fleischtomate (Sauce, Salat), Cocktail/Cherry (Garnitur, Snack), San Marzano (DIE Saucen-Tomate). Concassée = geschält, entkernt, gewürfelt. NIEMALS im Kühlschrank — verliert Aroma.",
+    "lagerung": "Zimmertemperatur! Nachreifen bei 18-20°C. Getrennt von anderem Gemüse (Ethylen).",
+    "saison": "Freiland: Juli-Oktober. Gewächshaus ganzjährig.",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 18,
+      "fett": 0.2,
+      "eiweiss": 0.9,
+      "kohlenhydrate": 2.6
+    }
+  },
+  {
+    "id": "W-GEM-031",
+    "name": "Paprika",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Grün = unreif (herb). Gelb = halbreif (mild). Rot = reif (süß, meiste Vitamine). Alle sind die gleiche Pflanze! Enthält 3x mehr Vitamin C als Orangen. Verwendung: Roh, gegrillt, gefüllt, Suppe.",
+    "lagerung": "8-10°C (Gemüsefach), 1 Woche. Kälteempfindlich.",
+    "saison": "Juli-Oktober (Freiland)",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 21,
+      "fett": 0.3,
+      "eiweiss": 1.2,
+      "kohlenhydrate": 3.4
+    }
+  },
+  {
+    "id": "W-GEM-032",
+    "name": "Zucchini",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Gehört zur Familie der Kürbisse. Jung ernten (15-20cm ideal). Große Exemplare: wässrig, kernig. Verwendung: Gegrillt, gebraten, Suppe, Ratatouille, Zoodles. Blüten sind eine Delikatesse (gefüllt, frittiert).",
+    "lagerung": "8-10°C, 3-5 Tage max. Kälteempfindlich — nicht unter 5°C.",
+    "saison": "Juni-Oktober",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 19,
+      "fett": 0.3,
+      "eiweiss": 1.2,
+      "kohlenhydrate": 2.2
+    }
+  },
+  {
+    "id": "W-GEM-033",
+    "name": "Aubergine",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Roh ungenießbar (Solanin). Saugt Öl auf wie ein Schwamm — vorher salzen (entzieht Wasser). Verwendung: Gegrillt, Ratatouille, Moussaka, Baba Ganoush. Fruchtfleisch oxidiert schnell (braun).",
+    "lagerung": "10-13°C, 3-5 Tage. Kälteempfindlich!",
+    "saison": "Juli-Oktober (Import ganzjährig)",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 24,
+      "fett": 0.2,
+      "eiweiss": 1.0,
+      "kohlenhydrate": 3.5
+    }
+  },
+  {
+    "id": "W-GEM-034",
+    "name": "Gurke (Salatgurke)",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "96% Wasser. Schale enthält die meisten Nährstoffe. Einlegegurken = Cornichons (kleine Sorte). Verwendung: Salat, Gazpacho, Tsatziki, Garnitur. Immer erst kurz vor dem Servieren salzen (zieht Wasser).",
+    "lagerung": "10-13°C, 3-5 Tage. Kälteempfindlich — über 5°C lagern.",
+    "saison": "Mai-September (Freiland)",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 12,
+      "fett": 0.2,
+      "eiweiss": 0.6,
+      "kohlenhydrate": 1.8
+    }
+  },
+  {
+    "id": "W-GEM-040",
+    "name": "Kopfsalat",
+    "kategorie": "Salat",
+    "typ": "Grundprodukt",
+    "beschreibung": "Klassiker. Zarte Blätter, milder Geschmack. Welkt schnell. Nur waschen, nicht schneiden (reißen!). Messer oxidiert die Schnittstellen. Verwendung: Beilage, Garnitur.",
+    "lagerung": "2-4°C, feucht, nur 2-3 Tage.",
+    "saison": "Mai-Oktober (Freiland)",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 14,
+      "fett": 0.2,
+      "eiweiss": 1.3,
+      "kohlenhydrate": 1.1
+    }
+  },
+  {
+    "id": "W-GEM-041",
+    "name": "Eisbergsalat",
+    "kategorie": "Salat",
+    "typ": "Grundprodukt",
+    "beschreibung": "Knackig, haltbarer als andere Salate. Wenig Geschmack, viel Crunch. Lässt sich gut schneiden (nicht so empfindlich). Verwendung: Burger, Wraps, Beilage. In der Profiküche eher Basis als Star.",
+    "lagerung": "2-4°C, bis 1 Woche.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 13,
+      "fett": 0.1,
+      "eiweiss": 1.0,
+      "kohlenhydrate": 1.6
+    }
+  },
+  {
+    "id": "W-GEM-042",
+    "name": "Feldsalat / Rapunzel",
+    "kategorie": "Salat",
+    "typ": "Grundprodukt",
+    "beschreibung": "DER Wintersalat. Wächst sogar unter Schnee. Nussiger Geschmack, kleine Rosetten. Aufwendig zu putzen (Wurzeln, Sand). Sehr nährstoffreich (Eisen, Vitamin C). Verwendung: Salat, Garnitur.",
+    "lagerung": "2-4°C, feucht, nur 2-3 Tage. Sehr empfindlich.",
+    "saison": "Oktober-März",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 14,
+      "fett": 0.4,
+      "eiweiss": 1.8,
+      "kohlenhydrate": 0.7
+    }
+  },
+  {
+    "id": "W-GEM-043",
+    "name": "Rucola",
+    "kategorie": "Salat",
+    "typ": "Grundprodukt",
+    "beschreibung": "Scharf-nussig (Senföle). Wilde Rauke ist schmaler und schärfer als Salatrauke. Große Blätter = weniger scharf. Verwendung: Salat, Pizza, Pesto, Garnitur. Passt zu Parmesan und Balsamico.",
+    "lagerung": "2-4°C, feuchtes Tuch, max 2-3 Tage. Wird schnell gelb.",
+    "saison": "April-November (Freiland)",
+    "allergene": "Senf (entfernt verwandt, selten relevant)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 25,
+      "fett": 0.7,
+      "eiweiss": 2.6,
+      "kohlenhydrate": 2.1
+    }
+  },
+  {
+    "id": "W-GEM-050",
+    "name": "Spargel, weiß",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "König des Gemüses. Weiß weil unter der Erde (kein Licht = kein Chlorophyll). Handelsklassen: Extra, I, II. Frischetest: Stangen quietschen beim Reiben, Schnittfläche feucht. Muss geschält werden (vom Kopf weg).",
+    "lagerung": "Feuchtes Tuch, 2-4°C, max 2-3 Tage. Am besten sofort verarbeiten.",
+    "saison": "Mitte April bis 24. Juni (Johannistag). Danach Erntestopp.",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 18,
+      "fett": 0.1,
+      "eiweiss": 1.9,
+      "kohlenhydrate": 1.9
+    }
+  },
+  {
+    "id": "W-GEM-051",
+    "name": "Spargel, grün",
+    "kategorie": "Gemüse",
+    "typ": "Grundprodukt",
+    "beschreibung": "Wächst über der Erde (Chlorophyll = grün). Kräftigerer Geschmack als weißer. Muss nur im unteren Drittel geschält werden. Kürzere Garzeit. Verwendung: Gebraten, gegrillt, Salat, Pasta.",
+    "lagerung": "Wie weißer Spargel. Aufrecht in feuchtes Tuch stellen.",
+    "saison": "April-Juni",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 20,
+      "fett": 0.2,
+      "eiweiss": 2.2,
+      "kohlenhydrate": 2.0
+    }
+  },
+  {
+    "id": "W-GEM-060",
+    "name": "Champignon",
+    "kategorie": "Pilze",
+    "typ": "Grundprodukt",
+    "beschreibung": "Meistgegessener Pilz weltweit. Weiß oder braun (Steinchampignon = kräftiger). Roh essbar bei einwandfreier Hygiene. NICHT waschen — nur abbürsten oder kurz abspülen. Verwendung: Universell.",
+    "lagerung": "Papier oder Leinen, KEINE Plastiktüte (Schwitzwasser = Schimmel). 2-4°C, 3-5 Tage.",
+    "saison": "Zucht ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 22,
+      "fett": 0.3,
+      "eiweiss": 3.1,
+      "kohlenhydrate": 0.6
+    }
+  },
+  {
+    "id": "W-GEM-061",
+    "name": "Pfifferling / Eierschwamm",
+    "kategorie": "Pilze",
+    "typ": "Grundprodukt",
+    "beschreibung": "Goldgelb, pfeffriger Geschmack (daher 'Pfifferling'). Kann nicht gezüchtet werden — nur Wildsammlung. Immer kochen (roh unverträglich). Verwendung: Rahmsauce, zu Wild, Pasta, Omelett.",
+    "lagerung": "Papier, 2-4°C, max 2 Tage. Sofort verarbeiten.",
+    "saison": "Juni-Oktober",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 23,
+      "fett": 0.5,
+      "eiweiss": 2.4,
+      "kohlenhydrate": 0.2
+    }
+  },
+  {
+    "id": "W-GEM-062",
+    "name": "Steinpilz",
+    "kategorie": "Pilze",
+    "typ": "Grundprodukt",
+    "beschreibung": "König der Pilze. Festes Fleisch, intensiver Umami-Geschmack. Nicht züchtbar. Getrocknet noch intensiver (Risotto!). Verwechslungsgefahr mit Gallenröhrling (bitter). Verwendung: Braten, Risotto, Suppe.",
+    "lagerung": "Papier, 2-4°C, 1-2 Tage. Oder trocknen (Geschmack verstärkt sich).",
+    "saison": "Juli-November",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 27,
+      "fett": 0.4,
+      "eiweiss": 3.7,
+      "kohlenhydrate": 1.0
+    }
+  },
+  {
+    "id": "W-GEM-070",
+    "name": "Linsen (braun/grün)",
+    "kategorie": "Hülsenfrüchte",
+    "typ": "Grundprodukt",
+    "beschreibung": "Kein Einweichen nötig (anders als Bohnen). Braun/grün: behalten Form. Rote Linsen: zerfallen (perfekt für Dal/Suppe). Beluga-Linsen: schwarz, fest, edel. Gute pflanzliche Proteinquelle.",
+    "lagerung": "Trocken, dunkel, kühl. Getrocknet: 1-2 Jahre. Gekocht: 3-5 Tage im Kühlschrank.",
+    "saison": "Trockenware ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 309,
+      "fett": 1.4,
+      "eiweiss": 23.4,
+      "kohlenhydrate": 49.0
+    }
+  },
+  {
+    "id": "W-GEM-071",
+    "name": "Kichererbsen",
+    "kategorie": "Hülsenfrüchte",
+    "typ": "Grundprodukt",
+    "beschreibung": "Basis für Hummus und Falafel. MÜSSEN eingeweicht (12h) und gekocht werden (roh giftig: Phasin). Dosenkichererbsen sind vorgekocht. Aquafaba (Kochflüssigkeit) = veganer Eischnee-Ersatz!",
+    "lagerung": "Trocken: 1-2 Jahre. Eingeweicht/gekocht: 3-5 Tage im Kühlschrank.",
+    "saison": "Trockenware ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 364,
+      "fett": 6.0,
+      "eiweiss": 19.0,
+      "kohlenhydrate": 61.0
+    }
+  },
+  {
+    "id": "W-GEM-072",
+    "name": "Weiße Bohnen",
+    "kategorie": "Hülsenfrüchte",
+    "typ": "Grundprodukt",
+    "beschreibung": "Einweichen (12h) + Kochen (60-90min) Pflicht. Phasin wird erst durch Hitze zerstört. Verwendung: Eintopf, Cassoulet, Salat, Püree. Navy Beans, Cannellini, Dicke Bohnen = verschiedene Sorten.",
+    "lagerung": "Trocken: 1-2 Jahre. Gekocht: 3-5 Tage im Kühlschrank.",
+    "saison": "Trockenware ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 284,
+      "fett": 1.6,
+      "eiweiss": 21.1,
+      "kohlenhydrate": 36.5
+    }
+  },
+  {
+    "id": "W-FL-001",
+    "name": "Rinderfilet",
+    "kategorie": "Fleisch",
+    "typ": "Rind",
+    "beschreibung": "Edelster Zuschnitt vom Rind. Sehr zart, mager, wenig Eigengeschmack. Kurzbraten bei hoher Hitze. Garstufen: bleu, saignant, à point, bien cuit. Niemals durchbraten — wird trocken.",
+    "lagerung": "0–2°C, 3–5 Tage. Vakuum: bis 3 Wochen (Dry/Wet Aging).",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 121,
+      "fett": 4.0,
+      "eiweiss": 21.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-002",
+    "name": "Rinderentrecôte",
+    "kategorie": "Fleisch",
+    "typ": "Rind",
+    "beschreibung": "Aus der hohen Rippe. Schöne Marmorierung = Geschmack. Zum Braten und Grillen. Das Fett zwischen den Muskelfasern macht es saftig. Auch als Rib-Eye-Steak bekannt.",
+    "lagerung": "0–2°C, 3–5 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 180,
+      "fett": 10.0,
+      "eiweiss": 22.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-003",
+    "name": "Rinderschulter",
+    "kategorie": "Fleisch",
+    "typ": "Rind",
+    "beschreibung": "Bindegewebsreich = perfekt zum Schmoren. Wird durch langes Garen butterzart. Verwendung: Gulasch, Schmorbraten, Sauerbraten. Nicht zum Kurzbraten geeignet (wird zäh).",
+    "lagerung": "0–2°C, 3–5 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 155,
+      "fett": 7.0,
+      "eiweiss": 22.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-004",
+    "name": "Tafelspitz",
+    "kategorie": "Fleisch",
+    "typ": "Rind",
+    "beschreibung": "Aus der Hüfte. DER Wiener Klassiker — wird sanft pochiert (nie kochen!). Muss mit der Faser geschnitten werden. Serviert mit Schnittlauchsauce, Apfelkren und Rösterdäpfeln.",
+    "lagerung": "0–2°C, 3–5 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 140,
+      "fett": 5.0,
+      "eiweiss": 23.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-005",
+    "name": "Rinderzunge",
+    "kategorie": "Fleisch",
+    "typ": "Rind (Innerei)",
+    "beschreibung": "Muss vor dem Servieren geschält werden (heiß abziehen). Wird gepökelt oder gekocht. Garzeit: 2–3 Stunden. Klassiker: Rinderzunge in Madeirasauce. Zarte Textur wenn richtig gegart.",
+    "lagerung": "0–2°C, 2–3 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 207,
+      "fett": 14.0,
+      "eiweiss": 19.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-006",
+    "name": "Kalbsschnitzel",
+    "kategorie": "Fleisch",
+    "typ": "Kalb",
+    "beschreibung": "Aus der Oberschale. Wiener Schnitzel = NUR Kalb (sonst 'Schnitzel Wiener Art'). Dünn klopfen, panieren (Mehl-Ei-Semmelbrösel), in Butterschmalz backen. Panade muss 'soufflieren'.",
+    "lagerung": "0–2°C, 2–3 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Weizen (Panade), Ei (Panade)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 110,
+      "fett": 2.0,
+      "eiweiss": 22.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-007",
+    "name": "Kalbshaxe",
+    "kategorie": "Fleisch",
+    "typ": "Kalb",
+    "beschreibung": "Ossobuco = 'Knochen mit Loch'. Scheiben mit Knochenmark schmoren. Gremolata dazu (Petersilie, Knoblauch, Zitronenzeste). Langsam schmoren (2–3 Stunden) bis das Fleisch vom Knochen fällt.",
+    "lagerung": "0–2°C, 2–3 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 140,
+      "fett": 5.0,
+      "eiweiss": 23.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-008",
+    "name": "Kalbsleber",
+    "kategorie": "Fleisch",
+    "typ": "Kalb (Innerei)",
+    "beschreibung": "Zarteste aller Lebern. NUR kurzbraten (sonst gummiartig). Innen noch leicht rosa. Klassisch: Berliner Leber (mit Apfel und Zwiebel). Erst NACH dem Braten salzen (Salz zieht Wasser).",
+    "lagerung": "0–2°C, 1–2 Tage. Sehr empfindlich.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 131,
+      "fett": 4.0,
+      "eiweiss": 20.0,
+      "kohlenhydrate": 3
+    }
+  },
+  {
+    "id": "W-FL-009",
+    "name": "Kalbsniere",
+    "kategorie": "Fleisch",
+    "typ": "Kalb (Innerei)",
+    "beschreibung": "Muss gewässert werden (Harnstoff entfernen). Fettkapsel und weiße Stränge entfernen. Kurzbraten oder als Ragout. Darf nicht zu lange garen — wird gummiartig.",
+    "lagerung": "0–2°C, 1–2 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 93,
+      "fett": 3.0,
+      "eiweiss": 16.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-010",
+    "name": "Schweinekotelett",
+    "kategorie": "Fleisch",
+    "typ": "Schwein",
+    "beschreibung": "Mit Knochen aus dem Kotelettstrang. Fettrand einschneiden (verhindert Wölben). Kurzbraten oder grillen. Der Knochen gibt Geschmack. Kerntemperatur: 63°C (medium), 70°C (durch).",
+    "lagerung": "0–2°C, 3–4 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 160,
+      "fett": 8.0,
+      "eiweiss": 22.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-011",
+    "name": "Schweinefilet",
+    "kategorie": "Fleisch",
+    "typ": "Schwein",
+    "beschreibung": "Zartes, mageres Stück. Silberhaut entfernen! Kurz und heiß braten, dann ruhen lassen. Für Medaillons quer zur Faser schneiden. Trocknet leicht aus — nicht übergaren.",
+    "lagerung": "0–2°C, 2–3 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 108,
+      "fett": 2.0,
+      "eiweiss": 22.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-012",
+    "name": "Schweinebauch",
+    "kategorie": "Fleisch",
+    "typ": "Schwein",
+    "beschreibung": "Fettreich, durchwachsen. Wird durch langes Schmoren/Grillen butterzart. Knusprige Schwarte: einritzen, salzen, hohe Hitze am Ende. Basis für Bacon und Pancetta.",
+    "lagerung": "0–2°C, 3–5 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 518,
+      "fett": 53.0,
+      "eiweiss": 9.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-013",
+    "name": "Schweinshaxe",
+    "kategorie": "Fleisch",
+    "typ": "Schwein",
+    "beschreibung": "Bayerischer Klassiker. Wird geschmort und dann bei hoher Hitze kross gebraten (Schwarte!). Viel Bindegewebe = lange Garzeit. Kerntemperatur: 80–85°C.",
+    "lagerung": "0–2°C, 3–5 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 240,
+      "fett": 16.0,
+      "eiweiss": 23.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-014",
+    "name": "Lammkeule",
+    "kategorie": "Fleisch",
+    "typ": "Lamm",
+    "beschreibung": "Klassiker zu Ostern. Schmoren oder niedriggaren. Mit Knoblauch und Rosmarin spicken. Lamm hat einen typischen Eigengeschmack (Fettsäuren). Milchlamm = milder (unter 6 Monate).",
+    "lagerung": "0–2°C, 3–4 Tage.",
+    "saison": "Frühjahr (Milchlamm), ganzjährig verfügbar",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 195,
+      "fett": 12.0,
+      "eiweiss": 21.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-015",
+    "name": "Lammkarree",
+    "kategorie": "Fleisch",
+    "typ": "Lamm",
+    "beschreibung": "Rücken mit Rippenknochen. Koteletts daraus schneiden oder am Stück braten. Frenchen = Knochen freilegen (optisch). Kurz braten, innen rosa. Passt zu Minze und Rosmarin.",
+    "lagerung": "0–2°C, 2–3 Tage.",
+    "saison": "Frühjahr",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 215,
+      "fett": 14.0,
+      "eiweiss": 22.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-016",
+    "name": "Lammschulter",
+    "kategorie": "Fleisch",
+    "typ": "Lamm",
+    "beschreibung": "Bindegewebsreich wie Rinderschulter — perfekt zum Schmoren. Pulled Lamb: 6–8 Stunden bei 120°C. Wird butterzart und lässt sich mit der Gabel zerteilen.",
+    "lagerung": "0–2°C, 3–4 Tage.",
+    "saison": "Frühjahr",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 205,
+      "fett": 14.0,
+      "eiweiss": 19.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-017",
+    "name": "Hirschrücken",
+    "kategorie": "Fleisch",
+    "typ": "Wild",
+    "beschreibung": "Edelstes Stück vom Hirsch. Sehr mager, intensiver Wildgeschmack. Kurzbraten (innen rosa!) oder als Medaillons. Passt zu Preiselbeeren, Rotkohl, Maronen. Vorher Sehnen entfernen.",
+    "lagerung": "0–2°C, 3–5 Tage. Abhängen verbessert Zartheit.",
+    "saison": "Herbst/Winter (Jagdsaison Sept–Jan)",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 113,
+      "fett": 2.0,
+      "eiweiss": 23.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-018",
+    "name": "Rehkeule",
+    "kategorie": "Fleisch",
+    "typ": "Wild",
+    "beschreibung": "Wird geschmort oder als Braten zubereitet. Feiner als Hirsch, weniger intensiv. Beizen in Rotwein-Marinade (Buttermilch bei milderem Geschmack). Klassische Beilage: Spätzle, Preiselbeeren.",
+    "lagerung": "0–2°C, 3–5 Tage.",
+    "saison": "Herbst/Winter (Jagdsaison)",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 120,
+      "fett": 3.0,
+      "eiweiss": 22.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-019",
+    "name": "Wildschweinbraten",
+    "kategorie": "Fleisch",
+    "typ": "Wild",
+    "beschreibung": "Kräftiger Geschmack. MUSS durchgegart werden (Trichinen-Gefahr!). Kerntemperatur mind. 70°C. Wird in Rotwein/Buttermilch gebeizt (milder). Schmoren bis zart (3–4 Stunden).",
+    "lagerung": "0–2°C, 3–5 Tage.",
+    "saison": "Herbst/Winter",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 160,
+      "fett": 8.0,
+      "eiweiss": 22.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-020",
+    "name": "Entenbrust",
+    "kategorie": "Fleisch",
+    "typ": "Geflügel",
+    "beschreibung": "Fettschicht kreuzweise einritzen (nicht ins Fleisch!). Auf der Hautseite KALT in die Pfanne → Fett rendert langsam aus. Dann kurz von der Fleischseite. Innen rosa = perfekt.",
+    "lagerung": "0–2°C, 2–3 Tage.",
+    "saison": "Herbst/Winter (Martinstag, Weihnachten)",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 200,
+      "fett": 13.0,
+      "eiweiss": 20.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-021",
+    "name": "Hähnchenbrust",
+    "kategorie": "Fleisch",
+    "typ": "Geflügel",
+    "beschreibung": "Magerster Teil vom Huhn. IMMER durchgaren (Salmonellen!). Kerntemperatur: 75°C. Trocknet leicht aus — sous-vide, pochieren oder mit Haut braten schützt. Vielseitig verwendbar.",
+    "lagerung": "0–2°C, 1–2 Tage. Kühlkette nicht unterbrechen!",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 100,
+      "fett": 1.0,
+      "eiweiss": 23.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-022",
+    "name": "Hähnchenkeule",
+    "kategorie": "Fleisch",
+    "typ": "Geflügel",
+    "beschreibung": "Saftiger als die Brust (mehr Fett, dunkles Fleisch). Braten, schmoren oder grillen. Kerntemperatur: 80°C (Knochen braucht mehr). Knusprige Haut: trockentupfen, salzen, heiß anbraten.",
+    "lagerung": "0–2°C, 1–2 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 175,
+      "fett": 10.0,
+      "eiweiss": 20.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-023",
+    "name": "Gänsekeule",
+    "kategorie": "Fleisch",
+    "typ": "Geflügel",
+    "beschreibung": "Martinsgans & Weihnachtsgans. Konfieren = in eigenem Fett garen (Confit). Oder klassisch schmoren. Fett auffangen — Gänseschmalz ist Gold wert (zum Braten, aufs Brot).",
+    "lagerung": "0–2°C, 2–3 Tage.",
+    "saison": "Herbst/Winter (Nov–Dez)",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 305,
+      "fett": 22.0,
+      "eiweiss": 26.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-024",
+    "name": "Kaninchen",
+    "kategorie": "Fleisch",
+    "typ": "Kleintier",
+    "beschreibung": "Weißes, mageres Fleisch. Schmeckt ähnlich wie Hähnchen, feiner. Rücken kurzbraten, Keulen schmoren. Wird leicht trocken — Speck umwickeln hilft. In der französischen Küche ein Klassiker.",
+    "lagerung": "0–2°C, 2–3 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 136,
+      "fett": 5.0,
+      "eiweiss": 22.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FL-025",
+    "name": "Rindermark",
+    "kategorie": "Fleisch",
+    "typ": "Rind",
+    "beschreibung": "Aus dem Markknochen. Wird pochiert (nie kochen — zerläuft!). Auf geröstetem Brot oder als Garnitur für Soßen. Markklößchen für klare Brühe. Geschmacksträger und Luxus-Zutat.",
+    "lagerung": "0–2°C, 2–3 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 786,
+      "fett": 84.0,
+      "eiweiss": 7.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-001",
+    "name": "Lachs (Atlantik)",
+    "kategorie": "Fisch",
+    "typ": "Salzwasser/Zucht",
+    "beschreibung": "Beliebtester Speisefisch. Orange Farbe durch Astaxanthin (Futter). Wild vs. Zucht: Wild = magerer, intensiver. Braten, grillen, beizen (Graved Lachs), roh (Sushi/Sashimi). Haut wird knusprig wenn auf Hautseite gebraten.",
+    "lagerung": "0–2°C auf Eis, 1–2 Tage. Geruch: frisch = Meer, schlecht = Ammoniak.",
+    "saison": "Ganzjährig (Zucht). Wild: Mai–September.",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 208,
+      "fett": 13.0,
+      "eiweiss": 20.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-002",
+    "name": "Forelle",
+    "kategorie": "Fisch",
+    "typ": "Süßwasser",
+    "beschreibung": "Klassiker: Forelle Müllerin (in Mehl gewendet, in Butter gebraten). Auch geräuchert beliebt. Regenbogenforelle (Zucht) vs. Bachforelle (wild, edler). Ganzen Fisch garen — Gräten lösen sich leichter.",
+    "lagerung": "0–2°C auf Eis, 1–2 Tage.",
+    "saison": "Frühjahr–Herbst",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 119,
+      "fett": 3.5,
+      "eiweiss": 21.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-003",
+    "name": "Zander",
+    "kategorie": "Fisch",
+    "typ": "Süßwasser",
+    "beschreibung": "Edelster Süßwasserfisch. Festes, weißes Fleisch, mild. Perfekt zum Braten (Haut wird glasig-knusprig). Pochieren und Dämpfen möglich. Grätenarm. Teuer, aber den Preis wert.",
+    "lagerung": "0–2°C auf Eis, 1–2 Tage.",
+    "saison": "Herbst–Frühjahr",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 84,
+      "fett": 0.7,
+      "eiweiss": 19.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-004",
+    "name": "Kabeljau (Dorsch)",
+    "kategorie": "Fisch",
+    "typ": "Salzwasser",
+    "beschreibung": "In der Ostsee = Dorsch, sonst = Kabeljau. Mildes, weißes Fleisch, groß-blättrig. Fish & Chips! Auch als Stockfisch (getrocknet) oder Bacalao (gesalzen). Zerfällt leicht — vorsichtig garen.",
+    "lagerung": "0–2°C auf Eis, 1–2 Tage.",
+    "saison": "Winter–Frühjahr",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 76,
+      "fett": 0.6,
+      "eiweiss": 17.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-005",
+    "name": "Saibling",
+    "kategorie": "Fisch",
+    "typ": "Süßwasser",
+    "beschreibung": "Verwandt mit der Forelle, aber feiner. Rotes Fleisch (wie Lachs). Aus kalten Bergseen oder Zucht. Braten oder räuchern. Nachhaltige Zucht in Österreich sehr verbreitet.",
+    "lagerung": "0–2°C auf Eis, 1–2 Tage.",
+    "saison": "Ganzjährig (Zucht)",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 100,
+      "fett": 2.5,
+      "eiweiss": 20.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-006",
+    "name": "Wolfsbarsch",
+    "kategorie": "Fisch",
+    "typ": "Salzwasser",
+    "beschreibung": "Auch 'Loup de Mer'. Fein, fest, mild. Einer der beliebtesten Fische der gehobenen Küche. Im Ganzen im Ofen (Salzmantel!) oder Filet braten. Schuppen entfernen!",
+    "lagerung": "0–2°C auf Eis, 1–2 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 97,
+      "fett": 2.0,
+      "eiweiss": 19.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-007",
+    "name": "Dorade",
+    "kategorie": "Fisch",
+    "typ": "Salzwasser",
+    "beschreibung": "Goldbrasse. Fest, mild, leicht nussig. Perfekt zum Grillen (im Ganzen) oder im Ofen. Mediterraner Klassiker. Schuppen und Innereien entfernen. Zitrone + Kräuter in den Bauch.",
+    "lagerung": "0–2°C auf Eis, 1–2 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 96,
+      "fett": 2.5,
+      "eiweiss": 18.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-008",
+    "name": "Thunfisch",
+    "kategorie": "Fisch",
+    "typ": "Salzwasser",
+    "beschreibung": "Wird wie Steak behandelt — nur kurzbraten! Innen roh/rosa. Sashimi-Qualität für rohen Verzehr. Überfischung ist Problem — auf MSC-Siegel achten. Dosen-Thunfisch ≠ frischer Thunfisch.",
+    "lagerung": "0–2°C, max 1 Tag. Sashimi-Qualität: -20°C tiefgefroren.",
+    "saison": "Ganzjährig",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 130,
+      "fett": 1.0,
+      "eiweiss": 30.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-009",
+    "name": "Seezunge",
+    "kategorie": "Fisch",
+    "typ": "Salzwasser",
+    "beschreibung": "Edelster Plattfisch. Dover Sole = die beste. Zartes, feines Fleisch. Müllerin Art (Mehl, Butter) ist der Klassiker. Teuer! Haut abziehen (dunkle Seite). Sehr empfindlich beim Garen.",
+    "lagerung": "0–2°C auf Eis, 1–2 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 83,
+      "fett": 1.0,
+      "eiweiss": 18.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-010",
+    "name": "Steinbutt",
+    "kategorie": "Fisch",
+    "typ": "Salzwasser",
+    "beschreibung": "König der Plattfische. Festes, weißes Fleisch. Wird im Ganzen im Ofen gegart (Turbotière = spezieller Topf). Sehr teuer. Auch als Filet gebraten oder pochiert. Knochen für Fischfond.",
+    "lagerung": "0–2°C auf Eis, 1–2 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 95,
+      "fett": 2.0,
+      "eiweiss": 19.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-011",
+    "name": "Hecht",
+    "kategorie": "Fisch",
+    "typ": "Süßwasser",
+    "beschreibung": "Viele Y-Gräten! Daher klassisch als Farce (Hechtklößchen/Quenelles) oder durch den Wolf gedreht. Festes Fleisch. Raubfisch, lebt in Seen und Flüssen.",
+    "lagerung": "0–2°C auf Eis, 1–2 Tage.",
+    "saison": "Herbst–Frühjahr",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 88,
+      "fett": 0.7,
+      "eiweiss": 20.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-012",
+    "name": "Rotbarsch",
+    "kategorie": "Fisch",
+    "typ": "Salzwasser",
+    "beschreibung": "Tiefseefisch, rote Haut. Festes, mildes Fleisch. Gut zum Braten und Dämpfen. Oft als TK-Filet erhältlich. Langsam wachsend — Nachhaltigkeit beachten.",
+    "lagerung": "0–2°C auf Eis, 1–2 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 105,
+      "fett": 3.5,
+      "eiweiss": 18.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-013",
+    "name": "Garnelen (Riesengarnelen)",
+    "kategorie": "Meeresfrüchte",
+    "typ": "Salzwasser/Zucht",
+    "beschreibung": "Darm entfernen (schwarzer Faden am Rücken)! Kurz garen — werden sonst gummiartig. Werden beim Garen rosa. Größe: U5 = unter 5 Stück pro Pfund (riesig). Tigergarnelen, King Prawns, Scampi.",
+    "lagerung": "0–2°C auf Eis, 1 Tag. Oder TK.",
+    "saison": "Ganzjährig (Zucht)",
+    "allergene": "Krebstiere (Hauptallergen Nr. 2)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 85,
+      "fett": 0.5,
+      "eiweiss": 20.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-014",
+    "name": "Jakobsmuscheln",
+    "kategorie": "Meeresfrüchte",
+    "typ": "Salzwasser",
+    "beschreibung": "Noix (weißes Fleisch) + Corail (oranger Rogen). Nur 30 Sekunden pro Seite braten — karamellisierte Kruste außen, glasig innen. Oder roh als Carpaccio. Die Muschel ist das Logo von Shell.",
+    "lagerung": "0–2°C, 1 Tag. Am besten lebend kaufen.",
+    "saison": "Herbst–Frühjahr (Nov–März)",
+    "allergene": "Weichtiere (Hauptallergen Nr. 14)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 69,
+      "fett": 0.5,
+      "eiweiss": 14.0,
+      "kohlenhydrate": 3
+    }
+  },
+  {
+    "id": "W-FI-015",
+    "name": "Miesmuscheln",
+    "kategorie": "Meeresfrüchte",
+    "typ": "Salzwasser",
+    "beschreibung": "Regel: Nur Monate mit R essen (Sept–April). Offene rohe Muscheln = tot = wegwerfen. Geschlossene nach dem Kochen = nicht geöffnet = wegwerfen. In Weißwein-Sud dämpfen. Bart entfernen!",
+    "lagerung": "2–7°C, 1–2 Tage. Feucht, nicht in Wasser.",
+    "saison": "September–April (R-Monate)",
+    "allergene": "Weichtiere (Hauptallergen Nr. 14)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 86,
+      "fett": 2.0,
+      "eiweiss": 12.0,
+      "kohlenhydrate": 4
+    }
+  },
+  {
+    "id": "W-FI-016",
+    "name": "Calamari (Tintenfisch)",
+    "kategorie": "Meeresfrüchte",
+    "typ": "Salzwasser",
+    "beschreibung": "Entweder ganz kurz (30 Sek) ODER ganz lang (45+ Min) garen — dazwischen wird er gummiartig! Ringe frittieren, Tuben füllen, grillen. Tinte für schwarzes Risotto/Pasta.",
+    "lagerung": "0–2°C, 1–2 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Weichtiere (Hauptallergen Nr. 14)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 92,
+      "fett": 1.4,
+      "eiweiss": 18.0,
+      "kohlenhydrate": 2
+    }
+  },
+  {
+    "id": "W-FI-017",
+    "name": "Flusskrebse",
+    "kategorie": "Meeresfrüchte",
+    "typ": "Süßwasser",
+    "beschreibung": "Lebend in kochendes Wasser. Kopf und Schwanz: Fleisch nur im Schwanz (Krebsschwänze). Panzer für Krebsbutter (mit Butter mixen, passieren). Delikatesse und Garnitur.",
+    "lagerung": "Lebend bis Verarbeitung. Kein Zwischenlagern.",
+    "saison": "Sommer–Herbst (Juni–Oktober)",
+    "allergene": "Krebstiere (Hauptallergen Nr. 2)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 72,
+      "fett": 0.5,
+      "eiweiss": 16.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-018",
+    "name": "Hummer",
+    "kategorie": "Meeresfrüchte",
+    "typ": "Salzwasser",
+    "beschreibung": "Lebend kochen oder halbieren und grillen. Tierschutz: erst betäuben (Eiswasser 20min oder elektrisch). Scheren = fest, Schwanz = zarter. Hummerbesteck zum Knacken. Teuerste Krustentier.",
+    "lagerung": "Lebend bis Verarbeitung. Kühl und feucht.",
+    "saison": "Ganzjährig",
+    "allergene": "Krebstiere (Hauptallergen Nr. 2)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 89,
+      "fett": 0.5,
+      "eiweiss": 19.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-019",
+    "name": "Sardinen",
+    "kategorie": "Fisch",
+    "typ": "Salzwasser",
+    "beschreibung": "Kleine, ölreiche Fische. Reich an Omega-3. Frisch gegrillt (Portugal-Klassiker) oder eingelegt in Öl (Konserve). Schuppen entfernen. Ganze Fische auf dem Grill = Sommergericht.",
+    "lagerung": "0–2°C auf Eis, 1 Tag. Sehr empfindlich.",
+    "saison": "Sommer (Juni–September)",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 185,
+      "fett": 11.0,
+      "eiweiss": 21.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-020",
+    "name": "Makrele",
+    "kategorie": "Fisch",
+    "typ": "Salzwasser",
+    "beschreibung": "Fettreich, kräftiger Geschmack. Perfekt zum Räuchern und Grillen. Tigermuster auf der Haut. Verdirbt schnell (hoher Fettgehalt). Geräucherte Makrele = Brotzeit-Klassiker.",
+    "lagerung": "0–2°C auf Eis, 1 Tag.",
+    "saison": "Frühjahr–Herbst",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 205,
+      "fett": 14.0,
+      "eiweiss": 19.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-021",
+    "name": "Matjes (Hering)",
+    "kategorie": "Fisch",
+    "typ": "Salzwasser",
+    "beschreibung": "Junger Hering, enzymatisch gereift (nicht geräuchert!). Holländische Methode: in Salzlake reifen. Saison = 'Hollandse Nieuwe'. Kalt serviert mit Zwiebeln. Bismarckhering = eingelegt in Essig.",
+    "lagerung": "0–2°C, 3–5 Tage. Vakuumiert länger.",
+    "saison": "Juni–Juli (Neue Ernte)",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 148,
+      "fett": 9.0,
+      "eiweiss": 17.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-022",
+    "name": "Wels",
+    "kategorie": "Fisch",
+    "typ": "Süßwasser",
+    "beschreibung": "Größter europäischer Süßwasserfisch. Festes, grätenarmes Fleisch. Mild im Geschmack. Gut zum Braten und Grillen. Haut ist nicht essbar (schleimig, abziehen).",
+    "lagerung": "0–2°C auf Eis, 1–2 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Fisch (Hauptallergen Nr. 4)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 113,
+      "fett": 4.0,
+      "eiweiss": 18.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-023",
+    "name": "Taschenkrebs",
+    "kategorie": "Meeresfrüchte",
+    "typ": "Salzwasser",
+    "beschreibung": "Fleisch in den Scheren und im Körper. Wird gekocht. Krabbencocktail, Salate. Braunes Fleisch (Körper) = intensiv, weißes Fleisch (Scheren) = mild und süßlich.",
+    "lagerung": "0–2°C, 1 Tag.",
+    "saison": "Ganzjährig",
+    "allergene": "Krebstiere (Hauptallergen Nr. 2)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 87,
+      "fett": 0.5,
+      "eiweiss": 19.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-FI-024",
+    "name": "Octopus",
+    "kategorie": "Meeresfrüchte",
+    "typ": "Salzwasser",
+    "beschreibung": "Muss lange geschmort werden (60–90 Min) bis zart. Trick: Korken mitkochen (Enzyme?), einfrieren vor dem Garen. Dann gegrillt = knusprig außen, zart innen. Tentakel sind der essbare Teil.",
+    "lagerung": "0–2°C, 1–2 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Weichtiere (Hauptallergen Nr. 14)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 82,
+      "fett": 1.0,
+      "eiweiss": 15.0,
+      "kohlenhydrate": 2
+    }
+  },
+  {
+    "id": "W-MI-001",
+    "name": "Vollmilch (3,5%)",
+    "kategorie": "Milchprodukte",
+    "typ": "Trinkmilch",
+    "beschreibung": "Basis in der Küche. 3,5% Fett. Pasteurisiert (72°C) oder H-Milch (ultrahocherhitzt, 135°C). Für Béchamel, Pudding, Cremesuppen. Rohmilch nur mit Kennzeichnung — muss abgekocht werden.",
+    "lagerung": "2–8°C, 5–7 Tage (frisch). H-Milch: ungekühlt Monate, geöffnet 3–5 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 64,
+      "fett": 3.5,
+      "eiweiss": 3.3,
+      "kohlenhydrate": 4.8
+    }
+  },
+  {
+    "id": "W-MI-002",
+    "name": "Sahne / Schlagsahne (30–36%)",
+    "kategorie": "Milchprodukte",
+    "typ": "Rahm",
+    "beschreibung": "Mind. 30% Fett zum Schlagen. Je kälter, desto besser aufzuschlagen. Schüssel + Sahne vorher kühlen! Zum Kochen: einreduzieren, montieren (Soßen binden). Schlagsahne ≠ Kochsahne (15%).",
+    "lagerung": "2–8°C, 5–7 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 310,
+      "fett": 33.0,
+      "eiweiss": 2.4,
+      "kohlenhydrate": 3.2
+    }
+  },
+  {
+    "id": "W-MI-003",
+    "name": "Sauerrahm / Schmand (20–24%)",
+    "kategorie": "Milchprodukte",
+    "typ": "Sauermilchprodukt",
+    "beschreibung": "Mit Milchsäurebakterien gesäuert. 20–24% Fett. Flockt beim Kochen leichter als Crème fraîche! Für Dips, Soßen, Backen. Schmand = deutsches Wort, in Österreich: Sauerrahm.",
+    "lagerung": "2–8°C, 10–14 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 210,
+      "fett": 22.0,
+      "eiweiss": 3.0,
+      "kohlenhydrate": 3.5
+    }
+  },
+  {
+    "id": "W-MI-004",
+    "name": "Crème fraîche (30%)",
+    "kategorie": "Milchprodukte",
+    "typ": "Sauermilchprodukt",
+    "beschreibung": "Wie Sauerrahm, aber fetter (30%). FLOCKT NICHT beim Kochen — daher ideal zum Verfeinern heißer Soßen und Suppen. Der Trick der Profiküche: statt Sahne Crème fraîche zum Binden.",
+    "lagerung": "2–8°C, 14–21 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 292,
+      "fett": 30.0,
+      "eiweiss": 2.5,
+      "kohlenhydrate": 2.5
+    }
+  },
+  {
+    "id": "W-MI-005",
+    "name": "Mascarpone",
+    "kategorie": "Milchprodukte",
+    "typ": "Frischkäse",
+    "beschreibung": "Italienischer Frischkäse. Ca. 80% F.i.Tr. — extrem cremig. DER Tiramisu-Käse. Auch für Füllungen, Desserts, Risotto zum Verfeinern. Mild, leicht süßlich.",
+    "lagerung": "2–8°C, 5–7 Tage. Empfindlich.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 460,
+      "fett": 47.0,
+      "eiweiss": 4.0,
+      "kohlenhydrate": 3.0
+    }
+  },
+  {
+    "id": "W-MI-006",
+    "name": "Naturjoghurt",
+    "kategorie": "Milchprodukte",
+    "typ": "Sauermilchprodukt",
+    "beschreibung": "Milch + Bakterienkulturen (Lactobacillus). Probiotisch = gut für den Darm. In der Küche: Marinaden (Tandoori!), Dips (Tsatziki), Dressings, Desserts. Griechischer Joghurt: 10% Fett, cremiger.",
+    "lagerung": "2–8°C, 14–21 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 61,
+      "fett": 3.5,
+      "eiweiss": 3.5,
+      "kohlenhydrate": 4.7
+    }
+  },
+  {
+    "id": "W-MI-007",
+    "name": "Buttermilch",
+    "kategorie": "Milchprodukte",
+    "typ": "Sauermilchprodukt",
+    "beschreibung": "Nebenprodukt der Butterherstellung. Unter 1% Fett — perfekt zum Backen (macht Teige fluffig, reagiert mit Natron). Auch für Dressings und Marinaden. Buttermilch-Pancakes = amerikanischer Klassiker.",
+    "lagerung": "2–8°C, 10–14 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 35,
+      "fett": 0.5,
+      "eiweiss": 3.3,
+      "kohlenhydrate": 4.0
+    }
+  },
+  {
+    "id": "W-MI-008",
+    "name": "Butter",
+    "kategorie": "Milchprodukte",
+    "typ": "Streichfett",
+    "beschreibung": "Mind. 82% Fett. Aus Rahm geschlagen. Süßrahmbutter (mild) vs. Sauerrahmbutter (säuerlich). Rauchpunkt: 175°C (niedrig!) — zum scharfen Anbraten Butterschmalz nehmen. Montieren = kalte Butter in Soße schwenken.",
+    "lagerung": "2–8°C, 4–6 Wochen. Einfrierbar bis 6 Monate.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 741,
+      "fett": 82.0,
+      "eiweiss": 0.7,
+      "kohlenhydrate": 0.6
+    }
+  },
+  {
+    "id": "W-MI-009",
+    "name": "Beurre noisette (Nussbutter)",
+    "kategorie": "Milchprodukte",
+    "typ": "Streichfett (verarbeitet)",
+    "beschreibung": "Butter erhitzen bis die Molke bräunt → nussiges Aroma. Name = 'Haselnuss-Butter' (wegen der Farbe). Klassiker zu Fisch, Gemüse (Blumenkohl!), Desserts. AUFPASSEN: zu lange = Beurre noire = verbrannt.",
+    "lagerung": "Gekühlt, 2–3 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 741,
+      "fett": 82.0,
+      "eiweiss": 0.7,
+      "kohlenhydrate": 0.6
+    }
+  },
+  {
+    "id": "W-MI-010",
+    "name": "Mozzarella",
+    "kategorie": "Milchprodukte",
+    "typ": "Frischkäse",
+    "beschreibung": "Pasta-Filata-Käse (Brühkäse). Büffelmozzarella (Mozzarella di Bufala) > Kuhmilch-Mozzarella. Frisch = in Lake. Für Pizza: kurz abtropfen (sonst zu nass). Caprese: mit Tomate + Basilikum.",
+    "lagerung": "2–8°C in Lake, 5–7 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 280,
+      "fett": 22.0,
+      "eiweiss": 18.0,
+      "kohlenhydrate": 1.0
+    }
+  },
+  {
+    "id": "W-MI-011",
+    "name": "Burrata",
+    "kategorie": "Milchprodukte",
+    "typ": "Frischkäse",
+    "beschreibung": "Mozzarella-Hülle gefüllt mit Stracciatella (Mozzarella-Fäden + Sahne). Aufschneiden → cremig fließend. Roh servieren als Vorspeise. NICHT erhitzen — wird dann normaler Mozzarella. Extrem verderblich.",
+    "lagerung": "2–8°C, 2–3 Tage. Am besten sofort essen.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 300,
+      "fett": 25.0,
+      "eiweiss": 15.0,
+      "kohlenhydrate": 1.0
+    }
+  },
+  {
+    "id": "W-MI-012",
+    "name": "Parmesan (Parmigiano Reggiano)",
+    "kategorie": "Milchprodukte",
+    "typ": "Hartkäse",
+    "beschreibung": "DOP-geschützt, mindestens 12 Monate gereift (bis 36+). Umami-Bombe (natürliches Glutamat). Rinde mitkochen (Suppen, Risotto) — essbar! Frisch reiben, nie fertig gerieben kaufen. König der Käse.",
+    "lagerung": "2–8°C, Wochen bis Monate. In Papier wickeln, nicht in Plastik.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 392,
+      "fett": 28.0,
+      "eiweiss": 35.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-MI-013",
+    "name": "Gruyère",
+    "kategorie": "Milchprodukte",
+    "typ": "Hartkäse",
+    "beschreibung": "Schweizer Hartkäse. DER Fondue-Käse (mit Emmentaler gemischt). Würzig-nussig. Schmilzt hervorragend — auch für Gratins, Zwiebelsuppe, Croque Monsieur. AOP-geschützt.",
+    "lagerung": "2–8°C, mehrere Wochen.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 413,
+      "fett": 33.0,
+      "eiweiss": 27.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-MI-014",
+    "name": "Emmentaler",
+    "kategorie": "Milchprodukte",
+    "typ": "Hartkäse",
+    "beschreibung": "DER Käse mit den Löchern. Löcher durch CO2-Gasbildung (Propionibakterien). Mild-nussig. Für Fondue (mit Gruyère), Überbacken, Käseplatten. Schweizer Original AOC — deutsche Version heißt oft nur 'Emmentaler'.",
+    "lagerung": "2–8°C, mehrere Wochen.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 382,
+      "fett": 30.0,
+      "eiweiss": 28.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-MI-015",
+    "name": "Gorgonzola",
+    "kategorie": "Milchprodukte",
+    "typ": "Blauschimmelkäse",
+    "beschreibung": "Italienischer Blauschimmel. Dolce (mild, cremig) vs. Piccante (würzig, fest). Penicillium roqueforti = der Schimmel. Für Soßen (Gnocchi al Gorgonzola), Risotto, Birne + Gorgonzola + Walnuss.",
+    "lagerung": "2–8°C, 7–14 Tage. Gut verpacken (riecht!).",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 360,
+      "fett": 31.0,
+      "eiweiss": 21.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-MI-016",
+    "name": "Roquefort",
+    "kategorie": "Milchprodukte",
+    "typ": "Blauschimmelkäse",
+    "beschreibung": "AUS SCHAFSMILCH (nicht Kuh!). Reift in Kalksteinhöhlen von Roquefort-sur-Soulzon. AOP-geschützt. Kräftiger als Gorgonzola. Für Salate (Roquefort-Dressing), Soßen, Käsegang.",
+    "lagerung": "2–8°C, 7–14 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 369,
+      "fett": 31.0,
+      "eiweiss": 22.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-MI-017",
+    "name": "Brie / Camembert",
+    "kategorie": "Milchprodukte",
+    "typ": "Weichkäse",
+    "beschreibung": "Weißschimmelrinde (Penicillium camemberti). Brie = größer, milder. Camembert = kleiner, kräftiger. Reif wenn weich und fließend (nicht hart in der Mitte). Auf Käseplatten Zimmertemperatur servieren!",
+    "lagerung": "2–8°C, bis MHD. Bei Zimmertemp. reift er weiter.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 335,
+      "fett": 28.0,
+      "eiweiss": 20.0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-MI-018",
+    "name": "Ziegenfrischkäse",
+    "kategorie": "Milchprodukte",
+    "typ": "Frischkäse",
+    "beschreibung": "Aus Ziegenmilch. Typisch leicht säuerlich, cremig. Gratiniert auf Salat (Chèvre chaud) = Bistro-Klassiker. Auch als gereifter Ziegenkäse mit Rinde (Crottin de Chavignol).",
+    "lagerung": "2–8°C, 7–10 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 280,
+      "fett": 22.0,
+      "eiweiss": 18.0,
+      "kohlenhydrate": 1.0
+    }
+  },
+  {
+    "id": "W-MI-019",
+    "name": "Ricotta",
+    "kategorie": "Milchprodukte",
+    "typ": "Molkenkäse",
+    "beschreibung": "'Ricotta' = 'nochmal gekocht'. Aus MOLKE hergestellt (Nebenprodukt der Käseherstellung). Mild, leicht körnig. Für Füllungen (Ravioli, Cannelloni), Desserts (Cassata), Cheesecake.",
+    "lagerung": "2–8°C, 3–5 Tage. Verdirbt schnell.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 174,
+      "fett": 13.0,
+      "eiweiss": 11.0,
+      "kohlenhydrate": 3.0
+    }
+  },
+  {
+    "id": "W-MI-020",
+    "name": "Quark / Topfen",
+    "kategorie": "Milchprodukte",
+    "typ": "Frischkäse",
+    "beschreibung": "Quark (D) = Topfen (AT). Aus Sauermilch. Magerquark (0,2%), Sahnequark (40%). Für Käsekuchen, Topfenknödel, Dips (Kräuterquark), Strudelfüllung. Lässt sich nicht gut erhitzen (flockt).",
+    "lagerung": "2–8°C, 7–14 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 67,
+      "fett": 0.2,
+      "eiweiss": 12.0,
+      "kohlenhydrate": 4.0
+    }
+  },
+  {
+    "id": "W-MI-021",
+    "name": "Kondensmilch",
+    "kategorie": "Milchprodukte",
+    "typ": "Dauerprodukt",
+    "beschreibung": "Eingedickte Milch (60% Wasser entzogen). Gezuckert oder ungezuckert. Für Desserts, Karamell (Dose kochen = Dulce de Leche, VORSICHT Druck!), Kaffee. Ungekühlt haltbar.",
+    "lagerung": "Kühl oder Raumtemperatur, Monate. Geöffnet: 3–5 Tage kühlen.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 134,
+      "fett": 8.0,
+      "eiweiss": 7.0,
+      "kohlenhydrate": 10.0
+    }
+  },
+  {
+    "id": "W-MI-022",
+    "name": "Topfen (AT)",
+    "kategorie": "Milchprodukte",
+    "typ": "Frischkäse",
+    "beschreibung": "Österreichisches Wort für Quark. Für Topfenstrudel, Topfenknödel, Topfenpalatschinken. In der österreichischen Küche unverzichtbar. Bröseltopfen = trockener, für Knödel.",
+    "lagerung": "2–8°C, 7–14 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 67,
+      "fett": 0.2,
+      "eiweiss": 12.0,
+      "kohlenhydrate": 4.0
+    }
+  },
+  {
+    "id": "W-MI-023",
+    "name": "Saure Sahne (10–15%)",
+    "kategorie": "Milchprodukte",
+    "typ": "Sauermilchprodukt",
+    "beschreibung": "Leichtere Version von Schmand. 10–15% Fett. Für Soßen, Suppen, Dips. Flockt bei Hitze leichter als Crème fraîche! Tipp: erst am Ende einrühren, nicht mehr kochen lassen.",
+    "lagerung": "2–8°C, 10–14 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 115,
+      "fett": 10.0,
+      "eiweiss": 3.0,
+      "kohlenhydrate": 4.0
+    }
+  },
+  {
+    "id": "W-MI-024",
+    "name": "Obers / Rahm (AT, 36%)",
+    "kategorie": "Milchprodukte",
+    "typ": "Rahm",
+    "beschreibung": "Österreichisch für Schlagsahne/Sahne. 'Schlagobers' = Schlagsahne, 'Kaffeeobers' = Kaffeesahne. 36% Fett. In der österreichischen Küche allgegenwärtig. Sonst identisch mit deutscher Sahne.",
+    "lagerung": "2–8°C, 5–7 Tage.",
+    "saison": "Ganzjährig",
+    "allergene": "Milch (Hauptallergen Nr. 7)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 338,
+      "fett": 36.0,
+      "eiweiss": 2.0,
+      "kohlenhydrate": 3.0
+    }
+  },
+  {
+    "id": "W-GW-001",
+    "name": "Schwarzer Pfeffer",
+    "kategorie": "Gewürze",
+    "typ": "Frucht/Samen",
+    "beschreibung": "König der Gewürze. Unreife grüne Beeren, fermentiert und getrocknet = schwarz. Piperin = Schärfe. IMMER frisch mahlen (Aroma verfliegt schnell). Universalgewürz Nr. 1 in der Profiküche.",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre (ganz). Gemahlen: 6 Monate max.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 255,
+      "fett": 3.3,
+      "eiweiss": 11.0,
+      "kohlenhydrate": 44.0
+    }
+  },
+  {
+    "id": "W-GW-002",
+    "name": "Weißer Pfeffer",
+    "kategorie": "Gewürze",
+    "typ": "Frucht/Samen",
+    "beschreibung": "Gleiche Pflanze wie schwarzer, aber reif geerntet und Schale entfernt (in Wasser eingeweicht). Milder, weniger komplex. Für HELLE Soßen (keine schwarzen Punkte in Béchamel!).",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 296,
+      "fett": 2.1,
+      "eiweiss": 10.4,
+      "kohlenhydrate": 42.0
+    }
+  },
+  {
+    "id": "W-GW-003",
+    "name": "Meersalz / Fleur de Sel",
+    "kategorie": "Gewürze",
+    "typ": "Mineral",
+    "beschreibung": "Meersalz: aus verdunstetem Meerwasser. Fleur de Sel: nur die oberste Kristallschicht (Handarbeit!) — zum FINISHEN, nicht zum Kochen. Kochsalz (Steinsalz) ≠ Meersalz. Jodiertes Salz hat zugesetztes Jod.",
+    "lagerung": "Trocken, unbegrenzt haltbar.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 0,
+      "fett": 0,
+      "eiweiss": 0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-GW-004",
+    "name": "Muskatnuss",
+    "kategorie": "Gewürze",
+    "typ": "Samen",
+    "beschreibung": "IMMER frisch reiben (Reibe/Microplane). Passt zu: Béchamel, Kartoffelpüree, Spinat, Blumenkohl. VORSICHT: In großen Mengen giftig/halluzinogen (Myristicin). Muskatblüte (Macis) = die Samenhülle, feiner.",
+    "lagerung": "Trocken, dunkel, ganz: 3–4 Jahre. Gerieben: schnell verwenden.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 525,
+      "fett": 36.0,
+      "eiweiss": 6.0,
+      "kohlenhydrate": 28.0
+    }
+  },
+  {
+    "id": "W-GW-005",
+    "name": "Paprika (edelsüß / rosenscharf)",
+    "kategorie": "Gewürze",
+    "typ": "Frucht",
+    "beschreibung": "Edelsüß = mild, rot, zum Färben. Rosenscharf = schärfer. Ungarisches Nationalgewürz (Gulasch!). Nie in heißem Fett anbraten — wird bitter! Erst ablöschen, dann Paprika einrühren.",
+    "lagerung": "Trocken, dunkel, 1–2 Jahre. Lichtempfindlich (verblasst).",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 282,
+      "fett": 13.0,
+      "eiweiss": 14.0,
+      "kohlenhydrate": 34.0
+    }
+  },
+  {
+    "id": "W-GW-006",
+    "name": "Cayennepfeffer / Chili",
+    "kategorie": "Gewürze",
+    "typ": "Frucht",
+    "beschreibung": "Capsaicin = Schärfe. Scoville-Skala misst die Schärfe. Cayenne: 30.000–50.000 Scoville. Milch/Fett neutralisiert Schärfe (nicht Wasser!). Kerne und Scheidewände = am schärfsten.",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 318,
+      "fett": 17.0,
+      "eiweiss": 12.0,
+      "kohlenhydrate": 30.0
+    }
+  },
+  {
+    "id": "W-GW-007",
+    "name": "Kurkuma",
+    "kategorie": "Gewürze",
+    "typ": "Wurzel",
+    "beschreibung": "Gelbes Gewürz, färbt ALLES (Handschuhe!). Curcumin = Farbstoff. Basis von Curry-Mischungen. Frisch: intensiver. Goldene Milch = Trend. Braucht schwarzen Pfeffer (Piperin) für bessere Aufnahme.",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre (Pulver). Frisch: 2–3 Wochen kühl.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 312,
+      "fett": 3.3,
+      "eiweiss": 9.7,
+      "kohlenhydrate": 44.0
+    }
+  },
+  {
+    "id": "W-GW-008",
+    "name": "Kreuzkümmel (Cumin)",
+    "kategorie": "Gewürze",
+    "typ": "Samen",
+    "beschreibung": "NICHT verwechseln mit Kümmel! Komplett anders. Warm, erdig, leicht bitter. Basis der orientalischen/indischen/mexikanischen Küche. Vorher anrösten (Aroma!). Falafel, Hummus, Chili con Carne.",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 375,
+      "fett": 22.0,
+      "eiweiss": 18.0,
+      "kohlenhydrate": 33.0
+    }
+  },
+  {
+    "id": "W-GW-009",
+    "name": "Koriandersamen",
+    "kategorie": "Gewürze",
+    "typ": "Samen",
+    "beschreibung": "Milder als frischer Koriander (Blätter). Zitronig-warm. Für Marinaden, Currys, Brot (Gewürzbrot). Leicht anrösten und mörsern. Nicht mit frischem Korianderkraut verwechseln (völlig anderer Geschmack).",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 298,
+      "fett": 18.0,
+      "eiweiss": 12.0,
+      "kohlenhydrate": 13.0
+    }
+  },
+  {
+    "id": "W-GW-010",
+    "name": "Zimt (Ceylon)",
+    "kategorie": "Gewürze",
+    "typ": "Rinde",
+    "beschreibung": "Ceylon-Zimt (Sri Lanka) = fein, hell, teuer. Cassia-Zimt (China) = kräftiger, dicker, billiger, enthält mehr Cumarin (leberschädlich bei Überkonsum). Für Desserts, Kompotte, orientalische Schmorgerichte.",
+    "lagerung": "Trocken, dunkel, Stangen: 2–3 Jahre. Pulver: 1 Jahr.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 247,
+      "fett": 1.2,
+      "eiweiss": 4.0,
+      "kohlenhydrate": 56.0
+    }
+  },
+  {
+    "id": "W-GW-011",
+    "name": "Vanille",
+    "kategorie": "Gewürze",
+    "typ": "Schote",
+    "beschreibung": "Zweitteuertes Gewürz (nach Safran). Schote aufschlitzen, Mark auskratzen. Ausgekratzte Schote in Zucker = Vanillezucker. Bourbon-Vanille (Madagaskar) = Standard. Tahiti-Vanille = blumiger. Vanillin = synthetisch.",
+    "lagerung": "Luftdicht, kühl, 1–2 Jahre. Nicht einfrieren.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 288,
+      "fett": 0.1,
+      "eiweiss": 0.1,
+      "kohlenhydrate": 13.0
+    }
+  },
+  {
+    "id": "W-GW-012",
+    "name": "Sternanis",
+    "kategorie": "Gewürze",
+    "typ": "Frucht",
+    "beschreibung": "Sternförmig (Dekoration!). Anis-Geschmack (Anethol), aber botanisch NICHT verwandt mit Anis. Asiatische Küche, Fonds, Glühwein, Pho-Suppe (Vietnam). Nicht mitessen — nur mitkochen und entfernen.",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 337,
+      "fett": 16.0,
+      "eiweiss": 18.0,
+      "kohlenhydrate": 35.0
+    }
+  },
+  {
+    "id": "W-GW-013",
+    "name": "Nelken",
+    "kategorie": "Gewürze",
+    "typ": "Blütenknospe",
+    "beschreibung": "Getrocknete Blütenknospen. Extrem intensiv — wenig reichen! Gespickte Zwiebel (Cloutée) in Fonds und Béchamel. Frischetest: in Wasser werfen — schwimmt aufrecht = frisch. Enthält Eugenol (betäubend).",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 274,
+      "fett": 13.0,
+      "eiweiss": 6.0,
+      "kohlenhydrate": 27.0
+    }
+  },
+  {
+    "id": "W-GW-014",
+    "name": "Lorbeerblätter",
+    "kategorie": "Gewürze",
+    "typ": "Blatt",
+    "beschreibung": "IMMER nur mitkochen, nie mitessen. 1–2 Blätter reichen (wird sonst bitter). Standard in Fonds, Schmorgerichten, Beizen. Frische Blätter = milder. Getrocknete = intensiver. Türkischer Lorbeer = Standard.",
+    "lagerung": "Trocken, dunkel, 1–2 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 313,
+      "fett": 8.4,
+      "eiweiss": 7.6,
+      "kohlenhydrate": 48.0
+    }
+  },
+  {
+    "id": "W-GW-015",
+    "name": "Wacholderbeeren",
+    "kategorie": "Gewürze",
+    "typ": "Frucht",
+    "beschreibung": "Leicht andrücken vor dem Mitkochen (Aroma freigeben). Für Wild, Sauerkraut, Beizen, Sauerbraten. Basis von Gin. Leicht harzig-fruchtig. Nicht zu viele — dominiert schnell.",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 0,
+      "fett": 0,
+      "eiweiss": 0,
+      "kohlenhydrate": 0
+    }
+  },
+  {
+    "id": "W-GW-016",
+    "name": "Safran",
+    "kategorie": "Gewürze",
+    "typ": "Narbe",
+    "beschreibung": "TEUERSTES Gewürz der Welt. Narben der Krokusblüte — handverlesen. 150.000 Blüten = 1kg Safran. Für Risotto alla Milanese, Bouillabaisse, Paella. Fäden in warmem Wasser einweichen. WENIGER IST MEHR.",
+    "lagerung": "Trocken, dunkel, luftdicht, 2–3 Jahre.",
+    "saison": "Ernte: Oktober–November",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 310,
+      "fett": 6.0,
+      "eiweiss": 11.0,
+      "kohlenhydrate": 65.0
+    }
+  },
+  {
+    "id": "W-GW-017",
+    "name": "Kümmel",
+    "kategorie": "Gewürze",
+    "typ": "Samen",
+    "beschreibung": "NICHT verwechseln mit Kreuzkümmel! Typisch deutsch/österreichisch. Für Kohl (macht bekömmlicher), Brot, Schweinebraten. Wird von vielen nicht gemocht — vorsichtig dosieren. Ganz oder gemahlen.",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 333,
+      "fett": 15.0,
+      "eiweiss": 20.0,
+      "kohlenhydrate": 50.0
+    }
+  },
+  {
+    "id": "W-GW-018",
+    "name": "Anis",
+    "kategorie": "Gewürze",
+    "typ": "Samen",
+    "beschreibung": "Süßlich, lakritzartig. Für Backwaren (Springerle, Anisplätzchen), Fisch, Liköre (Ouzo, Pastis, Raki). Botanisch NICHT verwandt mit Sternanis (aber ähnlicher Geschmack durch Anethol).",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 337,
+      "fett": 16.0,
+      "eiweiss": 18.0,
+      "kohlenhydrate": 35.0
+    }
+  },
+  {
+    "id": "W-GW-019",
+    "name": "Ingwer",
+    "kategorie": "Gewürze",
+    "typ": "Wurzel",
+    "beschreibung": "Frisch: scharf-fruchtig-zitronig. Getrocknet/Pulver: wärmer, weniger scharf. Gingerol = Wirkstoff (hilft gegen Übelkeit). Asiatische Küche, Currys, Marinaden, Desserts. Mit Löffel schälen (Kanten!).",
+    "lagerung": "Frisch: kühl (2–3 Wochen) oder einfrieren. Pulver: trocken, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 80,
+      "fett": 0.8,
+      "eiweiss": 1.8,
+      "kohlenhydrate": 18.0
+    }
+  },
+  {
+    "id": "W-GW-020",
+    "name": "Piment (Nelkenpfeffer)",
+    "kategorie": "Gewürze",
+    "typ": "Frucht",
+    "beschreibung": "Schmeckt nach Nelke+Pfeffer+Zimt+Muskat in einem — daher 'Allspice' auf Englisch. Aus Jamaika. Für Marinaden, Lebkuchen, Wild, Sauerbraten. Sparsam dosieren — sehr dominant.",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 263,
+      "fett": 9.0,
+      "eiweiss": 6.0,
+      "kohlenhydrate": 50.0
+    }
+  },
+  {
+    "id": "W-GW-021",
+    "name": "Sumach",
+    "kategorie": "Gewürze",
+    "typ": "Frucht",
+    "beschreibung": "Dunkelrot, fruchtig-sauer. Ersatz für Zitrone in der Küche. Orientalische Küche: Fattoush-Salat, Grillfleisch, Hummus. Za'atar-Mischung enthält Sumach. Wird gestreut, nicht mitgekocht.",
+    "lagerung": "Trocken, dunkel, 1–2 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 239,
+      "fett": 6.0,
+      "eiweiss": 4.0,
+      "kohlenhydrate": 44.0
+    }
+  },
+  {
+    "id": "W-GW-022",
+    "name": "Fenchelsamen",
+    "kategorie": "Gewürze",
+    "typ": "Samen",
+    "beschreibung": "Süßlich-anisartig. Für Fisch, Schwein (Porchetta!), Brot, Fencheltee. Leicht anrösten verstärkt das Aroma. Verdauungsfördernd (daher Fencheltee bei Babys). Nicht verwechseln mit Fenchel-Gemüse.",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 345,
+      "fett": 15.0,
+      "eiweiss": 16.0,
+      "kohlenhydrate": 52.0
+    }
+  },
+  {
+    "id": "W-GW-023",
+    "name": "Kardamom",
+    "kategorie": "Gewürze",
+    "typ": "Kapsel/Samen",
+    "beschreibung": "Drittteuertes Gewürz. Grün (Standard) vs. Schwarz (rauchig, für Fleisch). Schale aufbrechen, Samen mörsern. Für Kaffee (arabisch), Chai, Desserts, skandinavisches Gebäck (Kardamom-Schnecken).",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre (in Kapsel). Gemahlen verliert schnell Aroma.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 311,
+      "fett": 7.0,
+      "eiweiss": 11.0,
+      "kohlenhydrate": 40.0
+    }
+  },
+  {
+    "id": "W-GW-024",
+    "name": "Senfkörner (gelb/braun)",
+    "kategorie": "Gewürze",
+    "typ": "Samen",
+    "beschreibung": "Gelb = mild (Tafelsenf). Braun = scharf (Dijon-Senf). Senföle entstehen erst beim Zerkleinern/Mahlen. Für Beizen, Marinaden, Soßen. Senfmehl + kaltes Wasser = schärfer. Heißes Wasser = milder.",
+    "lagerung": "Trocken, dunkel, 2–3 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "Senf (Hauptallergen Nr. 10)",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 508,
+      "fett": 36.0,
+      "eiweiss": 26.0,
+      "kohlenhydrate": 28.0
+    }
+  },
+  {
+    "id": "W-GW-025",
+    "name": "Szechuanpfeffer",
+    "kategorie": "Gewürze",
+    "typ": "Frucht",
+    "beschreibung": "KEIN echter Pfeffer — Rautengewächs. Kribbelnde Taubheit auf der Zunge (Sanshoole). Zitrusartig. Chinesische Küche: Mapo Tofu, Kung Pao, Five-Spice-Pulver. Schwarze Samen entfernen (bitter).",
+    "lagerung": "Trocken, dunkel, 1–2 Jahre.",
+    "saison": "Ganzjährig",
+    "allergene": "",
+    "zusatzstoffe": "",
+    "naehrwerte": {
+      "kcal": 0,
+      "fett": 0,
+      "eiweiss": 0,
+      "kohlenhydrate": 0
+    }
+  }
+]

@@ -1,0 +1,1164 @@
+[
+  {
+    "level": 1,
+    "text": "Dein erster Tag in der Küche. Der Küchenchef fragt: 'Hast du deine Belehrung dabei?' Was meint er?",
+    "answers": ["Ein Schulzeugnis", "Die Belehrung nach §43 IfSG", "Ein Sportmedizinisches Gutachten", "Den Erste-Hilfe-Schein"],
+    "correctIndex": 1,
+    "erklaerung": "Ohne Gesundheitsbelehrung nach Infektionsschutzgesetz darfst du keine Lebensmittel anfassen. Pflicht!"
+  },
+  {
+    "level": 1,
+    "text": "Du hast dich am Messer geschnitten. Was ist dein ERSTER Schritt?",
+    "answers": ["Weiterarbeiten, ist ja nur ein Kratzer", "Chef Bescheid sagen und Pause machen", "Wunde versorgen und blaues Pflaster drauf", "Kurz unter Wasser halten reicht"],
+    "correctIndex": 2,
+    "erklaerung": "Wunde sofort versorgen! Blaues Pflaster ist Pflicht in der Küche - es ist auffällig und detektierbar."
+  },
+  {
+    "level": 1,
+    "text": "Warum sind Pflaster in der Profi-Küche BLAU?",
+    "answers": ["Weil blau die Lieblingsfarbe von Köchen ist", "Weil sie wasserfest sind", "Weil blaue Lebensmittel selten sind und man sie sofort sieht", "Weil es Vorschrift der EU ist"],
+    "correctIndex": 2,
+    "erklaerung": "Blaue Pflaster fallen sofort auf, wenn sie ins Essen fallen. Kein Lebensmittel ist natürlich blau!"
+  },
+  {
+    "level": 1,
+    "text": "Dein Kollege niest in die Hand und greift direkt zum Messer. Deine Reaktion?",
+    "answers": ["Nichts sagen, will ja kein Streber sein", "'Alter, Hände waschen!' sagen", "Dem Chef petzen", "Desinfektionsmittel auf das Messer sprühen"],
+    "correctIndex": 1,
+    "erklaerung": "Hände waschen ist nach dem Niesen absolute Pflicht. Direktes Ansprechen ist kein Petzen, sondern Verantwortung."
+  },
+  {
+    "level": 1,
+    "text": "Der Chef sagt: 'Mach das HACCP fertig.' Was will er von dir?",
+    "answers": ["Die Speisekarte aktualisieren", "Den Dienstplan schreiben", "Die Temperaturkontrollpunkte dokumentieren", "Das Lager aufräumen"],
+    "correctIndex": 2,
+    "erklaerung": "HACCP = Gefahrenanalyse kritischer Kontrollpunkte. Temperaturen messen und protokollieren ist Kernaufgabe."
+  },
+  {
+    "level": 1,
+    "text": "Du checkst den Kühlschrank. Welche Temperatur muss er haben?",
+    "answers": ["Unter 0 Grad Celsius", "Zwischen 2 und 7 Grad Celsius", "Zwischen 8 und 12 Grad Celsius", "Genau 5 Grad, keinen Grad mehr"],
+    "correctIndex": 1,
+    "erklaerung": "2-7 Grad Celsius ist die Regel. In diesem Bereich werden Bakterien ausgebremst, aber nichts friert ein."
+  },
+  {
+    "level": 1,
+    "text": "Eine Lieferung Hackfleisch kommt an. Bis wann MUSST du es verarbeiten?",
+    "answers": ["Innerhalb von 3 Tagen", "Am gleichen Tag", "Innerhalb einer Woche", "Bis zum MHD auf der Packung"],
+    "correctIndex": 1,
+    "erklaerung": "Hackfleisch ist das empfindlichste Fleischprodukt. Am Anlieferungstag verarbeiten oder durchgaren!"
+  },
+  {
+    "level": 1,
+    "text": "Dein Ring blitzt beim Schneiden. Der Sous-Chef sieht das. Was passiert jetzt?",
+    "answers": ["Er bewundert den Ring", "Ring ab - Schmuck ist in der Küche verboten", "Er sagt dir, den Ring mit einem Pflaster abzukleben", "Nichts, Ringe sind erlaubt"],
+    "correctIndex": 1,
+    "erklaerung": "Schmuck ist ein Hygiene-Risiko: Bakterien sammeln sich darunter und er kann ins Essen fallen."
+  },
+  {
+    "level": 1,
+    "text": "Was bedeutet das Kürzel 'MHD' auf einer Verpackung?",
+    "answers": ["Maximale Haltbarkeitsdauer", "Mindesthaltbarkeitsdatum", "Mittwochs Haltbar Danach", "Menge Höchstens Dreimal"],
+    "correctIndex": 1,
+    "erklaerung": "Mindesthaltbarkeitsdatum - das Produkt ist MINDESTENS bis dahin gut. Danach prüfen: Sehen, Riechen, Schmecken."
+  },
+  {
+    "level": 1,
+    "text": "Rohes Hähnchen auf dem gleichen Brett wie der Salat schneiden - geht das?",
+    "answers": ["Klar, spart Abwasch", "Nur wenn man das Brett kurz abwischt", "NIEMALS - Kreuzkontamination!", "Ja, wenn das Hähnchen frisch ist"],
+    "correctIndex": 2,
+    "erklaerung": "Kreuzkontamination ist einer der häufigsten Gründe für Lebensmittelvergiftungen. Immer getrennte Bretter!"
+  },
+  {
+    "level": 1,
+    "text": "Die 'Gefahrenzone' bei Lebensmitteltemperaturen - welcher Bereich ist gemeint?",
+    "answers": ["Unter 0 Grad Celsius", "Zwischen 7 und 65 Grad Celsius", "Über 100 Grad Celsius", "Zwischen 0 und 4 Grad Celsius"],
+    "correctIndex": 1,
+    "erklaerung": "Zwischen 7 und 65 Grad vermehren sich Bakterien am schnellsten. Das ist die Party-Zone für Keime!"
+  },
+  {
+    "level": 1,
+    "text": "Nach dem Toilettengang - was ist absolute PFLICHT?",
+    "answers": ["Nur Hände waschen", "Hände waschen UND desinfizieren", "Handschuhe anziehen reicht", "Kurz an der Schürze abwischen"],
+    "correctIndex": 1,
+    "erklaerung": "Hände waschen und desinfizieren. Doppelt hält besser - Bakterien nehmen keine Pause."
+  },
+  {
+    "level": 1,
+    "text": "Der Kühlraum riecht komisch. Was ist dein erster Check?",
+    "answers": ["Tür zu und ignorieren", "Raumspray benutzen", "Temperatur prüfen und nach verdorbener Ware suchen", "Den Lüfter einschalten"],
+    "correctIndex": 2,
+    "erklaerung": "Sofort Temperatur checken! Ein komischer Geruch ist oft das erste Zeichen, dass etwas nicht stimmt."
+  },
+  {
+    "level": 1,
+    "text": "Der Chef fragt: 'Wie lange müssen die Rückstellproben aufbewahrt werden?'",
+    "answers": ["24 Stunden", "3 Tage", "Mindestens 7 Tage", "Einen Monat"],
+    "correctIndex": 2,
+    "erklaerung": "Rückstellproben müssen mindestens 7 Tage bei unter 7 Grad aufbewahrt werden. Bei Problemen kann man so zurückverfolgen."
+  },
+  {
+    "level": 1,
+    "text": "Welches Schneidebrett ist laut Farbsystem für Geflügel vorgesehen?",
+    "answers": ["Grün", "Rot", "Gelb", "Blau"],
+    "correctIndex": 2,
+    "erklaerung": "Gelb = Geflügel. Das Farbsystem verhindert Kreuzkontamination. Grün ist für Salat, Rot für rohes Fleisch."
+  },
+  {
+    "level": 2,
+    "text": "Der Küchenchef brüllt 'Marche!' - was passiert jetzt?",
+    "answers": ["Alle stellen sich in einer Reihe auf", "Das Essen geht raus - ab zum Gast!", "Die Küche wird geputzt", "Mittagspause beginnt"],
+    "correctIndex": 1,
+    "erklaerung": "'Marche' kommt aus dem Französischen und heißt 'Los!'. Das Essen ist angerichtet und muss SOFORT raus."
+  },
+  {
+    "level": 2,
+    "text": "Was bedeutet 'Mise en Place'?",
+    "answers": ["Das Menü des Tages", "Alles an seinem Platz - komplett vorbereitet", "Die Mittagspause", "Der Feierabend"],
+    "correctIndex": 1,
+    "erklaerung": "Mise en Place ist das A und O. Alles geschnitten, portioniert, bereitgestellt BEVOR der Service losgeht."
+  },
+  {
+    "level": 2,
+    "text": "Wer ist der 'Saucier' in der Brigade?",
+    "answers": ["Der Tellerwäscher", "Der Saucenkoch - einer der wichtigsten Posten", "Der Lehrling", "Der Serviceleiter"],
+    "correctIndex": 1,
+    "erklaerung": "Der Saucier macht alle warmen Saucen und ist oft der erfahrenste Koch nach dem Chef. Ein Königsposten!"
+  },
+  {
+    "level": 2,
+    "text": "'Commis de Cuisine' - das bist DU als Azubi. Was heißt das wörtlich?",
+    "answers": ["Kommissar der Küche", "Jungkoch", "Küchenhelfer", "Praktikant"],
+    "correctIndex": 1,
+    "erklaerung": "Commis = Jungkoch. Du bist Teil der Brigade und lernst an verschiedenen Posten. Sei stolz drauf!"
+  },
+  {
+    "level": 2,
+    "text": "Du stehst am 'Pass'. Was ist deine Aufgabe dort?",
+    "answers": ["Ausweise kontrollieren", "Essen kontrollieren und an den Service übergeben", "Gemüse schneiden", "Töpfe spülen"],
+    "correctIndex": 1,
+    "erklaerung": "Der Pass ist DIE Schnittstelle zwischen Küche und Service. Hier wird kontrolliert, ob jeder Teller perfekt ist."
+  },
+  {
+    "level": 2,
+    "text": "Was macht der 'Entremetier'?",
+    "answers": ["Er macht die Saucen", "Er ist für Beilagen, Suppen und Eierspeisen zuständig", "Er macht Desserts", "Er macht kalte Vorspeisen"],
+    "correctIndex": 1,
+    "erklaerung": "Der Entremetier ist der Beilagenkoch. Kartoffeln, Gemüse, Suppen - alles was das Hauptgericht begleitet."
+  },
+  {
+    "level": 2,
+    "text": "Der 'Gardemanger' ruft dich. Wohin gehst du?",
+    "answers": ["Zum Grill", "Zur kalten Küche", "Zum Ofen", "Zur Spüle"],
+    "correctIndex": 1,
+    "erklaerung": "Der Gardemanger ist der Chef der kalten Küche: Salate, kalte Vorspeisen, Terrinen, Pâtés."
+  },
+  {
+    "level": 2,
+    "text": "Was bedeutet 'à la minute' auf einer Bestellung?",
+    "answers": ["Vorher zubereitet und warmgehalten", "Frisch und sofort auf Bestellung zubereitet", "In einer Minute fertig", "Aus der Mikrowelle"],
+    "correctIndex": 1,
+    "erklaerung": "À la minute heißt: Jetzt frisch kochen! Keine Wartezeit, keine Vorbereitung. Direkt für den Gast."
+  },
+  {
+    "level": 2,
+    "text": "Was ist ein 'Bon' in der Küche?",
+    "answers": ["Ein Gutschein", "Die Bestellung vom Service - dein Arbeitsauftrag", "Ein Trinkgeld", "Eine Beschwerde"],
+    "correctIndex": 1,
+    "erklaerung": "Der Bon kommt rein, der Chef liest vor, die Brigade arbeitet. Ohne Bon kein Essen!"
+  },
+  {
+    "level": 2,
+    "text": "'Abschmecken!' - Der Chef reicht dir einen sauberen Löffel. Was tust du?",
+    "answers": ["Schnell probieren und 'Gut!' sagen", "Die Würzung prüfen und ehrlich Feedback geben", "Ablehnen, du hast keinen Hunger", "Salz drauf und fertig"],
+    "correctIndex": 1,
+    "erklaerung": "Abschmecken heißt: Salz, Säure, Schärfe, Süße prüfen. Sag ehrlich was fehlt - der Chef will deine Meinung!"
+  },
+  {
+    "level": 2,
+    "text": "Was heißt 'Clean as you go'?",
+    "answers": ["Am Ende der Schicht alles putzen", "Laufend während der Arbeit aufräumen und sauber halten", "Die Putzfirma rufen", "Nur den eigenen Posten sauber halten"],
+    "correctIndex": 1,
+    "erklaerung": "Während du arbeitest: Abfälle weg, Brett abwischen, Werkzeug zurück. So versinkst du nicht im Chaos."
+  },
+  {
+    "level": 2,
+    "text": "Das 'Ampelsystem' für Schneidebretter - welche Farbe steht für Gemüse?",
+    "answers": ["Rot", "Grün", "Gelb", "Blau"],
+    "correctIndex": 1,
+    "erklaerung": "Grün = Gemüse und Salat. Rot = rohes Fleisch. Gelb = Geflügel. Blau = Fisch. Weiß = Brot und Milchprodukte."
+  },
+  {
+    "level": 2,
+    "text": "Der Sous-Chef sagt 'Service!'. Was passiert?",
+    "answers": ["Die Schicht ist vorbei", "Das Essen ist fertig und muss sofort zum Gast", "Es gibt Personalessen", "Der Service kommt in die Küche"],
+    "correctIndex": 1,
+    "erklaerung": "'Service!' heißt: Teller fertig, muss JETZT raus. Jede Sekunde zählt - das Essen wird kalt!"
+  },
+  {
+    "level": 2,
+    "text": "Was ist ein 'Posten' in der Küche?",
+    "answers": ["Eine Briefsendung", "Ein fester Arbeitsbereich mit klarer Aufgabe", "Ein Parkplatz", "Eine Bestellung"],
+    "correctIndex": 1,
+    "erklaerung": "Jeder Posten hat seinen Bereich: Saucier, Gardemanger, Entremetier. Als Azubi rotierst du durch alle."
+  },
+  {
+    "level": 2,
+    "text": "Der Chef sagt: 'Heute fährst du den Pass.' Darfst du das als Azubi?",
+    "answers": ["Nie im Leben", "Normalerweise nicht - der Pass ist Chefsache", "Klar, jeder darf das", "Nur wenn alle anderen krank sind"],
+    "correctIndex": 1,
+    "erklaerung": "Der Pass ist normalerweise dem Küchenchef oder Sous-Chef vorbehalten. Als Azubi darfst du assistieren und lernen."
+  },
+  {
+    "level": 3,
+    "text": "Deine Kartoffellieferung kommt. Welche Sorte nimmst du für Pommes frites?",
+    "answers": ["Festkochend", "Vorwiegend festkochend", "Mehligkochend", "Egal, Kartoffel ist Kartoffel"],
+    "correctIndex": 2,
+    "erklaerung": "Mehlig = mehr Stärke = knuspriger außen, fluffig innen. Das ist Chemie und Physik auf dem Teller!"
+  },
+  {
+    "level": 3,
+    "text": "Der Chef fragt: 'Ist der Spargel noch frisch?' Woran erkennst du es?",
+    "answers": ["An der Farbe", "Die Stangen quietschen beim Aneinanderreiben", "Am Gewicht", "Am Preis"],
+    "correctIndex": 1,
+    "erklaerung": "Der Quietschtest! Frische Spargelstangen quietschen und die Köpfe sind fest geschlossen. Schnittfläche muss saftig sein."
+  },
+  {
+    "level": 3,
+    "text": "'Brunoise' - der Chef will feine Würfel. Wie groß?",
+    "answers": ["1 Zentimeter", "5 Millimeter", "1 bis 2 Millimeter", "Egal, Hauptsache Würfel"],
+    "correctIndex": 2,
+    "erklaerung": "Brunoise sind die kleinsten Würfel: 1-2mm. Für Saucen, Füllungen und feine Garnituren. Übung macht den Meister!"
+  },
+  {
+    "level": 3,
+    "text": "Welches Gemüse hat im Winter Hauptsaison?",
+    "answers": ["Tomaten", "Paprika", "Grünkohl", "Zucchini"],
+    "correctIndex": 2,
+    "erklaerung": "Grünkohl ist DAS Wintergemüse! Er braucht sogar Frost für den besten Geschmack. Regional und saisonal kochen ist King."
+  },
+  {
+    "level": 3,
+    "text": "Dein Kollege fragt: 'Ist Rhabarber eigentlich Obst?' Was antwortest du?",
+    "answers": ["Ja, ist doch klar", "Nein - Rhabarber ist ein Gemüse, genauer: Stängelgemüse", "Es ist eine Wurzel", "Es ist ein Getreide"],
+    "correctIndex": 1,
+    "erklaerung": "Überraschung! Rhabarber ist botanisch ein Gemüse. Wird aber wie Obst verwendet. Klassischer Prüfungsfrage-Stoff."
+  },
+  {
+    "level": 3,
+    "text": "Die Tomaten sind noch grün. Wo lagerst du sie zum Nachreifen?",
+    "answers": ["Im Kühlschrank", "Bei Zimmertemperatur, nicht im Kühlschrank", "Im Tiefkühler", "Unter Wasser"],
+    "correctIndex": 1,
+    "erklaerung": "Tomaten NIEMALS in den Kühlschrank - die verlieren Aroma und werden mehlig. Zimmertemperatur und nachreifen lassen."
+  },
+  {
+    "level": 3,
+    "text": "Kartoffelsalat steht an. Welche Sorte nimmst du?",
+    "answers": ["Mehligkochend", "Vorwiegend festkochend", "Festkochend", "Süßkartoffel"],
+    "correctIndex": 2,
+    "erklaerung": "Festkochend! Die behalten ihre Form und zerfallen nicht. Für Salat willst du Biss, nicht Brei."
+  },
+  {
+    "level": 3,
+    "text": "Der Chef sagt: 'Bring mir Wurzelgemüse!' Was packst du ein?",
+    "answers": ["Tomaten, Paprika, Gurke", "Karotten, Sellerie, Petersilienwurzel", "Kartoffeln, Zwiebeln, Knoblauch", "Spinat, Mangold, Grünkohl"],
+    "correctIndex": 1,
+    "erklaerung": "Karotten, Sellerie, Petersilienwurzel - das klassische Suppengrün-Trio. Basis für jeden guten Fond!"
+  },
+  {
+    "level": 3,
+    "text": "Wie lagerst du Kartoffeln richtig?",
+    "answers": ["Hell und warm", "Im Kühlschrank", "Dunkel, kühl und trocken", "In Wasser eingelegt"],
+    "correctIndex": 2,
+    "erklaerung": "Dunkel, kühl (4-8 Grad), trocken. Licht macht sie grün und giftig (Solanin). Nicht neben Äpfeln lagern!"
+  },
+  {
+    "level": 3,
+    "text": "'Julienne' - was ist das?",
+    "answers": ["Kleine Würfel", "In feine Streifen geschnittenes Gemüse", "Grob gehackt", "In Scheiben geschnitten"],
+    "correctIndex": 1,
+    "erklaerung": "Julienne = feine Streifen (2mm dick, 5cm lang). Sieht elegant aus und gart gleichmäßig. Messerkunst!"
+  },
+  {
+    "level": 3,
+    "text": "Der Chef will 'Zesten' auf dem Teller. Was soll drauf?",
+    "answers": ["Kleine Kräuterhäufchen", "Hauchdünne Streifen von Zitrusschale", "Geraspelter Käse", "Puderzucker"],
+    "correctIndex": 1,
+    "erklaerung": "Zesten sind hauchfeine Streifen der äußeren Zitrusschale. Nur die farbige Schicht - das Weiße ist bitter!"
+  },
+  {
+    "level": 3,
+    "text": "Was ist der Unterschied zwischen Schalotten und normalen Zwiebeln?",
+    "answers": ["Schalotten sind größer", "Schalotten sind milder und feiner im Geschmack", "Kein Unterschied", "Schalotten sind schärfer"],
+    "correctIndex": 1,
+    "erklaerung": "Schalotten sind milder, süßlicher und feiner. Perfekt für Saucen und feine Küche. Zwiebeln für den Alltag."
+  },
+  {
+    "level": 3,
+    "text": "'Blanchieren und abschrecken' - warum das Eiswasser danach?",
+    "answers": ["Damit man sich nicht verbrennt", "Um den Garprozess sofort zu stoppen und die Farbe zu erhalten", "Damit es besser schmeckt", "Um Salz auszuwaschen"],
+    "correctIndex": 1,
+    "erklaerung": "Eiswasser stoppt das Garen sofort. So bleibt Brokkoli knackig-grün statt matschig-braun. Timing ist alles!"
+  },
+  {
+    "level": 3,
+    "text": "Der Chef sagt: 'Die Kräuter sind müde.' Was meint er?",
+    "answers": ["Sie brauchen Wasser", "Die Kräuter sind welk und nicht mehr frisch", "Sie sind zu stark gewürzt", "Sie sind tiefgefroren"],
+    "correctIndex": 1,
+    "erklaerung": "Müde Kräuter = welk und schlapp. Frische Kräuter sind knackig und duften intensiv. Im feuchten Tuch im Kühlschrank lagern!"
+  },
+  {
+    "level": 3,
+    "text": "Welcher Salat hat im Winter Hauptsaison in Deutschland?",
+    "answers": ["Kopfsalat", "Eisbergsalat", "Feldsalat", "Lollo Rosso"],
+    "correctIndex": 2,
+    "erklaerung": "Feldsalat (Rapunzel) ist DER Wintersalat. Wächst sogar unter Schnee! Nussig im Geschmack und voller Vitamine."
+  },
+  {
+    "level": 3,
+    "text": "Woran erkennst du eine reife Avocado?",
+    "answers": ["Sie ist immer grün", "Sie gibt auf leichten Druck nach", "Sie ist steinhart", "Sie hat braune Flecken"],
+    "correctIndex": 1,
+    "erklaerung": "Leichter Drucktest am Stielende. Gibt sie sanft nach = perfekt. Steinhart = unreif. Matschig = zu spät."
+  },
+  {
+    "level": 4,
+    "text": "Der Chef sagt: 'Mach mir eine Concassée!' Was tust du?",
+    "answers": ["Zwiebeln in Ringe schneiden", "Tomaten häuten, entkernen und in Würfel schneiden", "Kräuter fein hacken", "Kartoffeln in Scheiben hobeln"],
+    "correctIndex": 1,
+    "erklaerung": "Concassée = Tomaten blanchieren, häuten, halbieren, Kerne raus, in Würfel schneiden. Die Basis für unzählige Saucen!"
+  },
+  {
+    "level": 4,
+    "text": "Dein Ausbilder will 'Paysanne' für die Suppe. Was schneidest du?",
+    "answers": ["Feine Streifen", "Grobe Stücke", "Dünne Plättchen - Quadrate oder Dreiecke", "Winzige Würfel"],
+    "correctIndex": 2,
+    "erklaerung": "Paysanne = bäuerliche Art. Dünne, flache Plättchen (ca. 1cm). Perfekt für Suppen und Eintöpfe - gart schnell und gleichmäßig."
+  },
+  {
+    "level": 4,
+    "text": "Der Chef gibt dir ein Tourniermesser und Kartoffeln. Was will er von dir?",
+    "answers": ["Die Kartoffeln schälen", "Die Kartoffeln in eine gleichmäßige, ovale Form mit 7 Flächen bringen", "Die Kartoffeln in Würfel schneiden", "Die Kartoffeln aushöhlen"],
+    "correctIndex": 1,
+    "erklaerung": "Tournieren: Mit dem gebogenen Messer eine gleichmäßige ovale Form schnitzen - 7 Flächen ist die Regel. Klassische Beilage der feinen Küche!"
+  },
+  {
+    "level": 4,
+    "text": "Du sollst ein Rinderfilet parieren. Was genau machst du?",
+    "answers": ["Das Filet in Scheiben schneiden", "Sehnen, Silberhaut und überschüssiges Fett entfernen", "Das Filet würzen und marinieren", "Das Filet plattieren"],
+    "correctIndex": 1,
+    "erklaerung": "Parieren = das Fleisch küchenfertig machen. Silberhaut zieht sich beim Braten zusammen - die MUSS ab. Saubere Arbeit = sauberes Ergebnis."
+  },
+  {
+    "level": 4,
+    "text": "Dämpfen oder Kochen - was ist schonender für Vitamine?",
+    "answers": ["Kochen, weil das Wasser die Vitamine schützt", "Beides ist gleich", "Dämpfen, weil das Gut nicht im Wasser liegt", "Frittieren ist am schonendsten"],
+    "correctIndex": 2,
+    "erklaerung": "Beim Dämpfen hat das Gut keinen direkten Wasserkontakt. Vitamine und Mineralstoffe bleiben im Gemüse statt im Kochwasser zu landen."
+  },
+  {
+    "level": 4,
+    "text": "Der Saucier sagt: 'Ziselier den Fisch!' Was machst du mit deinem Messer?",
+    "answers": ["Den Fisch filetieren", "Die Haut schräg einschneiden", "Die Gräten entfernen", "Den Fisch in Stücke schneiden"],
+    "correctIndex": 1,
+    "erklaerung": "Ziselieren = die Haut schräg einritzen. Verhindert, dass der Fisch sich beim Braten wölbt, und die Hitze dringt gleichmäßiger ein."
+  },
+  {
+    "level": 4,
+    "text": "Beim Kochen in Flüssigkeit: Ab welcher Temperatur siedet Wasser auf Meereshöhe?",
+    "answers": ["90 Grad Celsius", "100 Grad Celsius", "110 Grad Celsius", "80 Grad Celsius"],
+    "correctIndex": 1,
+    "erklaerung": "100 Grad Celsius auf Meereshöhe. In den Bergen weniger! Beim Kochen sprudelt die Flüssigkeit deutlich sichtbar."
+  },
+  {
+    "level": 4,
+    "text": "Du sollst Kräuter schneiden. Der Chef sagt: 'Nimm den Wiegeschnitt!' Was tust du?",
+    "answers": ["Die Kräuter mit der Schere schneiden", "Das Messer mit beiden Händen hin- und herwiegen", "Die Kräuter mit einem Mörser zerkleinern", "Die Kräuter reißen statt schneiden"],
+    "correctIndex": 1,
+    "erklaerung": "Beim Wiegeschnitt bleibt die Messerspitze auf dem Brett, die Klinge wiegt hin und her. So werden Kräuter fein, ohne sie zu quetschen."
+  },
+  {
+    "level": 4,
+    "text": "Warum sollst du Pilze NICHT unter fließendem Wasser waschen?",
+    "answers": ["Weil sie dann giftig werden", "Weil sie sich wie Schwämme vollsaugen und matschig werden", "Weil die Farbe sich verändert", "Pilze muss man nie waschen"],
+    "correctIndex": 1,
+    "erklaerung": "Pilze sind Schwämme! Sie saugen Wasser auf und werden beim Braten matschig. Besser: mit Küchenpapier oder einer weichen Bürste abreiben."
+  },
+  {
+    "level": 4,
+    "text": "Der Chef fragt: 'Was ist der Unterschied zwischen Garziehen und Kochen?' Deine Antwort?",
+    "answers": ["Kein Unterschied", "Garziehen ist bei 75-95 Grad, Kochen bei 100 Grad", "Garziehen dauert immer länger", "Kochen ist ohne Deckel, Garziehen mit"],
+    "correctIndex": 1,
+    "erklaerung": "Garziehen (Pochieren) = sanftes Garen unter dem Siedepunkt. Die Flüssigkeit bewegt sich kaum. Perfekt für empfindliches Gut wie Eier oder Fisch."
+  },
+  {
+    "level": 4,
+    "text": "Du blanchierst grüne Bohnen. Wie viel Salz kommt ins Wasser?",
+    "answers": ["Kein Salz beim Blanchieren", "Reichlich - etwa 10 Gramm pro Liter", "Eine Prise reicht", "Nur Zucker, kein Salz"],
+    "correctIndex": 1,
+    "erklaerung": "Reichlich Salz! Ca. 10g pro Liter. Das Salz sorgt für Geschmack und hilft, die grüne Farbe zu erhalten. 'Das Wasser muss schmecken wie das Meer.'"
+  },
+  {
+    "level": 4,
+    "text": "Welches Messer nimmst du zum Schälen und Tournieren?",
+    "answers": ["Das große Kochmesser", "Das Officemesser (kleines Schälmesser)", "Das Brotmesser", "Das Filetiermesser"],
+    "correctIndex": 1,
+    "erklaerung": "Das Officemesser (auch Tourniermesser): Klein, gebogene Klinge, perfekte Kontrolle. Für alles wo Präzision auf kleiner Fläche gefragt ist."
+  },
+  {
+    "level": 4,
+    "text": "Beim Schneiden rutscht dein Gemüse weg. Was machst du als Erstes?",
+    "answers": ["Fester drücken", "Eine flache Seite abschneiden als stabilen Stand", "Schneller schneiden", "Handschuhe anziehen"],
+    "correctIndex": 1,
+    "erklaerung": "Immer erst eine stabile Auflagefläche schaffen! Runde Karotte? Längs halbieren, flache Seite nach unten. Sicherheit geht vor Tempo."
+  },
+  {
+    "level": 4,
+    "text": "Der Chef sagt: 'Die Zwiebeln bitte glasig dünsten.' Was heißt das?",
+    "answers": ["Die Zwiebeln knusprig braten", "Bei niedriger Hitze weich garen bis sie durchsichtig werden", "Die Zwiebeln in Wasser kochen", "Die Zwiebeln roh servieren"],
+    "correctIndex": 1,
+    "erklaerung": "Glasig = bei mittlerer bis niedriger Hitze in Fett schwitzen. Die Zwiebeln werden weich und durchscheinend, aber KEINE Farbe nehmen!"
+  },
+  {
+    "level": 4,
+    "text": "Beim Blanchieren: Warum nimmst du einen GROSSEN Topf mit viel Wasser?",
+    "answers": ["Damit mehr Gemüse reinpasst", "Damit die Temperatur beim Einlegen nicht zu stark abfällt", "Weil es schneller kocht", "Weil kleine Töpfe verboten sind"],
+    "correctIndex": 1,
+    "erklaerung": "Viel Wasser = die Temperatur bleibt stabil. Kaltes Gemüse in wenig Wasser? Die Temperatur bricht ein und das Ergebnis wird matschig statt knackig."
+  },
+  {
+    "level": 5,
+    "text": "Warum weint man beim Zwiebelschneiden?",
+    "answers": ["Wegen des scharfen Messers", "Weil Schwefelverbindungen freigesetzt werden, die die Augen reizen", "Wegen der ätherischen Öle", "Weil die Zwiebel Säure enthält"],
+    "correctIndex": 1,
+    "erklaerung": "Beim Schneiden werden Schwefelverbindungen freigesetzt, die mit der Tränenflüssigkeit reagieren. Scharfes Messer hilft — weniger Zellen werden zerquetscht."
+  },
+  {
+    "level": 5,
+    "text": "Dein Knoblauch hat grüne Keime. Was tust du?",
+    "answers": ["Komplett wegwerfen", "Keim entfernen — der ist bitter", "Mitkochen, das ist gesund", "Den Knoblauch einfrieren"],
+    "correctIndex": 1,
+    "erklaerung": "Der grüne Keim ist bitter! Zehe halbieren, Keim raus, Rest verwenden. Je feiner du Knoblauch schneidest, desto intensiver wird er übrigens."
+  },
+  {
+    "level": 5,
+    "text": "Sellerie steht auf der Allergenliste. Welche Nummer hat er?",
+    "answers": ["Nr. 4", "Nr. 7", "Nr. 9", "Nr. 14"],
+    "correctIndex": 2,
+    "erklaerung": "Sellerie ist Hauptallergen Nr. 9 von 14. MUSS auf Speisekarten deklariert werden — auch in Suppen und Fonds! Allergene kennen ist Pflicht."
+  },
+  {
+    "level": 5,
+    "text": "Die Karotten haben noch Grünzeug dran. Was machst du als Erstes?",
+    "answers": ["Das Grün dran lassen — sieht hübsch aus", "Grünzeug sofort entfernen — es entzieht den Karotten Wasser", "Alles zusammen in den Kühlschrank", "Das Grün mitkochen"],
+    "correctIndex": 1,
+    "erklaerung": "Das Grün entzieht der Karotte Wasser und sie wird schneller schrumpelig. Sofort ab damit! Das Grün kannst du übrigens für Pesto verwenden."
+  },
+  {
+    "level": 5,
+    "text": "Warum ist die Tomate botanisch eine Beere?",
+    "answers": ["Weil sie süß schmeckt", "Weil sie Samen enthält, die von Fruchtfleisch umgeben sind", "Weil sie am Strauch wächst", "Das stimmt gar nicht"],
+    "correctIndex": 1,
+    "erklaerung": "Botanisch ist jede Frucht eine Beere, wenn Samen im Fruchtfleisch eingebettet sind. Auch Paprika und Gurke sind Beeren! Erdbeeren dagegen nicht."
+  },
+  {
+    "level": 5,
+    "text": "Grüne, gelbe und rote Paprika — was ist der Unterschied?",
+    "answers": ["Verschiedene Sorten", "Gleiche Pflanze, verschiedene Reifegrade", "Verschiedene Anbaugebiete", "Nur die Farbe ist anders, sonst identisch"],
+    "correctIndex": 1,
+    "erklaerung": "Alles die gleiche Pflanze! Grün = unreif (herb), gelb = halbreif (mild), rot = reif (süß, meiste Vitamine). Rote Paprika hat 3x mehr Vitamin C als Orangen!"
+  },
+  {
+    "level": 5,
+    "text": "Der Chef will Sauerkraut machen. Welcher Kohl und welches Verfahren?",
+    "answers": ["Rotkohl + Einkochen", "Weißkohl + Milchsäuregärung", "Grünkohl + Trocknen", "Blumenkohl + Einlegen in Essig"],
+    "correctIndex": 1,
+    "erklaerung": "Weißkohl + Salz + Zeit = Milchsäuregärung = Sauerkraut. Eines der ältesten Konservierungsverfahren! Historisch wichtig gegen Skorbut auf Seefahrten."
+  },
+  {
+    "level": 5,
+    "text": "Rotkohl oder Blaukraut — was ist der Unterschied?",
+    "answers": ["Verschiedene Kohlsorten", "Kein Unterschied — die Farbe ändert sich je nach pH-Wert", "Blaukraut wird mit Milch gekocht", "Rotkohl ist frisch, Blaukraut ist eingelegt"],
+    "correctIndex": 1,
+    "erklaerung": "Gleicher Kohl! Säure (Essig/Apfel) macht ihn rot → Rotkohl. Base (Natron) macht ihn blau → Blaukraut. Deshalb: In Norddeutschland Rotkohl, in Süddeutschland Blaukraut."
+  },
+  {
+    "level": 5,
+    "text": "Auberginen saugen beim Braten extrem viel Öl auf. Was hilft?",
+    "answers": ["Mehr Öl nehmen", "Auberginen vorher salzen — das entzieht Wasser", "Auberginen einfrieren", "In Mehl wälzen"],
+    "correctIndex": 1,
+    "erklaerung": "Salzen entzieht Wasser aus den Zellen. Dadurch saugen sie weniger Öl auf. 30 Minuten salzen, abtupfen, dann braten. Spart Öl und schmeckt besser!"
+  },
+  {
+    "level": 5,
+    "text": "Kichererbsen aus der Dose: Die Flüssigkeit heißt 'Aquafaba'. Was kann man damit machen?",
+    "answers": ["Wegschütten — ist Abfall", "Als veganen Eischnee-Ersatz aufschlagen", "Zum Putzen verwenden", "Als Haarspülung"],
+    "correctIndex": 1,
+    "erklaerung": "Aquafaba lässt sich aufschlagen wie Eischnee — perfekter veganer Ersatz! Für Mousse, Baiser, Cocktails. Aus Abfall wird Zutat."
+  },
+  {
+    "level": 5,
+    "text": "Weiße Bohnen roh essen — geht das?",
+    "answers": ["Klar, wie Erbsen", "NEIN — rohe Bohnen enthalten Phasin (giftig!)", "Nur wenn sie eingeweicht wurden", "Nur die weißen, rote sind giftig"],
+    "correctIndex": 1,
+    "erklaerung": "Phasin ist ein Lektin und GIFTIG! Erst durch Kochen (mind. 15 Minuten, 100°C) wird es zerstört. Einweichen allein reicht NICHT. Das gilt für alle Bohnen."
+  },
+  {
+    "level": 5,
+    "text": "Champignons in Plastiktüte lagern — gute Idee?",
+    "answers": ["Ja, hält sie frisch", "NEIN — Schwitzwasser = Schimmel. Papier oder Leinen nehmen", "Nur wenn ein Loch in der Tüte ist", "Nur bei braunen Champignons"],
+    "correctIndex": 1,
+    "erklaerung": "Pilze brauchen Luft! In Plastik bildet sich Schwitzwasser → Schimmel. Papier oder Leinentuch ist ideal. Auch beim Einkauf: Papiertüte wählen."
+  },
+  {
+    "level": 5,
+    "text": "Wann endet die Spargelsaison offiziell?",
+    "answers": ["Ende Mai", "24. Juni (Johannistag)", "31. August", "Wenn der Frost kommt"],
+    "correctIndex": 1,
+    "erklaerung": "Am 24. Juni (Johannistag) ist Schluss. Danach braucht die Pflanze Zeit zum Regenerieren für nächstes Jahr. Wer danach sticht, schadet der Ernte."
+  },
+  {
+    "level": 5,
+    "text": "Pastinake und Petersilienwurzel sehen ähnlich aus. Wie unterscheidest du sie?",
+    "answers": ["Gar nicht, sie sind gleich", "Pastinake hat einen dickeren Kopf, Petersilienwurzel ist dünn und spitz", "An der Farbe — Pastinake ist gelb", "Am Gewicht"],
+    "correctIndex": 1,
+    "erklaerung": "Pastinake: dicker Kopf oben, süßlich-nussig. Petersilienwurzel: dünn, Spitze nach unten, schärfer/würziger. Beide werden nach Frost süßer!"
+  },
+  {
+    "level": 5,
+    "text": "Rote Bete schneiden — warum Handschuhe anziehen?",
+    "answers": ["Wegen der Säure", "Weil Betanin ALLES rot färbt — Hände, Brett, Kleidung", "Wegen Allergiegefahr", "Aus hygienischen Gründen"],
+    "correctIndex": 1,
+    "erklaerung": "Betanin ist ein natürlicher Farbstoff und färbt gnadenlos. Handschuhe sind Pflicht, sonst hast du stundenlang rote Hände. Auch Bretter und Tücher verfärben sich."
+  },
+  {
+    "level": 6,
+    "text": "Wiener Schnitzel — welches Fleisch MUSS es sein?",
+    "answers": ["Schwein", "Kalb", "Pute", "Egal, Hauptsache paniert"],
+    "correctIndex": 1,
+    "erklaerung": "Echtes Wiener Schnitzel = NUR Kalbfleisch (Oberschale). Alles andere heißt 'Schnitzel Wiener Art'. Die Panade muss soufflieren (wellig aufgehen)."
+  },
+  {
+    "level": 6,
+    "text": "Kalbsleber braten — wann wird gesalzen?",
+    "answers": ["Vorher, damit es würzig wird", "Während des Bratens", "NACH dem Braten — Salz zieht Wasser und macht sie zäh", "Salz ist bei Leber verboten"],
+    "correctIndex": 2,
+    "erklaerung": "Leber erst NACH dem Braten salzen! Salz zieht Flüssigkeit und macht sie gummiartig. Innen noch leicht rosa = perfekt. Klassisch: Berliner Leber mit Apfel und Zwiebel."
+  },
+  {
+    "level": 6,
+    "text": "Entenbrust braten — wie startest du?",
+    "answers": ["In heißem Öl mit der Fleischseite zuerst", "KALT in die Pfanne, Hautseite unten — Fett rendert langsam aus", "Im Ofen bei 200°C", "In der Fritteuse"],
+    "correctIndex": 1,
+    "erklaerung": "Fettschicht kreuzweise einritzen, dann KALT in die Pfanne mit der Hautseite unten starten. Das Fett rendert langsam aus, die Haut wird knusprig. Dann kurz von der Fleischseite — innen rosa!"
+  },
+  {
+    "level": 6,
+    "text": "Wildschweinbraten — was ist die Kerntemperatur-Regel?",
+    "answers": ["Innen rosa wie bei Rind (55°C)", "Mindestens 70°C — wegen Trichinen", "Egal, solange es gut schmeckt", "50°C reicht bei Wild"],
+    "correctIndex": 1,
+    "erklaerung": "Wildschwein MUSS durchgegart werden — Kerntemperatur mindestens 70°C! Trichinen (Parasiten) werden erst bei dieser Temperatur abgetötet. Bei Rindfleisch ist rosa ok, bei Wildschwein NICHT."
+  },
+  {
+    "level": 6,
+    "text": "Was ist 'Frenchen' beim Lammkarree?",
+    "answers": ["Das Fleisch marinieren", "Die Rippenknochen freilegen (optische Präsentation)", "Das Lamm in Scheiben schneiden", "Eine französische Garmethode"],
+    "correctIndex": 1,
+    "erklaerung": "Frenchen = die Rippenknochen vom Fleisch und Fett befreien, sodass sie sauber herausstehen. Sieht auf dem Teller professionell aus. Manche setzen Papiermannschetten auf die Knochen."
+  },
+  {
+    "level": 6,
+    "text": "Rindermark pochieren — warum darf es nie kochen?",
+    "answers": ["Es schmeckt dann bitter", "Es zerläuft und löst sich auf", "Es wird zu fest", "Es verliert die Farbe"],
+    "correctIndex": 1,
+    "erklaerung": "Rindermark ist fast reines Fett — bei zu hoher Hitze zerläuft es komplett in der Flüssigkeit. Sanft pochieren (ca. 80°C) bis es glasig-weich ist. Für Markklößchen in klarer Brühe oder auf Toast."
+  },
+  {
+    "level": 6,
+    "text": "Hähnchenbrust trocknet beim Braten leicht aus. Was hilft NICHT?",
+    "answers": ["Sous-vide garen", "Bei maximaler Hitze von beiden Seiten braten", "Mit Haut braten", "Pochieren"],
+    "correctIndex": 1,
+    "erklaerung": "Maximale Hitze von beiden Seiten trocknet die magere Hähnchenbrust am schnellsten aus! Sous-vide (Niedrigtemperatur), Pochieren oder mit Haut braten schützen vor dem Austrocknen. Kerntemperatur: 75°C."
+  },
+  {
+    "level": 6,
+    "text": "Tafelspitz — wie wird er traditionell gegart?",
+    "answers": ["Scharf angebraten", "Sanft pochiert (nie kochen!)", "Im Ofen bei 200°C", "Auf dem Grill"],
+    "correctIndex": 1,
+    "erklaerung": "Tafelspitz wird in Brühe sanft pochiert — das Wasser darf NIE sprudelnd kochen (Fleisch wird zäh). Wiener Klassiker mit Schnittlauchsauce, Apfelkren und Rösterdäpfeln."
+  },
+  {
+    "level": 6,
+    "text": "Kalbsniere vor der Zubereitung — was musst du zuerst tun?",
+    "answers": ["Direkt in die Pfanne", "Wässern, um Harnstoff zu entfernen", "Einfrieren", "In Mehl wälzen"],
+    "correctIndex": 1,
+    "erklaerung": "Nieren müssen gewässert werden, um den Harnstoff (unangenehmer Geschmack) zu entfernen. Außerdem: Fettkapsel und weiße Stränge entfernen. Dann nur kurz garen — sonst gummiartig."
+  },
+  {
+    "level": 6,
+    "text": "Gänsekeule konfieren — was bedeutet das?",
+    "answers": ["In Wasser kochen", "In eigenem Fett langsam garen", "Auf dem Grill räuchern", "In Alufolie im Ofen backen"],
+    "correctIndex": 1,
+    "erklaerung": "Confit (konfieren) = in eigenem Fett bei niedriger Temperatur langsam garen. Französische Konservierungsmethode. Das Gänseschmalz unbedingt aufheben — Gold wert zum Braten oder aufs Brot!"
+  },
+  {
+    "level": 6,
+    "text": "Schweinekotelett — warum den Fettrand einschneiden?",
+    "answers": ["Damit es schneller gar wird", "Damit es sich beim Braten nicht wölbt", "Zum Würzen", "Damit das Fett abfließt"],
+    "correctIndex": 1,
+    "erklaerung": "Der Fettrand zieht sich beim Braten zusammen und das Kotelett wölbt sich. Fettrand alle 2cm einschneiden — so bleibt es flach und brät gleichmäßig. Der Knochen gibt extra Geschmack."
+  },
+  {
+    "level": 6,
+    "text": "Schweinebauch — wie wird die Schwarte knusprig?",
+    "answers": ["Feucht halten und bei niedriger Temperatur garen", "Einritzen, salzen und am Ende hohe Hitze", "In Öl frittieren", "Schwarte vor dem Garen entfernen"],
+    "correctIndex": 1,
+    "erklaerung": "Schwarte rautenförmig einritzen, kräftig salzen. Erst langsam schmoren/braten, dann am Ende 10–15 Minuten bei 250°C Oberhitze — die Schwarte bläht sich auf und wird kross!"
+  },
+  {
+    "level": 6,
+    "text": "Welches Fleisch würdest du für Gulasch verwenden?",
+    "answers": ["Rinderfilet", "Rinderschulter", "Hähnchenbrust", "Lammkarree"],
+    "correctIndex": 1,
+    "erklaerung": "Rinderschulter ist bindegewebsreich — perfekt zum Schmoren. Durch langes Garen wird das Kollagen zu Gelatine und das Fleisch butterzart. Rinderfilet wäre verschwendet (zu teuer, wird trocken)."
+  },
+  {
+    "level": 6,
+    "text": "Wann hat Wild Saison?",
+    "answers": ["Frühling/Sommer", "Herbst/Winter (Jagdsaison)", "Nur im Dezember", "Ganzjährig wie Schwein"],
+    "correctIndex": 1,
+    "erklaerung": "Wild (Hirsch, Reh, Wildschwein) hat in Herbst und Winter Saison (September–Januar). Passt perfekt zu den klassischen Beilagen: Rotkohl, Preiselbeeren, Maronen, Spätzle."
+  },
+  {
+    "level": 6,
+    "text": "Ossobuco — was steckt im Namen?",
+    "answers": ["'Großer Braten' auf Italienisch", "'Knochen mit Loch' — die Kalbshaxe mit Markknochen", "'Langsam geschmort'", "'Mailänder Art'"],
+    "correctIndex": 1,
+    "erklaerung": "Osso = Knochen, Buco = Loch. Die Kalbshaxe wird in Scheiben geschmort — das Knochenmark im Loch ist die Delikatesse! Dazu gehört Gremolata (Petersilie, Knoblauch, Zitronenzeste)."
+  },
+  {
+    "level": 7,
+    "text": "Frischer Fisch — wie erkennst du, dass er NICHT mehr frisch ist?",
+    "answers": ["Riecht nach Meer", "Riecht nach Ammoniak, Augen trüb, Kiemen grau", "Die Schuppen glänzen", "Das Fleisch ist fest"],
+    "correctIndex": 1,
+    "erklaerung": "Frisch: klare Augen, rote Kiemen, Meergeruch, festes Fleisch. SCHLECHT: Ammoniakgeruch, trübe Augen, graue/braune Kiemen, weiches Fleisch. Fisch verdirbt schneller als Fleisch!"
+  },
+  {
+    "level": 7,
+    "text": "Garnelen vorbereiten — was MUSS entfernt werden?",
+    "answers": ["Die Beine", "Der Darm (schwarzer Faden am Rücken)", "Der Kopf (immer)", "Die Schale (immer)"],
+    "correctIndex": 1,
+    "erklaerung": "Den schwarzen Darmfaden am Rücken mit einem Messer herausziehen! Er enthält Verdauungsreste und kann bitter schmecken. Schale und Kopf können je nach Gericht dran bleiben (Geschmack!)."
+  },
+  {
+    "level": 7,
+    "text": "Miesmuscheln — welche Regel gilt für die Saison?",
+    "answers": ["Nur im Sommer essen", "Nur in Monaten mit R (September–April)", "Das ganze Jahr", "Nur an Freitagen"],
+    "correctIndex": 1,
+    "erklaerung": "Die 'R-Regel': Miesmuscheln nur in Monaten mit R essen (September bis April). Im Sommer (Mai–August) ist Laichzeit — schlechte Qualität und höheres Risiko. Offene rohe Muscheln = tot = weg damit!"
+  },
+  {
+    "level": 7,
+    "text": "Calamari werden beim Braten gummiartig. Was ist die Lösung?",
+    "answers": ["Länger braten", "Entweder ganz kurz (30 Sek) ODER ganz lang (45+ Min) garen", "In Mehl wälzen", "Vorher einfrieren"],
+    "correctIndex": 1,
+    "erklaerung": "Die goldene Regel bei Tintenfisch: Ganz kurz (unter 1 Minute) ODER ganz lang (über 45 Minuten). Alles dazwischen = Gummi. Kurz = Ringe frittieren. Lang = Tuben schmoren."
+  },
+  {
+    "level": 7,
+    "text": "Thunfisch-Steak — wie wird es in der Profiküche serviert?",
+    "answers": ["Komplett durchgebraten", "Nur kurz angebraten, innen roh/rosa", "Immer roh als Sushi", "Pochiert"],
+    "correctIndex": 1,
+    "erklaerung": "Frischer Thunfisch wird wie ein Steak behandelt — heiß und kurz von jeder Seite, innen noch roh/rosa. Durchgebraten wird er trocken und geschmacklos. Für rohen Verzehr: Sashimi-Qualität!"
+  },
+  {
+    "level": 7,
+    "text": "Jakobsmuscheln braten — wie lange pro Seite?",
+    "answers": ["5 Minuten", "Ca. 30 Sekunden — karamellisierte Kruste, glasig innen", "10 Minuten", "So lange bis sie braun sind"],
+    "correctIndex": 1,
+    "erklaerung": "Jakobsmuscheln nur 30 Sekunden pro Seite bei hoher Hitze! Schöne Kruste außen, glasig-zart innen. Vorher gut trockentupfen (sonst keine Kruste). Noix = weißes Fleisch, Corail = oranger Rogen."
+  },
+  {
+    "level": 7,
+    "text": "Kabeljau und Dorsch — was ist der Unterschied?",
+    "answers": ["Verschiedene Fischarten", "Gleicher Fisch — in der Ostsee heißt er Dorsch, sonst Kabeljau", "Dorsch ist geräuchert", "Kabeljau ist größer"],
+    "correctIndex": 1,
+    "erklaerung": "Gleicher Fisch, zwei Namen! In der Ostsee = Dorsch, im Atlantik = Kabeljau. Mildes, weißes Fleisch. Fish & Chips-Fisch! Als Stockfisch getrocknet oder als Bacalao gesalzen."
+  },
+  {
+    "level": 7,
+    "text": "Hummer vor dem Kochen — was ist aus Tierschutzgründen Pflicht?",
+    "answers": ["Direkt ins kochende Wasser", "Vorher betäuben (Eiswasser 20min oder elektrisch)", "Einfrieren", "Gar nicht kochen, nur grillen"],
+    "correctIndex": 1,
+    "erklaerung": "Lebend in kochendes Wasser ist in vielen Ländern verboten. Vorher betäuben: mind. 20 Minuten in Eiswasser (wird bewusstlos) oder elektrisch betäuben. Dann erst kochen oder halbieren und grillen."
+  },
+  {
+    "level": 7,
+    "text": "Welcher Fisch hat das Problem mit vielen Y-Gräten?",
+    "answers": ["Lachs", "Hecht", "Zander", "Forelle"],
+    "correctIndex": 1,
+    "erklaerung": "Hecht hat viele fiese Y-Gräten! Daher wird er klassisch als Farce verarbeitet (durch den Wolf gedreht) — Hechtklößchen, Quenelles. So sind die Gräten kein Problem mehr."
+  },
+  {
+    "level": 7,
+    "text": "Lachs — Wildfang vs. Zucht. Was stimmt?",
+    "answers": ["Kein Unterschied", "Wild = magerer und intensiver, Zucht = fetter und milder", "Zucht ist immer besser", "Wildfang gibt es nicht mehr"],
+    "correctIndex": 1,
+    "erklaerung": "Wildlachs ist magerer, hat intensiveren Geschmack und festeres Fleisch. Zuchtlachs ist fetter (Futter), milder und günstiger. Die orange Farbe kommt bei Zucht vom Futterzusatz Astaxanthin."
+  },
+  {
+    "level": 7,
+    "text": "Forelle Müllerin Art — was bedeutet das?",
+    "answers": ["In der Mühle geräuchert", "In Mehl gewendet und in Butter gebraten", "Mit Mehlsoße serviert", "Von einem Müller gefangen"],
+    "correctIndex": 1,
+    "erklaerung": "Müllerin = 'à la meunière' (französisch). Die Forelle wird in Mehl gewendet (wie die Müllerin im Mehl steht) und in Butter gebraten. Klassiker der einfachen, perfekten Fischküche."
+  },
+  {
+    "level": 7,
+    "text": "Fisch ist das Allergen Nr. ...?",
+    "answers": ["Nr. 2", "Nr. 4", "Nr. 7", "Nr. 10"],
+    "correctIndex": 1,
+    "erklaerung": "Fisch ist Hauptallergen Nr. 4. MUSS auf Speisekarten deklariert werden! Krebstiere = Nr. 2, Weichtiere = Nr. 14. Alle 14 Hauptallergene kennen ist Pflicht für jeden Koch."
+  },
+  {
+    "level": 7,
+    "text": "Miesmuscheln kochen — eine bleibt nach dem Kochen geschlossen. Was tun?",
+    "answers": ["Nochmal kochen", "Wegwerfen — hat sich nicht geöffnet = nicht essbar", "Aufbrechen und essen", "Das ist normal"],
+    "correctIndex": 1,
+    "erklaerung": "Zwei Regeln: 1) Offene ROHE Muscheln = tot = wegwerfen. 2) Geschlossene GEKOCHTE Muscheln = haben sich nicht geöffnet = wegwerfen. Sicher ist sicher!"
+  },
+  {
+    "level": 7,
+    "text": "Matjes — wie wird er hergestellt?",
+    "answers": ["Geräuchert", "Junger Hering, enzymatisch in Salzlake gereift", "In Essig eingelegt", "Getrocknet"],
+    "correctIndex": 1,
+    "erklaerung": "Matjes = junger Hering, der enzymatisch in Salzlake reift (NICHT geräuchert, NICHT eingelegt). Holländische Methode. Die 'Hollandse Nieuwe' kommt im Juni. Kalt serviert mit Zwiebeln."
+  },
+  {
+    "level": 7,
+    "text": "Seezunge, Steinbutt — was haben diese Fische gemeinsam?",
+    "answers": ["Beide sind Süßwasserfische", "Beides sind Plattfische", "Beide sind günstig", "Beide werden roh gegessen"],
+    "correctIndex": 1,
+    "erklaerung": "Seezunge und Steinbutt sind Plattfische — sie liegen flach auf dem Meeresboden. Steinbutt ist der 'König der Plattfische'. Beide gehören zu den teuersten und edelsten Speisefischen."
+  },
+  {
+    "level": 8,
+    "text": "Crème fraîche vs. Sauerrahm — warum nimmt der Profi Crème fraîche für heiße Soßen?",
+    "answers": ["Schmeckt besser", "Crème fraîche flockt NICHT beim Kochen (30% Fett schützt)", "Ist billiger", "Kein Unterschied"],
+    "correctIndex": 1,
+    "erklaerung": "Crème fraîche hat ca. 30% Fett — das stabilisiert sie beim Kochen. Sauerrahm (20–24% Fett) und Saure Sahne (10–15%) flocken bei Hitze leichter aus. DER Trick der Profiküche!"
+  },
+  {
+    "level": 8,
+    "text": "Butter hat einen niedrigen Rauchpunkt (175°C). Was nimmst du zum scharfen Anbraten?",
+    "answers": ["Noch mehr Butter", "Butterschmalz (geklärte Butter)", "Margarine", "Olivenöl extra vergine"],
+    "correctIndex": 1,
+    "erklaerung": "Butterschmalz = Butter ohne Wasser und Eiweiß. Rauchpunkt: ca. 250°C — perfekt zum scharfen Anbraten. Normale Butter verbrennt bei 175°C (braun → schwarz → bitter). Auch Olivenöl extra vergine hat einen niedrigen Rauchpunkt."
+  },
+  {
+    "level": 8,
+    "text": "Was bedeutet 'Montieren' bei Soßen?",
+    "answers": ["Aufmixen im Mixer", "Kalte Butterstücke in die heiße Soße schwenken", "Mit Mehl andicken", "Soße durch ein Sieb passieren"],
+    "correctIndex": 1,
+    "erklaerung": "Montieren = kalte Butterstücke in die fertige, heiße Soße einrühren/schwenken. Das Fett emulgiert, die Soße wird glänzend, sämig und bekommt einen feinen Buttergeschmack. Nicht mehr aufkochen danach!"
+  },
+  {
+    "level": 8,
+    "text": "Beurre noisette — was ist das und warum heißt es so?",
+    "answers": ["Butter mit Haselnüssen", "Gebräunte Butter — die Farbe erinnert an Haselnüsse", "Nuss-Margarine", "Kalte Butter mit Nussaroma"],
+    "correctIndex": 1,
+    "erklaerung": "Beurre noisette = 'Nussbutter'. Butter erhitzen bis die Molke bräunt → nussiges Aroma und haselnussbraune Farbe. Klassiker zu Fisch und Blumenkohl. ZU LANGE = Beurre noire = verbrannt = bitter!"
+  },
+  {
+    "level": 8,
+    "text": "Parmesan-Rinde — was machst du damit?",
+    "answers": ["Wegwerfen", "In Suppen und Risotto mitkochen — gibt Umami", "Reiben und als Gewürz nutzen", "Gar nichts, die ist giftig"],
+    "correctIndex": 1,
+    "erklaerung": "Die Parmesan-Rinde ist essbar und eine Umami-Bombe! In Suppen, Fonds oder Risotto mitkochen — sie löst sich teilweise auf und gibt intensiven Geschmack. Parmigiano Reggiano = mind. 12 Monate gereift."
+  },
+  {
+    "level": 8,
+    "text": "Fondue — welche Käse-Kombination ist der Schweizer Klassiker?",
+    "answers": ["Mozzarella + Cheddar", "Gruyère + Emmentaler", "Parmesan + Gorgonzola", "Brie + Camembert"],
+    "correctIndex": 1,
+    "erklaerung": "Gruyère + Emmentaler, aufgelöst in Weißwein mit etwas Kirschwasser. Beide Käse schmelzen hervorragend. Gruyère für Würze, Emmentaler für Milde. In der Schweiz gibt's regionale Varianten."
+  },
+  {
+    "level": 8,
+    "text": "Roquefort — woraus wird er hergestellt?",
+    "answers": ["Kuhmilch", "Schafsmilch", "Ziegenmilch", "Büffelmilch"],
+    "correctIndex": 1,
+    "erklaerung": "Roquefort wird aus SCHAFSMILCH hergestellt und reift in den Kalksteinhöhlen von Roquefort-sur-Soulzon (Frankreich). AOP-geschützt. Gorgonzola dagegen ist aus Kuhmilch."
+  },
+  {
+    "level": 8,
+    "text": "Ricotta — woraus wird er eigentlich gemacht?",
+    "answers": ["Aus Vollmilch", "Aus Molke (Nebenprodukt der Käseherstellung)", "Aus Sahne", "Aus Buttermilch"],
+    "correctIndex": 1,
+    "erklaerung": "'Ricotta' bedeutet 'nochmal gekocht'. Er wird aus Molke hergestellt — dem Nebenprodukt der normalen Käseherstellung. Mild, leicht körnig, perfekt für Ravioli-Füllungen und Desserts."
+  },
+  {
+    "level": 8,
+    "text": "Quark auf Deutsch = Topfen auf ...?",
+    "answers": ["Schweizerdeutsch", "Österreichisch", "Bayerisch", "Sächsisch"],
+    "correctIndex": 1,
+    "erklaerung": "Quark (D) = Topfen (AT). In Österreich unverzichtbar: Topfenstrudel, Topfenknödel, Topfenpalatschinken. Bröseltopfen ist die trockenere Variante — ideal für Knödel."
+  },
+  {
+    "level": 8,
+    "text": "Mozzarella auf die Pizza — ein häufiger Fehler?",
+    "answers": ["Zu viel Käse nehmen", "Mozzarella nicht abtropfen lassen — Pizza wird nass", "Falschen Käse nehmen", "Mozzarella vor dem Backen erhitzen"],
+    "correctIndex": 1,
+    "erklaerung": "Frischer Mozzarella (in Lake) muss gut abtropfen, sonst macht die Feuchtigkeit den Teig matschig. Kurz in Scheiben schneiden und auf Küchenpapier abtropfen lassen. Oder Low-Moisture-Mozzarella verwenden."
+  },
+  {
+    "level": 8,
+    "text": "Burrata aufschneiden — was passiert?",
+    "answers": ["Nichts Besonderes", "Cremige Stracciatella-Füllung (Mozzarella-Fäden + Sahne) fließt heraus", "Trockener Kern kommt zum Vorschein", "Sie zerfällt"],
+    "correctIndex": 1,
+    "erklaerung": "Burrata = Mozzarella-Hülle gefüllt mit Stracciatella (zerrissene Mozzarella-Fäden + Sahne). Beim Aufschneiden fließt die cremige Füllung raus. NICHT erhitzen — roh als Vorspeise servieren!"
+  },
+  {
+    "level": 8,
+    "text": "Sahne aufschlagen — was ist der wichtigste Tipp?",
+    "answers": ["Zucker vorher reingeben", "Alles gut kühlen — Schüssel + Sahne", "Schnell schlagen", "Nur Sahne mit genau 30% Fett nehmen"],
+    "correctIndex": 1,
+    "erklaerung": "Je kälter, desto besser! Schüssel UND Sahne vorher kühlen (Kühlschrank oder kurz ins Eisfach). Mindestens 30% Fett braucht sie zum Steifwerden. Zu warm = wird nicht steif oder wird zu Butter."
+  },
+  {
+    "level": 8,
+    "text": "Milch ist das Hauptallergen Nr. ...?",
+    "answers": ["Nr. 1", "Nr. 4", "Nr. 7", "Nr. 14"],
+    "correctIndex": 2,
+    "erklaerung": "Milch (einschließlich Laktose) ist Hauptallergen Nr. 7. Betrifft ALLE Milchprodukte — Käse, Butter, Sahne, Joghurt. Laktoseintoleranz ≠ Milchallergie (verschiedene Mechanismen!)."
+  },
+  {
+    "level": 8,
+    "text": "Emmentaler hat Löcher. Wodurch entstehen sie?",
+    "answers": ["Durch Luftblasen beim Rühren", "Durch CO2 von Propionibakterien während der Reifung", "Durch Würmer", "Sie werden reingestochen"],
+    "correctIndex": 1,
+    "erklaerung": "Propionibakterien produzieren während der Reifung CO2-Gas — das bildet die typischen Löcher. Je wärmer die Reifung, desto größere Löcher. Schweizer AOC-Original hat die größten Löcher."
+  },
+  {
+    "level": 8,
+    "text": "Obers, Schlagobers, Kaffeeobers — welches Land spricht so?",
+    "answers": ["Deutschland", "Österreich", "Schweiz", "Frankreich"],
+    "correctIndex": 1,
+    "erklaerung": "Obers = österreichisch für Sahne/Rahm. Schlagobers = Schlagsahne, Kaffeeobers = Kaffeesahne. In der österreichischen Küche allgegenwärtig — gleicher Fettgehalt wie deutsche Sahne (36%)."
+  },
+  {
+    "level": 9,
+    "text": "Schwarzer und weißer Pfeffer — gleiche Pflanze?",
+    "answers": ["Nein, verschiedene Pflanzen", "JA — schwarzer ist unreif geerntet, weißer ist reif und geschält", "Nur die Farbe unterscheidet sich", "Weißer Pfeffer ist gebleicht"],
+    "correctIndex": 1,
+    "erklaerung": "Gleiche Pflanze! Schwarz: unreife grüne Beeren, fermentiert + getrocknet. Weiß: reife Beeren, in Wasser eingeweicht (Schale entfernt). Weiß = milder, für helle Soßen (keine schwarzen Punkte)."
+  },
+  {
+    "level": 9,
+    "text": "Safran ist das teuerste Gewürz der Welt. Warum?",
+    "answers": ["Weil es so gut schmeckt", "150.000 Blüten ergeben nur 1 kg — alles Handarbeit", "Weil es selten wächst", "Weil es importiert werden muss"],
+    "correctIndex": 1,
+    "erklaerung": "Safran = die Narben der Krokusblüte. Jede Blüte hat nur 3 Narben, die von Hand gepflückt werden. 150.000 Blüten für 1 kg! Daher: WENIGER IST MEHR. Fäden in warmem Wasser einweichen vor der Verwendung."
+  },
+  {
+    "level": 9,
+    "text": "Paprikapulver in heißes Fett — was passiert?",
+    "answers": ["Extra viel Geschmack", "Es wird BITTER — nie direkt in heißes Fett!", "Nichts Besonderes", "Es wird schärfer"],
+    "correctIndex": 1,
+    "erklaerung": "Paprikapulver verbrennt bei hoher Hitze und wird bitter! Erst die Hitze reduzieren oder mit Flüssigkeit ablöschen, DANN das Paprikapulver einrühren. Gilt für Gulasch und alle ungarischen Gerichte."
+  },
+  {
+    "level": 9,
+    "text": "Kreuzkümmel (Cumin) und Kümmel — das Gleiche?",
+    "answers": ["Ja, nur andere Namen", "NEIN — komplett verschiedene Gewürze mit anderem Geschmack", "Kümmel ist die getrocknete Version", "Kreuzkümmel ist schärfer, sonst gleich"],
+    "correctIndex": 1,
+    "erklaerung": "KOMPLETT verschieden! Kreuzkümmel (Cumin) = warm, erdig, orientalisch/mexikanisch. Kümmel = herb, typisch deutsch/österreichisch (Sauerkraut, Brot). Werden ständig verwechselt!"
+  },
+  {
+    "level": 9,
+    "text": "Muskatnuss — warum ist Vorsicht geboten?",
+    "answers": ["Sie ist immer schimmelig", "In großen Mengen giftig (Myristicin)", "Sie verdirbt schnell", "Sie enthält Allergene"],
+    "correctIndex": 1,
+    "erklaerung": "Muskatnuss enthält Myristicin — in großen Mengen giftig und halluzinogen. In der Küche kein Problem (winzige Mengen). IMMER frisch reiben — Aroma verfliegt sonst. Muskatblüte (Macis) = die Samenhülle, feiner."
+  },
+  {
+    "level": 9,
+    "text": "Nelken-Frischetest — wie prüfst du die Qualität?",
+    "answers": ["Am Geruch", "In Wasser werfen — schwimmt aufrecht = frisch", "Zerbrechen — muss leicht brechen", "An der Farbe"],
+    "correctIndex": 1,
+    "erklaerung": "Nelken in Wasser werfen: schwimmt aufrecht (Stiel oben) oder sinkt = frisch. Schwimmt waagerecht = alt, kein Öl mehr drin. Nelken enthalten Eugenol — daher der betäubende Geschmack."
+  },
+  {
+    "level": 9,
+    "text": "Vanille — was ist der Unterschied zwischen Bourbon-Vanille und Vanillin?",
+    "answers": ["Kein Unterschied", "Bourbon = echte Vanille (Madagaskar), Vanillin = synthetisch hergestellt", "Vanillin ist teurer", "Bourbon kommt aus den USA"],
+    "correctIndex": 1,
+    "erklaerung": "Bourbon-Vanille = echte Vanilleschoten aus Madagaskar (zweitteuertes Gewürz!). Vanillin = synthetisch/chemisch hergestellt, billiger, flacher im Geschmack. Echte Vanille hat 200+ Aromastoffe, Vanillin nur einen."
+  },
+  {
+    "level": 9,
+    "text": "Capsaicin in Chili — was neutralisiert die Schärfe?",
+    "answers": ["Wasser trinken", "Milch oder Fett (Capsaicin ist fettlöslich!)", "Brot essen", "Salz auf die Zunge"],
+    "correctIndex": 1,
+    "erklaerung": "Capsaicin ist FETTLÖSLICH — Wasser verteilt es nur im Mund und macht es schlimmer! Milch, Joghurt, Käse oder Fett lösen das Capsaicin. Auch Zucker kann helfen. Brot hilft nur mechanisch."
+  },
+  {
+    "level": 9,
+    "text": "Ceylon-Zimt vs. Cassia-Zimt — welcher ist gesünder?",
+    "answers": ["Kein Unterschied", "Ceylon — Cassia enthält mehr Cumarin (leberschädlich bei Überkonsum)", "Cassia — der ist natürlicher", "Beide sind ungesund"],
+    "correctIndex": 1,
+    "erklaerung": "Cassia-Zimt (China, billig, dick) enthält viel Cumarin — kann bei regelmäßigem hohem Konsum die Leber schädigen. Ceylon-Zimt (Sri Lanka, teuer, fein) hat fast kein Cumarin. Für Kinder und Vielnutzer: Ceylon!"
+  },
+  {
+    "level": 9,
+    "text": "Szechuanpfeffer — ist das echter Pfeffer?",
+    "answers": ["Ja, eine Pfeffersorte", "NEIN — ein Rautengewächs, das Taubheit auf der Zunge erzeugt", "Ja, nur aus China", "Nein, das ist eine Chilischote"],
+    "correctIndex": 1,
+    "erklaerung": "Kein Pfeffer! Szechuanpfeffer ist ein Rautengewächs. Das Besondere: Sanshoole erzeugt ein kribbelndes Taubheitsgefühl auf der Zunge. Zitrusartig. Chinesische Küche: Mapo Tofu, Five-Spice-Pulver."
+  },
+  {
+    "level": 9,
+    "text": "Piment wird auch 'Allspice' genannt. Warum?",
+    "answers": ["Weil es überall verwendet wird", "Weil es nach Nelke, Pfeffer, Zimt UND Muskat gleichzeitig schmeckt", "Weil es alle Speisen verbessert", "Das ist nur der englische Name"],
+    "correctIndex": 1,
+    "erklaerung": "Piment (Nelkenpfeffer) schmeckt wie eine Mischung aus Nelke + Pfeffer + Zimt + Muskat in einer einzigen Beere. Daher 'Allspice' — alle Gewürze in einem. Aus Jamaika, sparsam dosieren!"
+  },
+  {
+    "level": 9,
+    "text": "Kurkuma färbt alles gelb. Welches andere Gewürz brauchst du für bessere Aufnahme?",
+    "answers": ["Salz", "Schwarzen Pfeffer (Piperin verbessert die Curcumin-Aufnahme)", "Zucker", "Zimt"],
+    "correctIndex": 1,
+    "erklaerung": "Piperin im schwarzen Pfeffer steigert die Bioverfügbarkeit von Curcumin um bis zu 2000%! Daher: Kurkuma + Pfeffer = Dream Team. 'Goldene Milch' enthält immer beides. Handschuhe tragen — färbt wie Betanin!"
+  },
+  {
+    "level": 9,
+    "text": "Senf — welche Farbe ist schärfer?",
+    "answers": ["Gelbe Senfkörner", "Braune Senfkörner (Dijon-Senf)", "Beide gleich scharf", "Weiße Senfkörner"],
+    "correctIndex": 1,
+    "erklaerung": "Braune Senfkörner sind schärfer als gelbe. Dijon-Senf = braune Körner. Tafelsenf = meist gelbe. Trick: Senfmehl + KALTES Wasser = schärfer. Heißes Wasser = milder. Senf ist Hauptallergen Nr. 10!"
+  },
+  {
+    "level": 9,
+    "text": "Lorbeerblätter im Eintopf — wie viele und warum entfernen?",
+    "answers": ["10 Stück, können drin bleiben", "1–2 Stück, vor dem Servieren entfernen (werden sonst bitter)", "So viele wie möglich", "Nur frische Blätter verwenden"],
+    "correctIndex": 1,
+    "erklaerung": "1–2 Lorbeerblätter reichen völlig! Zu viele oder zu lange mitgekocht = bitter. Vor dem Servieren IMMER entfernen (keiner will auf ein Lorbeerblatt beißen). Getrocknete sind intensiver als frische."
+  },
+  {
+    "level": 9,
+    "text": "Sternanis und Anis — botanisch verwandt?",
+    "answers": ["Ja, gleiche Pflanzenfamilie", "NEIN — botanisch nicht verwandt, schmecken aber ähnlich (Anethol)", "Sternanis ist getrockneter Anis", "Anis ist gemahlener Sternanis"],
+    "correctIndex": 1,
+    "erklaerung": "Botanisch NICHT verwandt! Sternanis (Illiciaceae, China) und Anis (Doldenblütler, Mittelmeer) schmecken nur ähnlich — beide enthalten Anethol. Sternanis: asiatische Küche, Pho, Glühwein. Anis: Backwaren, Ouzo, Pastis."
+  },
+  {
+    "level": 10,
+    "text": "Bei welcher Garmethode schwimmt das Lebensmittel komplett in heißem Fett?",
+    "answers": ["Sautieren", "Frittieren", "Dämpfen", "Pochieren"],
+    "correctIndex": 1,
+    "erklaerung": "Frittieren = schwimmend in heißem Fett (140–180°C) garen. Goldene Kruste, schnelle Garung. Nicht verwechseln mit Kurzbraten (wenig Fett in der Pfanne). Über 180°C entsteht das schädliche Acrylamid!"
+  },
+  {
+    "level": 10,
+    "text": "Blanchieren: Was passiert NACH dem kochenden Wasser?",
+    "answers": ["Direkt servieren", "Sofort in Eiswasser abschrecken", "10 Minuten weiterkochen", "In Öl braten"],
+    "correctIndex": 1,
+    "erklaerung": "Blanchieren = kurz in kochendes Wasser, dann SOFORT in Eiswasser abschrecken. Das stoppt den Garprozess und erhält Farbe, Biss und Nährstoffe. Ohne Abschrecken gart das Gemüse nach!"
+  },
+  {
+    "level": 10,
+    "text": "Pochieren — bei welcher Temperatur?",
+    "answers": ["100°C (sprudelnd)", "65–80°C (unter dem Siedepunkt)", "200°C", "0–4°C"],
+    "correctIndex": 1,
+    "erklaerung": "Pochieren = sanft garen UNTER dem Siedepunkt. 65–80°C — das Wasser 'zittert' nur, keine Blasen! Schonendste feuchte Garmethode. Perfekt für Eier, Fisch und zartes Geflügel."
+  },
+  {
+    "level": 10,
+    "text": "Schmoren ist eine 'kombinierte' Garmethode. Was wird kombiniert?",
+    "answers": ["Zwei verschiedene Öle", "Erst trocken anbraten, dann in Flüssigkeit langsam garen", "Ofen und Herd gleichzeitig", "Salz und Zucker"],
+    "correctIndex": 1,
+    "erklaerung": "Erst TROCKEN (scharf anbraten = Maillard-Reaktion = Röstaromen), dann FEUCHT (in Flüssigkeit bei 150–170°C im Ofen langsam garen). Das Kollagen wird zu Gelatine — zähes Fleisch wird butterzart."
+  },
+  {
+    "level": 10,
+    "text": "Die Pfanne ist nicht heiß genug beim Kurzbraten. Was passiert?",
+    "answers": ["Das Fleisch wird besonders zart", "Das Fleisch gart im eigenen Saft und wird grau statt braun", "Es schmeckt besonders würzig", "Kein Unterschied"],
+    "correctIndex": 1,
+    "erklaerung": "Kalte Pfanne = kein Maillard = keine Kruste. Das Fleisch verliert Saft, kocht darin und wird grau statt knusprig-braun. Pfanne MUSS richtig heiß sein bevor das Fleisch reinkommt!"
+  },
+  {
+    "level": 10,
+    "text": "Pommes zweistufig frittieren — wie?",
+    "answers": ["Zweimal bei 180°C", "Erst bei 140°C garen, dann bei 180°C knusprig ausbacken", "Erst bei 200°C, dann bei 100°C", "Erst im Ofen, dann frittieren"],
+    "correctIndex": 1,
+    "erklaerung": "Profi-Technik: 1. Durchgang bei 140°C = garen (weich innen). 2. Durchgang bei 180°C = Kruste (knusprig außen). Ergebnis: innen cremig, außen goldbraun. Restaurant-Qualität!"
+  },
+  {
+    "level": 10,
+    "text": "Was ist die Maillard-Reaktion?",
+    "answers": ["Eine französische Kochtechnik", "Eine Bräunungsreaktion zwischen Zucker und Aminosäuren ab ca. 140°C", "Das Ausflocken von Eiweiß", "Eine Konservierungsmethode"],
+    "correctIndex": 1,
+    "erklaerung": "Maillard = die wichtigste Reaktion in der Küche! Ab ca. 140°C reagieren Zucker mit Aminosäuren → braune Farbe + hunderte Aromastoffe (Röstaromen). Steak, Brot, Kaffee — alles Maillard!"
+  },
+  {
+    "level": 10,
+    "text": "Dünsten vs. Kochen — wann ist Dünsten besser?",
+    "answers": ["Nie, Kochen ist immer besser", "Bei zartem Gemüse und Fisch — erhält mehr Nährstoffe und Farbe", "Nur bei Fleisch", "Kochen und Dünsten sind dasselbe"],
+    "correctIndex": 1,
+    "erklaerung": "Dünsten = im eigenen Saft mit wenig Fett unter 100°C. Weniger Wasser = weniger Nährstoffverlust. Farbe, Textur und Geschmack bleiben besser erhalten als beim Kochen in viel Wasser."
+  },
+  {
+    "level": 10,
+    "text": "Sous-vide: Was ist der größte Vorteil?",
+    "answers": ["Es geht schneller", "Exakteste Temperaturkontrolle — kein Übergaren möglich", "Es ist billiger", "Man braucht weniger Gewürze"],
+    "correctIndex": 1,
+    "erklaerung": "Sous-vide = vakuumiert im Wasserbad auf 0,1°C genau. Das Steak kann nicht über die Zieltemperatur hinaus garen! Kein Flüssigkeitsverlust (alles im Beutel). Nachher kurz anbraten für die Kruste."
+  },
+  {
+    "level": 10,
+    "text": "Kalträuchern vs. Heißräuchern — der Unterschied?",
+    "answers": ["Kein Unterschied", "Kalt (15–25°C) konserviert, Produkt bleibt roh. Heiß (60–120°C) gart gleichzeitig", "Nur die Holzart ist anders", "Kalträuchern ist schneller"],
+    "correctIndex": 1,
+    "erklaerung": "Kalträuchern: 15–25°C, Tage lang, Produkt bleibt roh (Lachs, Schinken). Heißräuchern: 60–120°C, Stunden, Produkt wird gleichzeitig gegart (Forelle, Makrele). Kein Nadelholz verwenden (Harz = bitter)!"
+  },
+  {
+    "level": 10,
+    "text": "Beim Dämpfen — warum darf das Wasser das Gargut nicht berühren?",
+    "answers": ["Weil es sonst verbrennt", "Damit Nährstoffe und Geschmack im Lebensmittel bleiben", "Nur aus optischen Gründen", "Weil Dampf heißer ist als Wasser"],
+    "correctIndex": 1,
+    "erklaerung": "Beim Wasserkontakt würden wasserlösliche Vitamine (B, C) und Aromen ins Wasser auslaugen. Im Dampf bleiben sie im Lebensmittel. Daher: Siebeinsatz oder Dampfgarer, Deckel drauf, nicht öffnen!"
+  },
+  {
+    "level": 10,
+    "text": "Ceviche — wie wird der Fisch 'gegart'?",
+    "answers": ["Im Ofen", "Durch Säure (Limettensaft) — Proteine denaturieren ohne Hitze", "Gar nicht, er bleibt roh", "Durch Einfrieren"],
+    "correctIndex": 1,
+    "erklaerung": "Kalte/chemische Garung: Zitronensäure denaturiert die Proteine ähnlich wie Hitze — Fleisch wird fest und opak. ACHTUNG: Parasiten und Bakterien werden NICHT abgetötet. Nur frischeste Ware, vorher einfrieren!"
+  },
+  {
+    "level": 10,
+    "text": "Ein Lehrling will Tafelspitz grillen. Dein Urteil?",
+    "answers": ["Super Idee!", "Falsche Methode — Tafelspitz braucht langes Garen in Flüssigkeit (Sieden)", "Geht, wenn man ihn vorher mariniert", "Nur auf Holzkohle möglich"],
+    "correctIndex": 1,
+    "erklaerung": "Tafelspitz ist bindegewebsreiches Rindfleisch — beim Grillen wird es zäh! Es muss langsam in Brühe gesiedet werden, damit das Kollagen sich auflöst. Richtige Methode zum richtigen Stück!"
+  },
+  {
+    "level": 10,
+    "text": "Gratinieren — was muss das Gericht VORHER sein?",
+    "answers": ["Roh", "Bereits fertig gegart — Gratinieren bräunt nur die Oberfläche", "Tiefgekühlt", "Mariniert"],
+    "correctIndex": 1,
+    "erklaerung": "Gratinieren (220–250°C Oberhitze) bräunt nur die Oberfläche — Käse, Brösel oder Eigelb-Sahne. Das Gericht darunter MUSS vorher fertig gegart sein. Sonst: oben verbrannt, unten roh!"
+  },
+  {
+    "level": 11,
+    "text": "Wie viele klassische Muttersoßen gibt es in der französischen Küche?",
+    "answers": ["3", "5", "7", "10"],
+    "correctIndex": 1,
+    "erklaerung": "Die 5 Muttersoßen: 1. Béchamel (Milch), 2. Velouté (Fond), 3. Espagnole (braun), 4. Tomatensauce, 5. Hollandaise (Eigelb+Butter). Aus diesen 5 leiten sich ALLE klassischen Soßen ab."
+  },
+  {
+    "level": 11,
+    "text": "Roux (Mehlschwitze) — welche 3 Stufen gibt es?",
+    "answers": ["Leicht, mittel, schwer", "Hell/Weiß, Blond, Braun — je dunkler, desto weniger Bindekraft", "Süß, salzig, neutral", "Dünn, mittel, dick"],
+    "correctIndex": 1,
+    "erklaerung": "Hell (1–2 Min, stärkste Bindung, für Béchamel), Blond (3–4 Min, für Velouté), Braun (5–8 Min, meister Geschmack, schwächste Bindung, für Espagnole). Butter + Mehl 1:1."
+  },
+  {
+    "level": 11,
+    "text": "Hollandaise ist geronnen. Wie rettest du sie?",
+    "answers": ["Mehr Butter dazu", "Neuer Topf, 1 EL kaltes Wasser, geronnene Soße tropfenweise einschlagen", "Alles nochmal erhitzen", "Wegwerfen, nicht zu retten"],
+    "correctIndex": 1,
+    "erklaerung": "Die Emulsion ist gebrochen (Eigelb zu heiß geworden). Rettung: In einem NEUEN Topf 1 EL kaltes Wasser, die geronnene Soße ganz langsam tropfenweise einschlagen bis sie wieder emulgiert. Geduld!"
+  },
+  {
+    "level": 11,
+    "text": "Warum darf Beurre blanc NICHT kochen?",
+    "answers": ["Weil sie dann zu dick wird", "Die Emulsion bricht — Butter trennt sich in Fett und Molke", "Aus Geschmacksgründen", "Kochen ist kein Problem"],
+    "correctIndex": 1,
+    "erklaerung": "Beurre blanc ist eine Emulsion aus Butterpartikeln in Flüssigkeit. Beim Kochen bricht die Emulsion — die Butter trennt sich in Fett und Molke. Immer unter dem Siedepunkt halten!"
+  },
+  {
+    "level": 11,
+    "text": "Fischfond wird nur 20–30 Minuten gekocht. Warum?",
+    "answers": ["Weil er schnell fertig ist", "Länger kochen macht ihn bitter und trüb", "Weil Fisch schneller verdirbt", "Kein fachlicher Grund"],
+    "correctIndex": 1,
+    "erklaerung": "Fischkarkassen geben ihr Aroma in 20–30 Min. ab. Länger = Gräten und Haut geben bittere Stoffe ab, der Fond wird trüb. Fleischfond dagegen braucht 4–8 Stunden. Nur weißen Fisch verwenden (Lachs = zu fettig)!"
+  },
+  {
+    "level": 11,
+    "text": "Vinaigrette — welches Verhältnis Öl zu Essig?",
+    "answers": ["1:1", "3 Teile Öl : 1 Teil Essig/Säure", "5:1", "1:3"],
+    "correctIndex": 1,
+    "erklaerung": "Klassisch: 3 Teile Öl zu 1 Teil Säure (Essig oder Zitrone). Senf als Emulgator hält die Mischung stabil. Trotzdem eine temporäre Emulsion — immer frisch anrühren oder vor dem Servieren schütteln."
+  },
+  {
+    "level": 11,
+    "text": "Mayonnaise bricht beim Rühren. Was war der Fehler?",
+    "answers": ["Zu viel Salz", "Öl zu schnell zugegeben, Zutaten zu kalt, oder zu viel Öl pro Eigelb", "Falsches Ei", "Zu wenig Essig"],
+    "correctIndex": 1,
+    "erklaerung": "Häufigste Fehler: Öl zu schnell zugegossen (TROPFENWEISE!), Zutaten zu kalt (Zimmertemperatur!), oder über 200ml Öl pro Eigelb. Rettung: Neues Eigelb, gebrochene Mayo tropfenweise einschlagen."
+  },
+  {
+    "level": 11,
+    "text": "Warum wird Tomatenmark beim braunen Fond MIT im Ofen geröstet?",
+    "answers": ["Nur damit es sich besser auflöst", "Rösten gibt Maillard-Farbe, Süße und Umami — roh ist es säuerlich", "Aus Zeitgründen", "Kein fachlicher Grund"],
+    "correctIndex": 1,
+    "erklaerung": "Tomatenmark im Ofen mitrösten = Maillard-Reaktion = Farbe + Süße + Umami. Roh zugegebenes Tomatenmark schmeckt säuerlich und eindimensional. Der Unterschied zwischen gutem und großartigem Fond!"
+  },
+  {
+    "level": 11,
+    "text": "Was bedeutet 'aufmontieren' bei einer Soße?",
+    "answers": ["Die Soße aufkochen", "Kalte Butterstücke in die warme Soße einrühren — Glanz und Bindung", "Käse einrühren", "Die Soße durch ein Sieb passieren"],
+    "correctIndex": 1,
+    "erklaerung": "Aufmontieren = kalte Butterstücke in die fertige, warme Soße schwenken/einrühren. Das Fett emulgiert → Glanz, Geschmeidigkeit, Bindung. Danach NICHT mehr aufkochen (Emulsion bricht)!"
+  },
+  {
+    "level": 11,
+    "text": "Pesto im Mixer — warum nur auf niedrigster Stufe?",
+    "answers": ["Mixer ist genauso gut", "Hohe Stufe erwärmt und oxidiert das Basilikum — wird braun und bitter", "Nur aus Tradition", "Damit es nicht zu flüssig wird"],
+    "correctIndex": 1,
+    "erklaerung": "Schnelle Rotation = Hitze = Oxidation = Basilikum wird braun und bitter. Traditionell im Mörser (pestare = zerstoßen). Mixer nur auf niedrigster Stufe, pulsieren. Gutes Olivenöl und frisch geriebener Parmesan sind entscheidend."
+  },
+  {
+    "level": 11,
+    "text": "Sauce Mornay — welche Muttersoße ist die Basis?",
+    "answers": ["Hollandaise", "Béchamel (+ Käse, traditionell Gruyère)", "Tomatensauce", "Velouté"],
+    "correctIndex": 1,
+    "erklaerung": "Mornay = Béchamel + geriebener Käse (klassisch Gruyère). Den Käse bei niedriger Hitze einschmelzen — nicht kochen (wird fädig)! Perfekt zum Gratinieren: Soße über das Gericht, unter den Salamander."
+  },
+  {
+    "level": 11,
+    "text": "Brauner Fond soll klar sein. Was ist der wichtigste Tipp beim Kochen?",
+    "answers": ["So stark wie möglich kochen", "Nur SIMMERN, nie sprudelnd kochen — und regelmäßig abschäumen", "Ständig umrühren", "Deckel fest drauf"],
+    "correctIndex": 1,
+    "erklaerung": "Sprudelndes Kochen verwirbelt Fett und Trübstoffe — der Fond wird trüb. Sanftes Simmern + regelmäßig abschäumen (Schaum = Eiweiß/Unreinheiten) = klarer, sauberer Fond. Geduld zahlt sich aus!"
+  },
+  {
+    "level": 11,
+    "text": "Gastrique — was ist das?",
+    "answers": ["Ein Käse", "Eine Süß-sauer-Basis aus Karamell und Essig", "Ein Gewürz", "Ein Fond"],
+    "correctIndex": 1,
+    "erklaerung": "Zucker karamellisieren + mit Essig ablöschen = Gastrique. Süße + Säure = perfekte Balance. Basis für fruchtige Soßen (Ente à l'orange!). Vielseitige Technik, die viele Lehrlinge nicht kennen."
+  },
+  {
+    "level": 11,
+    "text": "Velouté ist die vielseitigste Muttersoße. Warum?",
+    "answers": ["Weil sie am besten schmeckt", "Durch Wechsel des Fonds (Geflügel/Fisch/Gemüse) komplett anderer Charakter", "Weil sie am einfachsten ist", "Das stimmt nicht"],
+    "correctIndex": 1,
+    "erklaerung": "Velouté = helle Roux + Fond. Geflügelfond → Geflügel-Velouté, Fischfond → Fisch-Velouté. Mit Sahne → Suprême, mit Käse → Mornay-Variante, mit Pilzen → Champignonrahm. Ein Rezept, unendliche Variationen!"
+  },
+  {
+    "level": 10,
+    "text": "Flambieren — welche Sicherheitsregel ist am wichtigsten?",
+    "answers": ["Nur draußen flambieren", "Pfanne vom Herd nehmen, Alkohol zugeben, kippen/anzünden — NIE über der Flamme einschenken", "Feuerlöscher bereithalten", "Nur mit Wasser löschen"],
+    "correctIndex": 1,
+    "erklaerung": "NIEMALS Alkohol direkt aus der Flasche über eine Flamme gießen — Stichflamme! Pfanne vom Herd, Alkohol (>40%) zugeben, Pfanne kippen oder mit langem Streichholz anzünden. Haare zurückbinden!"
+  },
+  {
+    "level": 11,
+    "text": "Ein Gast hat Milch- und Ei-Allergie. Welche Soßen gehen trotzdem?",
+    "answers": ["Béchamel und Hollandaise", "Vinaigrette, Salsa verde, Tomatensauce, Jus", "Gar keine Soße möglich", "Mayonnaise ohne Ei"],
+    "correctIndex": 1,
+    "erklaerung": "Vinaigrette (Öl+Essig), Salsa verde (Kräuter+Öl), Tomatensauce und Jus (Bratensaft-Reduktion) kommen ohne Milch und Ei aus. Keine Béchamel, Hollandaise, Mayo oder Buttersoßen! Allergene kennen = Pflicht."
+  }
+]

@@ -1,0 +1,393 @@
+[
+  {
+    "id": "GM-001",
+    "name": "Kochen (Sieden)",
+    "typ": "Feuchte Garmethode",
+    "temperatur": "100°C",
+    "medium": "Wasser/Fond",
+    "beschreibung": "Lebensmittel gänzlich in kochender Flüssigkeit garen. Sprudelndes Wasser (100°C). Nährstoffe gehen teilweise ins Kochwasser über. Kochwasser daher weiterverwenden (Suppe, Fond). Deckel drauf = schneller, spart Energie.",
+    "beispiele": "Kartoffeln, Gemüse, Eier, Tafelspitz, Nudeln, Reis",
+    "praxistipps": "Salz ins Wasser erst wenn es kocht. Kartoffeln in kaltem Wasser aufsetzen (gleichmäßig gar). Nudeln: viel Wasser, kein Öl.",
+    "geeignet_fuer": [
+      "Kartoffeln",
+      "Hülsenfrüchte",
+      "Nudeln",
+      "Eier",
+      "zähes Fleisch (Tafelspitz)"
+    ],
+    "nicht_geeignet_fuer": [
+      "zartes Fleisch",
+      "empfindlicher Fisch",
+      "feines Gemüse"
+    ]
+  },
+  {
+    "id": "GM-002",
+    "name": "Blanchieren",
+    "typ": "Feuchte Garmethode",
+    "temperatur": "100°C, kurz",
+    "medium": "Wasser + Eiswasser",
+    "beschreibung": "Kurz in kochendes Wasser, dann sofort in Eiswasser abschrecken. Stoppt den Garprozess. Erhält Farbe, Biss und Nährstoffe. Auch zum Schälen (Tomaten, Pfirsiche) und Vorbereiten (Mise en place).",
+    "beispiele": "Gemüse, Tomaten schälen, Kräuter, Spargelspitzen",
+    "praxistipps": "Viel Wasser verwenden (Temperatur darf nicht zu stark abfallen). Sofort abschrecken — sonst gart es nach. Grünes Gemüse: Salz im Wasser verstärkt die Farbe.",
+    "geeignet_fuer": [
+      "Gemüse (Farbe erhalten)",
+      "Tomaten/Pfirsiche (schälen)",
+      "Mise en place"
+    ],
+    "nicht_geeignet_fuer": [
+      "Fleisch",
+      "fertig garen"
+    ]
+  },
+  {
+    "id": "GM-003",
+    "name": "Pochieren",
+    "typ": "Feuchte Garmethode",
+    "temperatur": "65–80°C",
+    "medium": "Wasser/Fond/Milch",
+    "beschreibung": "Sanftes Garen UNTER dem Siedepunkt. Keine Blasen! Oberfläche 'zittert' nur leicht. Schonendste feuchte Garmethode. Perfekt für empfindliche Lebensmittel. Pochiertes Ei: Essig im Wasser hilft dem Eiweiß zu stocken.",
+    "beispiele": "Eier, Fisch, Geflügel, Obst (Birne in Rotwein)",
+    "praxistipps": "Thermometer nutzen! Wasser darf NICHT kochen. Für pochierte Eier: Strudel im Wasser erzeugen, Ei hineingleiten lassen.",
+    "geeignet_fuer": [
+      "Fisch",
+      "Eier",
+      "Geflügelbrust",
+      "Obst"
+    ],
+    "nicht_geeignet_fuer": [
+      "Fleisch das Röstaromen braucht",
+      "Gemüse das knackig sein soll"
+    ]
+  },
+  {
+    "id": "GM-004",
+    "name": "Dämpfen",
+    "typ": "Feuchte Garmethode",
+    "temperatur": "100°C (Dampf)",
+    "medium": "Wasserdampf",
+    "beschreibung": "Garen im Dampf OHNE direkten Flüssigkeitskontakt. Nährstoffe bleiben im Lebensmittel (nicht ins Wasser). Schonendste Methode für Vitamine. Dampfgarer, Siebeinsatz oder Bambuskörbchen.",
+    "beispiele": "Gemüse, Fisch, Knödel, Dim Sum",
+    "praxistipps": "Deckel geschlossen halten! Jedes Öffnen = Dampfverlust = längere Garzeit. Nicht zu dicht belegen — Dampf muss zirkulieren.",
+    "geeignet_fuer": [
+      "empfindliches Gemüse",
+      "Fischfilets",
+      "Teigtaschen",
+      "Diätküche"
+    ],
+    "nicht_geeignet_fuer": [
+      "alles was Röstaromen braucht",
+      "Braten"
+    ]
+  },
+  {
+    "id": "GM-005",
+    "name": "Dünsten",
+    "typ": "Kombiniert (feucht)",
+    "temperatur": "unter 100°C",
+    "medium": "Wenig Flüssigkeit + eigener Saft",
+    "beschreibung": "Im EIGENEN Saft mit wenig Fettzugabe garen. Deckel drauf = Dampf bleibt drin. Zwischen Kochen und Braten. Aromen konzentrieren sich. Schonend für Nährstoffe.",
+    "beispiele": "Gemüse, Fisch, Obst (Kompott)",
+    "praxistipps": "Wenig Fett, wenig Flüssigkeit. Deckel MUSS drauf. Nicht zu heiß — soll nicht kochen. Gemüse gibt eigenes Wasser ab.",
+    "geeignet_fuer": [
+      "zartes Gemüse",
+      "Fisch",
+      "Obst"
+    ],
+    "nicht_geeignet_fuer": [
+      "Fleisch das Kruste braucht",
+      "große Stücke"
+    ]
+  },
+  {
+    "id": "GM-006",
+    "name": "Schmoren (Braisieren)",
+    "typ": "Kombinierte Garmethode",
+    "temperatur": "150–170°C (Ofen)",
+    "medium": "Fett + Flüssigkeit",
+    "beschreibung": "ERST anbraten (Röstaromen/Maillard), DANN in Flüssigkeit langsam garen. Kombiniert trocken + feucht. Kollagen wird zu Gelatine = butterzartes Fleisch. Die Schmorflüssigkeit wird zur Soße.",
+    "beispiele": "Rindsbraten, Ossobuco, Gulasch, Coq au Vin, Rouladen",
+    "praxistipps": "Fleisch gut trocken tupfen vor dem Anbraten. Nicht zu viel Flüssigkeit — Fleisch soll nicht schwimmen (2/3 bedeckt). Niedrige Temperatur, viel Zeit.",
+    "geeignet_fuer": [
+      "bindegewebsreiches Fleisch (Schulter, Haxe, Wade)",
+      "Ragouts"
+    ],
+    "nicht_geeignet_fuer": [
+      "Filet",
+      "zartes Fleisch",
+      "Fischfilet"
+    ]
+  },
+  {
+    "id": "GM-007",
+    "name": "Kurzbraten (Sautieren)",
+    "typ": "Trockene Garmethode",
+    "temperatur": "160–200°C",
+    "medium": "Fett/Öl",
+    "beschreibung": "Schnelles Garen in wenig Fett bei HOHER Hitze. Maillard-Reaktion = Röstaromen + braune Kruste. Fleisch trockentupfen (Wasser verhindert Bräunung). Pfanne MUSS heiß sein bevor das Fleisch reinkommt.",
+    "beispiele": "Steaks, Medaillons, Schnitzel, Gemüsestreifen",
+    "praxistipps": "Fleisch Zimmertemperatur! Pfanne richtig heiß. Nicht bewegen beim Braten (Kruste). Nicht zu viel auf einmal (Temperatur sinkt). Öl mit hohem Rauchpunkt.",
+    "geeignet_fuer": [
+      "zartes Fleisch (Filet, Steak)",
+      "Gemüse",
+      "Garnelen"
+    ],
+    "nicht_geeignet_fuer": [
+      "zähes Fleisch",
+      "große Bratenstücke"
+    ]
+  },
+  {
+    "id": "GM-008",
+    "name": "Braten im Ofen (Rösten)",
+    "typ": "Trockene Garmethode",
+    "temperatur": "160–220°C",
+    "medium": "Heiße Luft + Fett",
+    "beschreibung": "Allseitige Hitze im Ofen. Gleichmäßige Bräunung. Für große Stücke. Regelmäßig mit Bratensaft übergießen (arrosieren). Bratensatz = Basis für Jus/Soße.",
+    "beispiele": "Braten, ganzes Geflügel, Gemüse, Kartoffeln",
+    "praxistipps": "Fleischthermometer nutzen! Vorheizen ist Pflicht. Regelmäßig arrosieren. Nach dem Garen ruhen lassen (Saft verteilt sich).",
+    "geeignet_fuer": [
+      "große Fleischstücke",
+      "ganzes Geflügel",
+      "Wurzelgemüse"
+    ],
+    "nicht_geeignet_fuer": [
+      "dünne Stücke (trocknen aus)",
+      "empfindlicher Fisch"
+    ]
+  },
+  {
+    "id": "GM-009",
+    "name": "Grillen",
+    "typ": "Trockene Garmethode",
+    "temperatur": "250–350°C",
+    "medium": "Strahlungshitze",
+    "beschreibung": "Direkte Hitze von unten (oder oben). Extrem hohe Temperaturen = intensive Maillard-Reaktion. Holzkohle gibt zusätzliches Raucharoma. Direktes vs. indirektes Grillen (2 Zonen).",
+    "beispiele": "Steaks, Fisch, Gemüse, Würstchen",
+    "praxistipps": "2-Zonen-Grillen: heiße Zone (Kruste), kühlere Zone (nachgaren). Deckel zu = Ofen-Effekt. Nicht zu oft wenden. Öl aufs Grillgut, nicht auf den Rost.",
+    "geeignet_fuer": [
+      "Steaks",
+      "Würstchen",
+      "fester Fisch",
+      "Gemüse"
+    ],
+    "nicht_geeignet_fuer": [
+      "zartes Fischfilet",
+      "Suppen",
+      "Soßen"
+    ]
+  },
+  {
+    "id": "GM-010",
+    "name": "Frittieren",
+    "typ": "Trockene Garmethode",
+    "temperatur": "140–180°C",
+    "medium": "Fett (Ölbad)",
+    "beschreibung": "Schwimmend in heißem Fett garen. Goldene Kruste. TEMPERATUR ist entscheidend: zu kalt = fettig, zu heiß = außen verbrannt/innen roh. Über 180°C entsteht Acrylamid. Zweistufig frittieren = Profi-Technik.",
+    "beispiele": "Pommes, Schnitzel, Krapfen, Tempura, Beignets",
+    "praxistipps": "Zweistufig: 1. bei 140°C garen, 2. bei 180°C knusprig ausbacken. Fett regelmäßig filtern/wechseln. Lebensmittel trocken — Wasser im Fett = Spritzer!",
+    "geeignet_fuer": [
+      "Pommes",
+      "Paniertes",
+      "Teigwaren"
+    ],
+    "nicht_geeignet_fuer": [
+      "empfindliches Gemüse",
+      "zartes Fleisch ohne Panade"
+    ]
+  },
+  {
+    "id": "GM-011",
+    "name": "Niedrigtemperaturgaren",
+    "typ": "Trockene Garmethode",
+    "temperatur": "60–80°C",
+    "medium": "Ofenluft",
+    "beschreibung": "Gleichmäßiges Garen bei konstant niedriger Temperatur im Ofen. Kein Temperaturunterschied zwischen außen und innen = perfekt gleichmäßig rosa. Oft vorher kurz scharf anbraten (Kruste).",
+    "beispiele": "Roastbeef, Entenbrust, Filet, Lammkeule",
+    "praxistipps": "Fleischthermometer PFLICHT. Vorher scharf anbraten (Maillard). Geduld — dauert Stunden. Ergebnis: von Rand bis Kern gleiche Garstufe.",
+    "geeignet_fuer": [
+      "große Edelstücke",
+      "Braten die gleichmäßig rosa sein sollen"
+    ],
+    "nicht_geeignet_fuer": [
+      "Schnellgerichte",
+      "Paniertes",
+      "Gemüse"
+    ]
+  },
+  {
+    "id": "GM-012",
+    "name": "Sous-vide",
+    "typ": "Feuchte Garmethode (vakuumiert)",
+    "temperatur": "50–85°C",
+    "medium": "Wasserbad (vakuumiert)",
+    "beschreibung": "Vakuumiert im präzisen Wasserbad garen. Exakteste Temperaturkontrolle. Kein Flüssigkeitsverlust (alles bleibt im Beutel). Kollagen wird bei niedriger Temperatur über Stunden zu Gelatine — zähes Fleisch wird butterzart.",
+    "beispiele": "Steaks, Fisch, Gemüse, Desserts, Eier",
+    "praxistipps": "Vakuumierer nötig. Nachher oft kurz scharf anbraten (Kruste). Temperatur auf 0,1°C genau. Hygiene: Kerntemperatur muss Mindestzeit bei Zieltemperatur erreichen.",
+    "geeignet_fuer": [
+      "Steaks (perfekte Garstufe)",
+      "zähes Fleisch (36h Short Ribs)",
+      "Fisch",
+      "Gemüse"
+    ],
+    "nicht_geeignet_fuer": [
+      "Paniertes",
+      "Knuspriges (nur in Kombination mit Nachbraten)"
+    ]
+  },
+  {
+    "id": "GM-013",
+    "name": "Konfieren",
+    "typ": "Trockene Garmethode",
+    "temperatur": "70–90°C",
+    "medium": "Fett (Öl/Schmalz)",
+    "beschreibung": "Langsames Garen im eigenen oder zugesetztem Fett bei niedriger Temperatur. Französische Konservierungsmethode. Ergebnis: seidig, zart, intensiv. Confit de Canard = klassischer Entenschenkel.",
+    "beispiele": "Entenschenkel (Confit), Knoblauch, Tomaten, Lachs in Olivenöl",
+    "praxistipps": "Fett muss das Gargut komplett bedecken. Niedrige Temperatur — nicht frittieren! Gänseschmalz aufheben. Konfiertes hält im Fett wochenlang (Kühlschrank).",
+    "geeignet_fuer": [
+      "Geflügelkeulen",
+      "Knoblauch",
+      "Tomaten",
+      "fester Fisch"
+    ],
+    "nicht_geeignet_fuer": [
+      "alles was knusprig werden soll (erst nachher anbraten)"
+    ]
+  },
+  {
+    "id": "GM-014",
+    "name": "Räuchern",
+    "typ": "Konservierung/Aromatisierung",
+    "temperatur": "Kalt: 15–25°C / Heiß: 60–120°C",
+    "medium": "Rauch (Holzspäne)",
+    "beschreibung": "Kalträuchern: konserviert, Produkt bleibt roh (Lachs, Schinken). Heißräuchern: gart gleichzeitig (Forelle, Makrele). Holzart = Geschmack: Buche (Standard), Erle (Fisch), Kirsche (mild-süß).",
+    "beispiele": "Lachs (kalt), Forelle (heiß), Schinken, Käse, Wurst",
+    "praxistipps": "Vorher salzen/pökeln (Geschmack + Konservierung). Kalträuchern dauert Tage. Heißräuchern: Stunden. Holz OHNE Harz verwenden (kein Nadelholz).",
+    "geeignet_fuer": [
+      "Fisch",
+      "Fleisch",
+      "Wurst",
+      "Käse"
+    ],
+    "nicht_geeignet_fuer": [
+      "Gemüse (traditionell)",
+      "Desserts"
+    ]
+  },
+  {
+    "id": "GM-015",
+    "name": "Glasieren",
+    "typ": "Kombinierte Garmethode",
+    "temperatur": "Mittlere Hitze",
+    "medium": "Butter + Zucker/Fond",
+    "beschreibung": "Gemüse in Butter-Zucker-Fond-Mischung garen bis die Flüssigkeit reduziert ist und das Gemüse glänzend überzogen ist. Bringt Süße und Glanz. À blanc (hell) oder à brun (karamellisiert).",
+    "beispiele": "Karotten, Perlzwiebeln, Rüben, Maronen",
+    "praxistipps": "Gemüse in einer Lage, gerade bedeckt mit Fond+Butter+Zucker. Ohne Deckel reduzieren lassen. Am Ende schwenken — der Glasur-Spiegel entsteht.",
+    "geeignet_fuer": [
+      "Wurzelgemüse",
+      "Perlzwiebeln",
+      "Maronen"
+    ],
+    "nicht_geeignet_fuer": [
+      "Blattsalate",
+      "Fleisch"
+    ]
+  },
+  {
+    "id": "GM-016",
+    "name": "Gratinieren",
+    "typ": "Trockene Garmethode",
+    "temperatur": "220–250°C (Oberhitze)",
+    "medium": "Strahlungshitze von oben",
+    "beschreibung": "Oberfläche bräunen/überbacken. Mit Käse, Butterbröseln oder Eigelb-Sahne. Salamander (Profiküche) oder Backofengrill. Maillard-Reaktion an der Oberfläche.",
+    "beispiele": "Aufläufe, Crème brûlée, überbackenes Gemüse, Zwiebelsuppe",
+    "praxistipps": "Nur Oberhitze verwenden. Gericht muss VORHER fertig gegart sein — Gratinieren bräunt nur die Oberfläche. Abstand zum Grill beachten (verbrennt schnell).",
+    "geeignet_fuer": [
+      "vorgegarte Aufläufe",
+      "Überbackenes",
+      "Desserts (Crème brûlée)"
+    ],
+    "nicht_geeignet_fuer": [
+      "rohes Fleisch",
+      "rohe Kartoffeln"
+    ]
+  },
+  {
+    "id": "GM-017",
+    "name": "Flambieren",
+    "typ": "Trockene Garmethode",
+    "temperatur": "Sehr hoch (kurz)",
+    "medium": "Alkohol + Flamme",
+    "beschreibung": "Hochprozentigen Alkohol anzünden. Alkohol verbrennt, Aromen bleiben. Showeffekt! Sicherheit: Pfanne vom Herd, Alkohol zugeben, kippen/anzünden. Flamme erlischt wenn Alkohol verbrannt ist.",
+    "beispiele": "Crêpes Suzette, Steak au Poivre, Weihnachtspudding",
+    "praxistipps": "Nur Alkohol über 40%. Niemals über der Flamme einschenken (Stichflamme!). Pfanne kippen ODER mit langem Streichholz anzünden. Haare zurück!",
+    "geeignet_fuer": [
+      "Desserts",
+      "Fleischgerichte",
+      "Showkochen"
+    ],
+    "nicht_geeignet_fuer": [
+      "Alltagskochen",
+      "Kindergerichte"
+    ]
+  },
+  {
+    "id": "GM-018",
+    "name": "Sautieren (Schwenken)",
+    "typ": "Trockene Garmethode",
+    "temperatur": "160–200°C",
+    "medium": "Fett, Schwenkbewegung",
+    "beschreibung": "Schnelles Garen in Schwenkpfanne (Sauteuse) mit wenig Fett. Lebensmittel werden durch Schwenken gewendet — nicht mit Werkzeug! Hohe Hitze, kurze Zeit. Sauter = springen (französisch).",
+    "beispiele": "Gemüsestreifen, Pilze, Garnelen, Wok-Gerichte",
+    "praxistipps": "Alles VORHER schneiden (Mise en place). Kleine Mengen auf einmal. Pfanne muss leicht sein. Schwenktechnik üben! Zutaten nach Garzeit staffeln.",
+    "geeignet_fuer": [
+      "Gemüse",
+      "Pilze",
+      "Garnelen",
+      "Kurzgebratenes"
+    ],
+    "nicht_geeignet_fuer": [
+      "große Fleischstücke",
+      "Suppen"
+    ]
+  },
+  {
+    "id": "GM-019",
+    "name": "Pochieren in Öl",
+    "typ": "Feuchte Garmethode",
+    "temperatur": "60–80°C",
+    "medium": "Öl",
+    "beschreibung": "Sanftes Garen in warmem Öl. Ergebnis: extrem zartes, seidig-butterweiches Fleisch/Fisch. Moderne Technik. Öl überträgt Wärme gleichmäßiger als Wasser. Öltemperatur präzise kontrollieren.",
+    "beispiele": "Thunfisch, Kabeljau, Knoblauch, Schalotten",
+    "praxistipps": "Neutrales Öl verwenden (oder Olivenöl für Geschmack). Thermometer Pflicht. Sehr langsam garen. Ergebnis: glasig, zart, fast roh wirkend aber gar.",
+    "geeignet_fuer": [
+      "Fisch (Thunfisch, Kabeljau)",
+      "Knoblauch-Confit",
+      "Edelzubereitungen"
+    ],
+    "nicht_geeignet_fuer": [
+      "Alltagskochen",
+      "Paniertes",
+      "große Fleischstücke"
+    ]
+  },
+  {
+    "id": "GM-020",
+    "name": "Marinieren / Beizen",
+    "typ": "Kalte Garmethode",
+    "temperatur": "Kühlschrank",
+    "medium": "Säure/Salz/Gewürze",
+    "beschreibung": "Chemische Garung durch Säure (Zitrone, Essig) oder Salz. Proteine denaturieren OHNE Hitze. Ceviche: Fisch wird durch Limettensaft 'gegart'. Graved Lachs: Salz+Zucker+Dill. Sauerbraten: tagelang in Essig-Gewürz-Marinade.",
+    "beispiele": "Graved Lachs, Ceviche, Sauerbraten, Beize für Wild",
+    "praxistipps": "Nur FRISCHESTE Ware (Parasiten werden nicht abgetötet!). Fisch vorher einfrieren (Anisakis). Säure verändert Textur — zu lange = gummiartig. Kühl arbeiten.",
+    "geeignet_fuer": [
+      "frischer Fisch",
+      "Fleisch für Sauerbraten",
+      "Wild"
+    ],
+    "nicht_geeignet_fuer": [
+      "alles was Röstaromen braucht",
+      "Gemüse (mit Ausnahmen)"
+    ]
+  }
+]

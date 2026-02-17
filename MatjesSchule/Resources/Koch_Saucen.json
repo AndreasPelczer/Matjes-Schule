@@ -1,0 +1,202 @@
+[
+  {
+    "id": "SC-001",
+    "name": "Fond blanc (Weißer Fond)",
+    "typ": "Grundfond",
+    "basis": "Kalbsknochen, Gemüse, Bouquet garni",
+    "beschreibung": "Heller Grundfond. Knochen NICHT rösten (sonst wird er braun). Blanchieren, abgießen, frisch aufsetzen. Langsam simmern (nie kochen = bleibt klar). Abschäumen. 4–6 Stunden. Basis für alle hellen Soßen.",
+    "verwendung": "Basis für Velouté, helle Soßen, Suppen, Risotto",
+    "lagerung": "Kühlung 3–5 Tage, einfrierbar (Eiswürfelform = portioniert)",
+    "ableitungen": "Velouté, Blanquette, Consommé"
+  },
+  {
+    "id": "SC-002",
+    "name": "Fond brun (Brauner Fond)",
+    "typ": "Grundfond",
+    "basis": "Geröstete Rinderknochen, Tomatenmark, Gemüse",
+    "beschreibung": "Knochen + Gemüse + Tomatenmark im Ofen RÖSTEN (Maillard-Reaktion = Farbe + Geschmack). Dann mit Wasser aufgießen, 6–8 Stunden simmern. Bratensatz deglacieren! Grundlage der klassischen Küche.",
+    "verwendung": "Basis für Demi-glace, Jus, dunkle Soßen",
+    "lagerung": "Kühlung 3–5 Tage, einfrierbar",
+    "ableitungen": "Espagnole, Demi-glace, Jus"
+  },
+  {
+    "id": "SC-003",
+    "name": "Fumet de poisson (Fischfond)",
+    "typ": "Grundfond",
+    "basis": "Fischkarkassen, Gemüse, Weißwein",
+    "beschreibung": "NUR 20–30 Minuten kochen! Länger = bitter und trüb. Nur Gräten von weißem Fisch (kein Lachs = zu fettig). Karkassen vorher wässern (Blut entfernen). Weißwein gibt Säure und Geschmack.",
+    "verwendung": "Basis für Fischsoßen, Fischsuppen, Bouillabaisse",
+    "lagerung": "Kühlung 1–2 Tage (kürzer als Fleischfond!), einfrierbar",
+    "ableitungen": "Fisch-Velouté, Sauce vin blanc"
+  },
+  {
+    "id": "SC-004",
+    "name": "Béchamel",
+    "typ": "Grundsoße (Muttersoße)",
+    "basis": "Helle Mehlschwitze (Roux) + Milch",
+    "beschreibung": "1. der 5 Muttersoßen. Butter schmelzen, Mehl anschwitzen (helle Roux), KALTE Milch auf einmal zugießen, unter Rühren aufkochen. Muskatnuss, Salz, weißer Pfeffer. Muss 20 Min. köcheln (Mehlgeschmack wegkochen).",
+    "verwendung": "Aufläufe, Lasagne, Gratins, Kroketten",
+    "lagerung": "Kühlung 2–3 Tage. Folie direkt auf die Oberfläche (verhindert Haut)",
+    "ableitungen": "Sauce Mornay (+ Käse), Sauce Soubise (+ Zwiebel)"
+  },
+  {
+    "id": "SC-005",
+    "name": "Velouté",
+    "typ": "Grundsoße (Muttersoße)",
+    "basis": "Helle Mehlschwitze + heller Fond",
+    "beschreibung": "2. Muttersoße. Wie Béchamel, aber mit Fond statt Milch. Je nach Fond: Geflügel-Velouté, Fisch-Velouté, Gemüse-Velouté. Extrem vielseitig — durch Fondwechsel komplett anderer Charakter.",
+    "verwendung": "Basis für Suppen, Geflügelsoßen, Fischsoßen",
+    "lagerung": "Kühlung 2–3 Tage",
+    "ableitungen": "Sauce Suprême (+ Sahne), Sauce Allemande (+ Eigelb)"
+  },
+  {
+    "id": "SC-006",
+    "name": "Sauce Espagnole / Demi-glace",
+    "typ": "Grundsoße (Muttersoße)",
+    "basis": "Braune Roux + brauner Fond + Tomatenmark",
+    "beschreibung": "3. Muttersoße. Braune Roux (nussbraun), brauner Fond, Tomatenmark. Stundenlang einreduzieren. Demi-glace = Espagnole + brauner Fond, nochmals reduziert. Extrem aufwändig — in der modernen Küche oft durch Fond lié ersetzt.",
+    "verwendung": "Basis für Bratensäfte, kräftige Fleischsoßen",
+    "lagerung": "Kühlung 3–5 Tage, einfrierbar",
+    "ableitungen": "Sauce Bordelaise (+ Rotwein), Sauce Robert (+ Senf)"
+  },
+  {
+    "id": "SC-007",
+    "name": "Tomatensauce",
+    "typ": "Grundsoße (Muttersoße)",
+    "basis": "Tomaten, Zwiebeln, Knoblauch, Olivenöl",
+    "beschreibung": "4. Muttersoße. Einfachste Muttersoße. Zwiebeln+Knoblauch anschwitzen, Tomaten (frisch oder Dose) dazu, köcheln lassen. San Marzano = beste Dosentomate. Frisch: Tomaten blanchieren, schälen, entkernen (Concassée).",
+    "verwendung": "Pasta, Pizza, Schmorgerichte",
+    "lagerung": "Kühlung 5–7 Tage, einfrierbar",
+    "ableitungen": "Bolognese (+ Hackfleisch), Arrabiata (+ Chili), Puttanesca (+ Oliven/Kapern)"
+  },
+  {
+    "id": "SC-008",
+    "name": "Hollandaise",
+    "typ": "Aufgeschlagene Soße (warm)",
+    "basis": "Eigelb, Butter, Zitrone (Wasserbad)",
+    "beschreibung": "5. Muttersoße. Eigelb + Reduktion (Essig, Schalotten) über Wasserbad aufschlagen bis cremig. Flüssige Butter langsam einträufeln. Emulsion! Darf nicht über 65°C — sonst gerinnt das Ei. Sofort servieren.",
+    "verwendung": "Spargel, Eier Benedict, Gemüse, Fisch",
+    "lagerung": "Sofort servieren! Max. 2 Std. warmhalten (Hygiene: Eigelb). NICHT aufbewahren.",
+    "ableitungen": "Béarnaise (+ Estragon), Sauce Choron (+ Tomate), Sauce Maltaise (+ Blutorange)"
+  },
+  {
+    "id": "SC-009",
+    "name": "Béarnaise",
+    "typ": "Ableitung Hollandaise",
+    "basis": "Hollandaise + Estragonreduktion + Schalotten",
+    "beschreibung": "Hollandaise-Technik, aber die Reduktion enthält Estragon, Kerbel, Schalotten, weißen Pfeffer und Weißweinessig. DER Steak-Begleiter. Kräftiger und würziger als Hollandaise.",
+    "verwendung": "Steaks, Grillfleisch, Fisch",
+    "lagerung": "Sofort servieren, wie Hollandaise",
+    "ableitungen": "Sauce Choron (+ Tomatenmark)"
+  },
+  {
+    "id": "SC-010",
+    "name": "Beurre blanc",
+    "typ": "Buttersoße",
+    "basis": "Schalotten, Weißwein, Butter (aufmontiert)",
+    "beschreibung": "Schalotten in Weißwein und Essig reduzieren (fast trocken). Kalte Butterstücke nach und nach einschlagen (montieren). Emulsion! Darf NICHT kochen — Emulsion bricht sonst (Butter trennt sich). Samtig, glänzend.",
+    "verwendung": "Fisch, Meeresfrüchte, Gemüse",
+    "lagerung": "Sofort servieren. Nicht aufkochen!",
+    "ableitungen": "Beurre rouge (mit Rotwein)"
+  },
+  {
+    "id": "SC-011",
+    "name": "Jus (Bratensaft)",
+    "typ": "Reduktion",
+    "basis": "Bratensatz + Fond, reduziert",
+    "beschreibung": "Bratensatz (Röststoffe am Pfannenboden) mit Fond deglacieren (ablöschen), einreduzieren bis konzentriert. Natürliche Gelatine bindet. Intensivster Fleischgeschmack. Unterschied zum Fond: Jus ist konzentrierter und eigenständige Soße.",
+    "verwendung": "Fleischgerichte, Braten",
+    "lagerung": "Kühlung 3–5 Tage, einfrierbar",
+    "ableitungen": "Jus lié (mit Stärke gebunden)"
+  },
+  {
+    "id": "SC-012",
+    "name": "Vinaigrette",
+    "typ": "Kalte Soße / Emulsion",
+    "basis": "Öl, Essig/Zitrone, Senf, Gewürze",
+    "beschreibung": "Klassisches Verhältnis: 3 Teile Öl : 1 Teil Säure. Senf als Emulgator (hält die Mischung stabil). Temporäre Emulsion — trennt sich wieder (daher: immer frisch anrühren oder schütteln). Basis aller Salatdressings.",
+    "verwendung": "Salate, mariniertes Gemüse, Fisch",
+    "lagerung": "Kühlung 5–7 Tage",
+    "ableitungen": "Himbeer-Vinaigrette, Balsamico-Vinaigrette, Asia-Dressing"
+  },
+  {
+    "id": "SC-013",
+    "name": "Mayonnaise",
+    "typ": "Kalte Emulsion",
+    "basis": "Eigelb, Öl, Senf, Zitrone/Essig",
+    "beschreibung": "Stabile Emulsion: Eigelb = Emulgator (Lecithin). Öl TROPFENWEISE einrühren (zu schnell = bricht). 1 Eigelb bindet ca. 200ml Öl. Zutaten auf Zimmertemperatur! Gebrochene Mayo retten: neues Eigelb, tropfenweise die gebrochene Mayo einschlagen.",
+    "verwendung": "Salate, Sandwiches, Dips, Ableitungen",
+    "lagerung": "Kühlung 2–3 Tage (frisch). Hygiene: rohes Ei!",
+    "ableitungen": "Aioli (+ Knoblauch), Remoulade (+ Kräuter/Kapern), Cocktailsauce (+ Ketchup/Cognac)"
+  },
+  {
+    "id": "SC-014",
+    "name": "Pesto (Genovese)",
+    "typ": "Kalte Soße",
+    "basis": "Basilikum, Pinienkerne, Parmesan, Knoblauch, Olivenöl",
+    "beschreibung": "Traditionell im Mörser (Pestare = zerstoßen). Mixer auf NIEDRIGSTER Stufe — Hitze oxidiert Basilikum (wird braun + bitter). Gutes Olivenöl ist entscheidend. Parmesan frisch gerieben. Pinienkerne leicht anrösten.",
+    "verwendung": "Pasta, Bruschetta, Marinaden, Garnitur",
+    "lagerung": "Kühlung 5–7 Tage (Ölschicht oben drauf = Schutz vor Oxidation)",
+    "ableitungen": "Pesto Rosso (+ Tomaten), Bärlauchpesto, Rucola-Pesto"
+  },
+  {
+    "id": "SC-015",
+    "name": "Fond de veau lié (Gebundener Kalbsfond)",
+    "typ": "Gebundene Soße",
+    "basis": "Kalbsfond + Stärke oder Reduktion",
+    "beschreibung": "Moderne Alternative zur aufwändigen Demi-glace. Kalbsfond stark reduzieren ODER mit Stärke (Pfeilwurzel, Maisstärke) binden. Leichter als klassische Espagnole. In der modernen Profiküche Standard.",
+    "verwendung": "Moderne Alternative zur Demi-glace",
+    "lagerung": "Kühlung 3–5 Tage, einfrierbar",
+    "ableitungen": ""
+  },
+  {
+    "id": "SC-016",
+    "name": "Rahm-/Sahnesauce",
+    "typ": "Ableitung",
+    "basis": "Fond/Jus + Sahne, reduziert",
+    "beschreibung": "Bratensatz deglacieren, Fond zugeben, Sahne einrühren, einreduzieren. Sahne bindet beim Reduzieren natürlich. Crème fraîche statt Sahne = flockt nicht. Vielseitigste Alltagssoße der deutschen/österreichischen Küche.",
+    "verwendung": "Geschnetzeltes, Pasta, Gemüse, Pilzgerichte",
+    "lagerung": "Kühlung 2–3 Tage",
+    "ableitungen": "Pilzrahmsauce, Pfefferrahmsauce, Estragonrahm"
+  },
+  {
+    "id": "SC-017",
+    "name": "Sauce Mornay",
+    "typ": "Ableitung Béchamel",
+    "basis": "Béchamel + Käse (Gruyère)",
+    "beschreibung": "Béchamel + geriebener Käse (traditionell Gruyère, auch Emmentaler). Käse einschmelzen (nicht kochen — wird fädig!). Für Gratins: Soße über das Gericht, unter den Salamander/Grill → goldbraune Käsekruste.",
+    "verwendung": "Gratins, überbackenes Gemüse, Croque Monsieur",
+    "lagerung": "Kühlung 2–3 Tage",
+    "ableitungen": ""
+  },
+  {
+    "id": "SC-018",
+    "name": "Salsa verde",
+    "typ": "Kalte Soße",
+    "basis": "Kräuter, Kapern, Sardellen, Öl, Essig",
+    "beschreibung": "Grüne Soße. Petersilie, Minze, Kapern, Sardellen, Knoblauch, Olivenöl, Rotweinessig. Alles fein hacken (nicht mixen!). Frisch, säuerlich, salzig. Italienischer Klassiker zu Bollito misto (gekochtem Fleisch).",
+    "verwendung": "Grillfleisch, Fisch, gekochtes Fleisch",
+    "lagerung": "Kühlung 3–5 Tage",
+    "ableitungen": "Chimichurri (argentinisch), Frankfurter Grüne Soße"
+  },
+  {
+    "id": "SC-019",
+    "name": "Gastrique (Süß-sauer-Basis)",
+    "typ": "Reduktion",
+    "basis": "Karamell + Essig",
+    "beschreibung": "Zucker karamellisieren, mit Essig ablöschen. Basis für fruchtige Soßen. Süße vom Karamell + Säure vom Essig = perfekte Balance. Entenbrust à l'orange: Gastrique + Orangensaft. Vielseitige Technik.",
+    "verwendung": "Entenbrust, Leber, fruchtige Soßen",
+    "lagerung": "Kühlung mehrere Wochen (hoch konzentriert)",
+    "ableitungen": "Orangensauce, Himbeersauce, Balsamico-Reduktion"
+  },
+  {
+    "id": "SC-020",
+    "name": "Roux (Mehlschwitze)",
+    "typ": "Bindemittel / Basis",
+    "basis": "Butter + Mehl (1:1)",
+    "beschreibung": "Grundlage ALLER mehlgebundenen Soßen. Butter schmelzen, Mehl einrühren, anschwitzen. 3 Stufen: Hell/Weiß (1–2 Min, stärkste Bindung), Blond (3–4 Min, mittlere Bindung), Braun (5–8 Min, schwächste Bindung, meister Geschmack). Je dunkler, desto weniger Bindekraft.",
+    "verwendung": "Grundlage für Béchamel, Velouté, Espagnole",
+    "lagerung": "Kühlung 1 Woche, einfrierbar",
+    "ableitungen": ""
+  }
+]
