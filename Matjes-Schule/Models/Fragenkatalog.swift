@@ -26,6 +26,17 @@ struct Fragenkatalog: Identifiable, Codable {
         self.aktualisiertAm = Date()
         self.istVeroeffentlicht = false
     }
+
+    /// Vollstaendiger Initialisierer (fuer CloudKit-Sync)
+    init(id: UUID, name: String, beschreibung: String, ausbilderId: UUID, erstelltAm: Date, aktualisiertAm: Date, istVeroeffentlicht: Bool) {
+        self.id = id
+        self.name = name
+        self.beschreibung = beschreibung
+        self.ausbilderId = ausbilderId
+        self.erstelltAm = erstelltAm
+        self.aktualisiertAm = aktualisiertAm
+        self.istVeroeffentlicht = istVeroeffentlicht
+    }
 }
 
 struct AusbilderFrage: Identifiable, Codable {
@@ -49,5 +60,18 @@ struct AusbilderFrage: Identifiable, Codable {
         self.level = level
         self.erstelltAm = Date()
         self.aktualisiertAm = Date()
+    }
+
+    /// Vollstaendiger Initialisierer (fuer CloudKit-Sync)
+    init(id: UUID, katalogId: UUID, text: String, antworten: [String], korrekterIndex: Int, erklaerung: String, level: Int?, erstelltAm: Date, aktualisiertAm: Date) {
+        self.id = id
+        self.katalogId = katalogId
+        self.text = text
+        self.antworten = antworten
+        self.korrekterIndex = korrekterIndex
+        self.erklaerung = erklaerung
+        self.level = level
+        self.erstelltAm = erstelltAm
+        self.aktualisiertAm = aktualisiertAm
     }
 }
