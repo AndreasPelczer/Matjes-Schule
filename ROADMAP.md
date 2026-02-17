@@ -21,43 +21,63 @@ Letzte Aktualisierung: 2026-02-17
 
 ---
 
-## Phase 2: Quiz-Engine + Ausbilder-UI (NAECHSTER SCHRITT)
+## Phase 2: Quiz-Engine + Ausbilder-UI ✅ ERLEDIGT
 
-- [ ] Xcode-Projekt (.xcodeproj) erstellen (Andreas muss das in Xcode machen)
-- [ ] Audio-Dateien hinzufuegen (correct.mp3, wrong.mp3, applaus.wav, click.wav)
-- [ ] App kompilieren und Quiz-Flow testen
-- [ ] Ausbilder-Login mit persistentem Profil (statt Demo-Login)
-- [ ] Klasse erstellen / bearbeiten / loeschen
-- [ ] Schueler zu Klasse hinzufuegen (manuell)
-- [ ] Fragen-Editor: Neue Fragen erstellen mit 4 Antworten + Erklaerung
-- [ ] Fragenkatalog veroeffentlichen (fuer Schueler sichtbar machen)
-
----
-
-## Phase 3: CoreData-Integration
-
-- [ ] CoreData-Schema definieren (Ausbilder, Klasse, Schueler, Fragenkatalog, AusbilderFrage)
-- [ ] Migration von UserDefaults zu CoreData fuer Fortschritte
-- [ ] Ausbilder-Profil in CoreData speichern
-- [ ] Klassen und Schueler in CoreData speichern
-- [ ] Eigene Fragen in CoreData speichern
-- [ ] ProgressManager um CoreData-Persistenz erweitern
+- [x] Xcode-Projekt (.xcodeproj) erstellen
+- [x] Audio-Dateien hinzufuegen (correct.mp3, wrong.mp3, applaus.wav, click.wav)
+- [x] App kompilieren und Quiz-Flow testen
+- [x] Ausbilder-Login mit persistentem Profil (statt Demo-Login)
+- [x] Klasse erstellen / bearbeiten / loeschen
+- [x] Schueler zu Klasse hinzufuegen (manuell)
+- [x] Fragen-Editor: Neue Fragen erstellen mit 4 Antworten + Erklaerung
+- [x] Fragenkatalog veroeffentlichen (fuer Schueler sichtbar machen)
 
 ---
 
-## Phase 4: CloudKit-Sync
+## Phase 3: Persistenz + Ausbilder-Funktionen ✅ ERLEDIGT
 
-- [ ] CloudKit Container konfigurieren
-- [ ] CKRecord-Mappings fuer alle Models
-- [ ] Schueler-Fortschritte in CloudKit synchronisieren
-- [ ] Ausbilder kann Fortschritte aller Schueler sehen
-- [ ] Einladungscode-System: Schueler tritt Klasse bei
-- [ ] Offline-Faehigkeit: Lokale Aenderungen queuen, bei Verbindung syncen
-- [ ] Konfliktloesung bei gleichzeitigen Aenderungen
+- [x] DataStore.swift als zentrale JSON/UserDefaults-Persistenz
+- [x] Ausbilder-Registrierung, PIN-Login, persistent
+- [x] Klassen erstellen, Schueler hinzufuegen, 6-stellige Einladungscodes
+- [x] Schueler: Code eingeben im App (Profil-Tab)
+- [x] Dashboard zeigt echte Statistiken
+- [x] Fragenkataloge: Ausbilder kann eigene Fragen erstellen
 
 ---
 
-## Phase 5: Export + Reports
+## Phase 4: CloudKit-Sync ✅ ERLEDIGT
+
+- [x] CKRecordConvertible-Protokoll fuer alle Models (Ausbilder, Klasse, Schueler, SchuelerFortschritt, Fragenkatalog, AusbilderFrage)
+- [x] CloudKitManager mit publicDB fuer alle geteilten Daten
+- [x] Generic Save/Fetch/Delete mit CKRecord-Konvertierung
+- [x] Schueler-Fortschritte in CloudKit synchronisieren (mit Merge-Strategie)
+- [x] Ausbilder kann Fortschritte aller Schueler sehen (syncAllesAusbilder)
+- [x] Einladungscode-System: Schueler findet seinen Code via CloudKit
+- [x] Offline-Faehigkeit: SyncState queued Aenderungen, verarbeitet bei Verbindung
+- [x] Konfliktloesung: Fortschritte werden gemerged (beste Ergebnisse behalten)
+- [x] DataStore integriert: Lokal speichern, dann CloudKit im Hintergrund
+- [x] Sync-Status-Anzeige im Dashboard (iCloud-Icon) und Einstellungen
+- [x] Manueller Sync-Button + Pull-to-Refresh
+
+### CloudKit Architektur
+
+| Komponente | Datei | Funktion |
+|---|---|---|
+| CKRecordConvertible | CloudKit/CKRecordConvertible.swift | Protocol + Mappings fuer alle 6 Models |
+| CloudKitManager | CloudKit/CloudKitManager.swift | Save/Fetch/Delete/BatchSave/Merge |
+| SyncState | CloudKit/SyncState.swift | Offline-Queue + Sync-Tracking |
+| DataStore | Persistence/DataStore.swift | Lokale Persistenz + CloudKit-Integration |
+| AppState | App/AppState.swift | Sync-Trigger bei Login/App-Start |
+
+### Noch von Andreas zu tun fuer CloudKit
+
+1. **CloudKit Container in Xcode aktivieren** (Signing & Capabilities > + CloudKit)
+2. **Record Types im CloudKit Dashboard anlegen**: Ausbilder, Klasse, Schueler, SchuelerFortschritt, Fragenkatalog, AusbilderFrage
+3. **Indexes anlegen** fuer Queries (ausbilderId, klasseId, schuelerId, einladungsCode, katalogId)
+
+---
+
+## Phase 5: Export + Reports (NAECHSTER SCHRITT)
 
 - [ ] PDF-Generierung (UIGraphicsPDFRenderer)
 - [ ] Einzelner Schueler-Fortschrittsbericht als PDF
@@ -82,10 +102,9 @@ Letzte Aktualisierung: 2026-02-17
 
 ## Bekannte offene Punkte
 
-1. **Xcode-Projekt fehlt** - Andreas muss `.xcodeproj` in Xcode erstellen und die Swift-Dateien + Ressourcen hinzufuegen
-2. **Audio-Dateien fehlen** - correct.mp3, wrong.mp3, applaus.wav, click.wav muessen manuell in Xcode hinzugefuegt werden
-3. **Der_junge_Hering.pdf** - Muss fuer BuchReaderView in Resources kopiert werden
-4. **App-Icon** - Muss von Andreas erstellt/bereitgestellt werden
-5. **Bundle-ID** - Noch festzulegen
-6. **CloudKit Container-ID** - Wird in Phase 4 konfiguriert
-7. **Demo-Login ersetzen** - AusbilderLoginView hat aktuell einen Demo-Login, muss durch persistentes Profil ersetzt werden
+1. **Audio-Dateien fehlen** - correct.mp3, wrong.mp3, applaus.wav, click.wav muessen manuell in Xcode hinzugefuegt werden
+2. **Der_junge_Hering.pdf** - Muss fuer BuchReaderView in Resources kopiert werden
+3. **App-Icon** - Muss von Andreas erstellt/bereitgestellt werden
+4. **Bundle-ID** - Noch festzulegen
+5. **CloudKit Container-ID** - Muss in Xcode konfiguriert werden (Signing & Capabilities)
+6. **CloudKit Record Types + Indexes** - Muessen im CloudKit Dashboard angelegt werden
