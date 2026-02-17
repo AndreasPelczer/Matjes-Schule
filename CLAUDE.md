@@ -98,7 +98,7 @@ Matjes-Schule/
     │   └── AusbilderAuthentication.swift ← Biometrie + PIN (aus Gastro-Grid)
     │
     ├── Export/
-    │   └── FortschrittsExporter.swift    ← PDF-Berichte (aus Gastro-Grid)
+    │   └── FortschrittsExporter.swift    ← Text + PDF-Berichte + Zertifikate
     │
     ├── CloudKit/
     │   ├── CloudKitManager.swift         ← CloudKit-Sync (Save/Fetch/Delete/Merge)
@@ -130,7 +130,8 @@ Matjes-Schule/
     │   │   ├── KlassenListView.swift
     │   │   ├── KlasseDetailView.swift
     │   │   ├── FragenkatalogView.swift
-    │   │   └── AusbilderSettingsView.swift
+    │   │   ├── AusbilderSettingsView.swift
+    │   │   └── ExportView.swift          ← NEU: PDF-Export + Zertifikate
     │   └── Components/                   ← Wiederverwendbare Komponenten
     │       ├── AnswerButton.swift
     │       └── PDFKitView.swift
@@ -180,7 +181,7 @@ Matjes-Schule/
 ## 6. Was aus Gastro-Grid kommt (angepasst)
 
 - **AusbilderAuthentication** (Biometrie + PIN, vereinfacht)
-- **FortschrittsExporter** (Text-Berichte, spaeter PDF)
+- **FortschrittsExporter** (Text- und PDF-Berichte + Zertifikate)
 
 ## 7. Was NEU ist (V3-spezifisch)
 
@@ -189,7 +190,8 @@ Matjes-Schule/
 - **Klassen-/Schueler-Verwaltung** (Models + Views)
 - **Eigene Fragenkataloge** (Ausbilder kann Fragen erstellen)
 - **SchuelerFortschritt** (Fortschritts-Tracking pro Schueler)
-- **FortschrittsExporter** (Berichte als Text/PDF)
+- **FortschrittsExporter** (Berichte als Text/PDF + Zertifikate mit UIGraphicsPDFRenderer)
+- **ExportView** (PDF-Vorschau, Schueler-/Klassen-Berichte, Zertifikate, ShareLink)
 - **CloudKit-Sync** (CKRecordConvertible, CloudKitManager, SyncState, Offline-Queue)
 - **Sync-Status UI** (iCloud-Icon im Dashboard, Sync-Bereich in Einstellungen)
 
@@ -203,7 +205,7 @@ Matjes-Schule/
 | **Phase 2** | Quiz-Engine testen, Ausbilder-Views vervollstaendigen | ERLEDIGT |
 | **Phase 3** | Persistenz + Ausbilder-Funktionen (Klassen, Schueler, Fragen) | ERLEDIGT |
 | **Phase 4** | CloudKit-Integration (Sync Fortschritte, Einladungscodes, Offline) | ERLEDIGT |
-| **Phase 5** | Export (PDF-Berichte, Zertifikate) | NAECHSTER SCHRITT |
+| **Phase 5** | Export (PDF-Berichte, Zertifikate, ShareLink) | ERLEDIGT |
 
 ---
 
@@ -239,7 +241,7 @@ git add -A && git commit -m "Update" && git push origin HEAD:main
 2. **CloudKit Record Types anlegen** - Im CloudKit Dashboard: Ausbilder, Klasse, Schueler, SchuelerFortschritt, Fragenkatalog, AusbilderFrage
 3. **Indexes anlegen** - Fuer ausbilderId, klasseId, schuelerId, einladungsCode, katalogId
 4. **Sync testen** - App starten, pruefen ob iCloud-Status korrekt angezeigt wird
-5. **Phase 5 starten** - PDF-Export fuer Fortschrittsberichte und Zertifikate
+5. **App Store vorbereiten** - Bundle-ID festlegen, App-Icon, Screenshots, App Store Connect
 
 ---
 

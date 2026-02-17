@@ -12,6 +12,7 @@ struct KlasseDetailView: View {
     @EnvironmentObject var dataStore: DataStore
     @State private var showNeuerSchueler = false
     @State private var showCodeListe = false
+    @State private var showExport = false
 
     private var schueler: [Schueler] {
         dataStore.schuelerInKlasse(klasse.id)
@@ -52,6 +53,16 @@ struct KlasseDetailView: View {
                         if !schueler.isEmpty {
                             Button(action: { showCodeListe = true }) {
                                 Label("Codes", systemImage: "qrcode")
+                                    .font(.system(size: 14, weight: .bold, design: .rounded))
+                                    .foregroundColor(.orange)
+                                    .padding(.horizontal, 16)
+                                    .padding(.vertical, 10)
+                                    .background(Color.orange.opacity(0.15))
+                                    .cornerRadius(10)
+                            }
+
+                            Button(action: { showExport = true }) {
+                                Label("Export", systemImage: "doc.text")
                                     .font(.system(size: 14, weight: .bold, design: .rounded))
                                     .foregroundColor(.orange)
                                     .padding(.horizontal, 16)
@@ -102,6 +113,18 @@ struct KlasseDetailView: View {
         }
         .sheet(isPresented: $showCodeListe) {
             CodeListeView(klasse: klasse, schueler: schueler)
+        }
+        .sheet(isPresented: $showExport) {
+            NavigationStack {
+                ExportView(klasse: klasse)
+                    .environmentObject(dataStore)
+                    .toolbar {
+                        ToolbarItem(placement: .topBarTrailing) {
+                            Button("Fertig") { showExport = false }
+                                .foregroundColor(.orange)
+                        }
+                    }
+            }
         }
     }
 }
