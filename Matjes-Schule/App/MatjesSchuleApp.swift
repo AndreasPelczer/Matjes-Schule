@@ -19,18 +19,20 @@ struct MatjesSchuleApp: App {
 
     var body: some Scene {
         WindowGroup {
-            if appState.istAusbilderAngemeldet {
-                AusbilderTabView()
-                    .environmentObject(progressManager)
-                    .environmentObject(appState)
-                    .environmentObject(dataStore)
-                    .preferredColorScheme(.dark)
-            } else {
-                SchuelerTabView()
-                    .environmentObject(progressManager)
-                    .environmentObject(appState)
-                    .environmentObject(dataStore)
-                    .preferredColorScheme(.dark)
+            Group {
+                if appState.istAusbilderAngemeldet {
+                    AusbilderTabView()
+                } else {
+                    SchuelerTabView()
+                }
+            }
+            .environmentObject(progressManager)
+            .environmentObject(appState)
+            .environmentObject(dataStore)
+            .preferredColorScheme(.dark)
+            .task {
+                // CloudKit-Sync beim App-Start
+                appState.onAppStart()
             }
         }
     }

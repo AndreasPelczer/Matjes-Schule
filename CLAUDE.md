@@ -101,7 +101,9 @@ Matjes-Schule/
     │   └── FortschrittsExporter.swift    ← PDF-Berichte (aus Gastro-Grid)
     │
     ├── CloudKit/
-    │   └── CloudKitManager.swift         ← CloudKit-Sync (Phase 4)
+    │   ├── CloudKitManager.swift         ← CloudKit-Sync (Save/Fetch/Delete/Merge)
+    │   ├── CKRecordConvertible.swift     ← CKRecord-Mappings fuer alle Models
+    │   └── SyncState.swift               ← Offline-Queue + Sync-Tracking
     │
     ├── Views/
     │   ├── SchuelerTabView.swift         ← Tab-Navigation Schueler
@@ -188,7 +190,8 @@ Matjes-Schule/
 - **Eigene Fragenkataloge** (Ausbilder kann Fragen erstellen)
 - **SchuelerFortschritt** (Fortschritts-Tracking pro Schueler)
 - **FortschrittsExporter** (Berichte als Text/PDF)
-- **CloudKitManager** (Platzhalter fuer Phase 4)
+- **CloudKit-Sync** (CKRecordConvertible, CloudKitManager, SyncState, Offline-Queue)
+- **Sync-Status UI** (iCloud-Icon im Dashboard, Sync-Bereich in Einstellungen)
 
 ---
 
@@ -197,10 +200,10 @@ Matjes-Schule/
 | Phase | Inhalt | Status |
 |-------|--------|--------|
 | **Phase 1** | Grundgeruest: Projektstruktur, Models, Helpers, Views portieren | ERLEDIGT |
-| **Phase 2** | Quiz-Engine testen, Ausbilder-Views vervollstaendigen | NAECHSTER SCHRITT |
-| **Phase 3** | CoreData + Ausbilder-Funktionen (Klassen, Schueler, Fragen) | Offen |
-| **Phase 4** | CloudKit-Integration (Sync Fortschritte, Einladungscodes) | Offen |
-| **Phase 5** | Export (PDF-Berichte, Zertifikate) | Offen |
+| **Phase 2** | Quiz-Engine testen, Ausbilder-Views vervollstaendigen | ERLEDIGT |
+| **Phase 3** | Persistenz + Ausbilder-Funktionen (Klassen, Schueler, Fragen) | ERLEDIGT |
+| **Phase 4** | CloudKit-Integration (Sync Fortschritte, Einladungscodes, Offline) | ERLEDIGT |
+| **Phase 5** | Export (PDF-Berichte, Zertifikate) | NAECHSTER SCHRITT |
 
 ---
 
@@ -232,10 +235,11 @@ git add -A && git commit -m "Update" && git push origin HEAD:main
 
 ## 10. Naechste Aufgabe fuer den neuen Chat
 
-1. **Xcode-Projekt erstellen** - Andreas muss in Xcode ein neues Projekt "MatjesSchule" anlegen und die Dateien aus MatjesSchule/ hinzufuegen
-2. **Quiz testen** - Laeuft der Quiz-Teil (StartScreen → Level → Fragen → Ergebnis)?
-3. **Ausbilder-Login testen** - Funktioniert der Demo-Login?
-4. **Phase 2 starten** - Ausbilder-Views vervollstaendigen, CoreData vorbereiten
+1. **CloudKit in Xcode aktivieren** - Andreas muss in Xcode Signing & Capabilities > CloudKit aktivieren
+2. **CloudKit Record Types anlegen** - Im CloudKit Dashboard: Ausbilder, Klasse, Schueler, SchuelerFortschritt, Fragenkatalog, AusbilderFrage
+3. **Indexes anlegen** - Fuer ausbilderId, klasseId, schuelerId, einladungsCode, katalogId
+4. **Sync testen** - App starten, pruefen ob iCloud-Status korrekt angezeigt wird
+5. **Phase 5 starten** - PDF-Export fuer Fortschrittsberichte und Zertifikate
 
 ---
 

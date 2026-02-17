@@ -12,6 +12,28 @@ struct AusbilderSettingsView: View {
     @EnvironmentObject var dataStore: DataStore
     @State private var showProfilBearbeiten = false
 
+    private var syncStatusText: String {
+        switch appState.syncStatus {
+        case .idle: return "Bereit"
+        case .syncing: return "Synchronisiert..."
+        case .success: return "Aktuell"
+        case .error: return "Fehler"
+        case .offline: return "Offline"
+        case .noAccount: return "Kein iCloud"
+        }
+    }
+
+    private var syncStatusColor: Color {
+        switch appState.syncStatus {
+        case .idle: return .secondary
+        case .syncing: return .blue
+        case .success: return .green
+        case .error: return .red
+        case .offline: return .orange
+        case .noAccount: return .yellow
+        }
+    }
+
     var body: some View {
         NavigationStack {
             ZStack {
@@ -60,6 +82,46 @@ struct AusbilderSettingsView: View {
                                     .foregroundColor(.secondary)
                             }
                         }
+                    }
+
+                    Section("CloudKit Sync") {
+                        HStack {
+                            Text("Status")
+                            Spacer()
+                            HStack(spacing: 6) {
+                                if appState.isSyncing {
+                                    ProgressView()
+                                        .scaleEffect(0.7)
+                                }
+                                Text(syncStatusText)
+                                    .foregroundColor(syncStatusColor)
+                            }
+                        }
+                        if let letzterSync = SyncState.shared.letzterSync {
+                            HStack {
+                                Text("Letzter Sync")
+                                Spacer()
+                                Text(letzterSync, style: .relative)
+                                    .foregroundColor(.secondary)
+                            }
+                        }
+                        if SyncState.shared.hasPendingOperations {
+                            HStack {
+                                Text("Ausstehend")
+                                Spacer()
+                                Text("\(SyncState.shared.pendingOperations.count) \u{00C4}nderungen")
+                                    .foregroundColor(.orange)
+                            }
+                        }
+                        Button(action: {
+                            appState.triggerSync()
+                        }) {
+                            HStack {
+                                Image(systemName: "arrow.triangle.2.circlepath")
+                                Text("Jetzt synchronisieren")
+                            }
+                        }
+                        .disabled(appState.isSyncing)
                     }
 
                     Section("App") {

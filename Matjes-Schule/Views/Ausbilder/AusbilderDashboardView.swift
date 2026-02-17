@@ -11,6 +11,25 @@ struct AusbilderDashboardView: View {
     @EnvironmentObject var appState: AppState
     @EnvironmentObject var dataStore: DataStore
 
+    private var syncIconName: String {
+        switch appState.syncStatus {
+        case .success: return "checkmark.icloud.fill"
+        case .error: return "exclamationmark.icloud.fill"
+        case .noAccount: return "icloud.slash.fill"
+        case .offline: return "icloud.slash"
+        default: return "icloud.fill"
+        }
+    }
+
+    private var syncIconColor: Color {
+        switch appState.syncStatus {
+        case .success: return .green
+        case .error: return .red
+        case .noAccount, .offline: return .yellow
+        default: return .orange
+        }
+    }
+
     var body: some View {
         NavigationStack {
             ZStack {
@@ -103,6 +122,23 @@ struct AusbilderDashboardView: View {
             .navigationTitle("Dashboard")
             .navigationBarTitleDisplayMode(.large)
             .toolbarColorScheme(.dark, for: .navigationBar)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button(action: { appState.triggerSync() }) {
+                        if appState.isSyncing {
+                            ProgressView()
+                                .tint(.orange)
+                        } else {
+                            Image(systemName: syncIconName)
+                                .foregroundColor(syncIconColor)
+                        }
+                    }
+                    .disabled(appState.isSyncing)
+                }
+            }
+            .refreshable {
+                appState.triggerSync()
+            }
         }
     }
 }
