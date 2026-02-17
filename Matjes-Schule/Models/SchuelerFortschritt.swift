@@ -23,6 +23,15 @@ struct SchuelerFortschritt: Identifiable, Codable {
         self.aktualisiertAm = Date()
     }
 
+    /// Vollstaendiger Initialisierer (fuer CloudKit-Sync)
+    init(id: UUID, schuelerId: UUID, levelFortschritte: [Int: LevelProgress], pruefungsErgebnisse: [String: ExamResult], aktualisiertAm: Date) {
+        self.id = id
+        self.schuelerId = schuelerId
+        self.levelFortschritte = levelFortschritte
+        self.pruefungsErgebnisse = pruefungsErgebnisse
+        self.aktualisiertAm = aktualisiertAm
+    }
+
     /// Gesamtzahl der gesammelten Sterne
     var gesamtSterne: Int {
         levelFortschritte.values.reduce(0) { $0 + $1.stars }

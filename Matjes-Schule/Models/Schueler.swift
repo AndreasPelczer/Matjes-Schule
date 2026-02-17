@@ -33,6 +33,18 @@ struct Schueler: Identifiable, Codable {
         self.letzteAktivitaet = nil
     }
 
+    /// Vollstaendiger Initialisierer (fuer CloudKit-Sync)
+    init(id: UUID, vorname: String, nachname: String, klasseId: UUID, einladungsCode: String, istAktiv: Bool, erstelltAm: Date, letzteAktivitaet: Date?) {
+        self.id = id
+        self.vorname = vorname
+        self.nachname = nachname
+        self.klasseId = klasseId
+        self.einladungsCode = einladungsCode
+        self.istAktiv = istAktiv
+        self.erstelltAm = erstelltAm
+        self.letzteAktivitaet = letzteAktivitaet
+    }
+
     /// Generiert einen 6-stelligen Einladungscode
     private static func generiereCode() -> String {
         let zeichen = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"

@@ -26,4 +26,15 @@ struct Ausbilder: Identifiable, Codable {
         self.erstelltAm = Date()
         self.letzterLogin = nil
     }
+
+    /// Vollstaendiger Initialisierer (fuer CloudKit-Sync)
+    init(id: UUID, name: String, email: String, schule: String, pinHash: String, erstelltAm: Date, letzterLogin: Date?) {
+        self.id = id
+        self.name = name
+        self.email = email
+        self.schule = schule
+        self.pinHash = pinHash
+        self.erstelltAm = erstelltAm
+        self.letzterLogin = letzterLogin
+    }
 }
