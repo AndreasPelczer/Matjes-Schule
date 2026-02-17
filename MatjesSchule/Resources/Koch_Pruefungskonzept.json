@@ -1,0 +1,314 @@
+{
+  "version": "1.0",
+  "beschreibung": "Prüfungskonzept für Codiclodi — Zwischenprüfungen und Abschlussprüfung",
+  "hinweis": "5-Level-Fragenkonzept (Erkennen → Bewerten) kommt im 2. Lehrjahr. Diese Datei enthält das Konzept und übergreifende Prüfungsfragen.",
+  "pruefungen": [
+    {
+      "name": "Zwischenprüfung 1. Lehrjahr",
+      "zeitpunkt": "Ende 1. Lehrjahr",
+      "dauer_minuten": 30,
+      "anzahl_fragen": 40,
+      "bestehensgrenze_prozent": 70,
+      "bereiche": [
+        {
+          "bereich": "Fleisch",
+          "level": "1-3",
+          "fragen": 8,
+          "anteil": "20%"
+        },
+        {
+          "bereich": "Fisch & Meeresfrüchte",
+          "level": "1-3",
+          "fragen": 8,
+          "anteil": "20%"
+        },
+        {
+          "bereich": "Milchprodukte",
+          "level": "1-3",
+          "fragen": 8,
+          "anteil": "20%"
+        },
+        {
+          "bereich": "Gewürze",
+          "level": "1-3",
+          "fragen": 8,
+          "anteil": "20%"
+        },
+        {
+          "bereich": "Garmethoden",
+          "level": "1-2",
+          "fragen": 4,
+          "anteil": "10%"
+        },
+        {
+          "bereich": "Saucenkunde",
+          "level": "1-2",
+          "fragen": 4,
+          "anteil": "10%"
+        }
+      ]
+    },
+    {
+      "name": "Zwischenprüfung 2. Lehrjahr",
+      "zeitpunkt": "Ende 2. Lehrjahr",
+      "dauer_minuten": 45,
+      "anzahl_fragen": 50,
+      "bestehensgrenze_prozent": 70,
+      "bereiche": [
+        {
+          "bereich": "Fleisch",
+          "level": "2-4",
+          "fragen": 8,
+          "anteil": "16%"
+        },
+        {
+          "bereich": "Fisch & Meeresfrüchte",
+          "level": "2-4",
+          "fragen": 8,
+          "anteil": "16%"
+        },
+        {
+          "bereich": "Milchprodukte",
+          "level": "2-4",
+          "fragen": 8,
+          "anteil": "16%"
+        },
+        {
+          "bereich": "Gewürze",
+          "level": "2-4",
+          "fragen": 8,
+          "anteil": "16%"
+        },
+        {
+          "bereich": "Garmethoden",
+          "level": "2-4",
+          "fragen": 8,
+          "anteil": "16%"
+        },
+        {
+          "bereich": "Saucenkunde",
+          "level": "2-4",
+          "fragen": 8,
+          "anteil": "16%"
+        },
+        {
+          "bereich": "Übergreifend",
+          "level": "4",
+          "fragen": 2,
+          "anteil": "4%"
+        }
+      ]
+    },
+    {
+      "name": "Zwischenprüfung 3. Lehrjahr",
+      "zeitpunkt": "Ende 3. Lehrjahr",
+      "dauer_minuten": 45,
+      "anzahl_fragen": 50,
+      "bestehensgrenze_prozent": 75,
+      "bereiche": [
+        {
+          "bereich": "Fleisch",
+          "level": "3-5",
+          "fragen": 7,
+          "anteil": "14%"
+        },
+        {
+          "bereich": "Fisch & Meeresfrüchte",
+          "level": "3-5",
+          "fragen": 7,
+          "anteil": "14%"
+        },
+        {
+          "bereich": "Milchprodukte",
+          "level": "3-5",
+          "fragen": 7,
+          "anteil": "14%"
+        },
+        {
+          "bereich": "Gewürze",
+          "level": "3-5",
+          "fragen": 7,
+          "anteil": "14%"
+        },
+        {
+          "bereich": "Garmethoden",
+          "level": "3-5",
+          "fragen": 7,
+          "anteil": "14%"
+        },
+        {
+          "bereich": "Saucenkunde",
+          "level": "3-5",
+          "fragen": 7,
+          "anteil": "14%"
+        },
+        {
+          "bereich": "Übergreifend",
+          "level": "4-5",
+          "fragen": 8,
+          "anteil": "16%"
+        }
+      ]
+    },
+    {
+      "name": "Simulierte Abschlussprüfung (LAP)",
+      "zeitpunkt": "Ende 3. Lehrjahr (Vorbereitung)",
+      "dauer_minuten": 60,
+      "anzahl_fragen": 80,
+      "bestehensgrenze_prozent": 75,
+      "bereiche": [
+        {
+          "bereich": "Fleisch",
+          "level": "1-5",
+          "fragen": 12,
+          "anteil": "15%"
+        },
+        {
+          "bereich": "Fisch & Meeresfrüchte",
+          "level": "1-5",
+          "fragen": 12,
+          "anteil": "15%"
+        },
+        {
+          "bereich": "Milchprodukte",
+          "level": "1-5",
+          "fragen": 10,
+          "anteil": "12.5%"
+        },
+        {
+          "bereich": "Gewürze",
+          "level": "1-5",
+          "fragen": 10,
+          "anteil": "12.5%"
+        },
+        {
+          "bereich": "Garmethoden",
+          "level": "1-5",
+          "fragen": 12,
+          "anteil": "15%"
+        },
+        {
+          "bereich": "Saucenkunde",
+          "level": "1-5",
+          "fragen": 12,
+          "anteil": "15%"
+        },
+        {
+          "bereich": "Übergreifend",
+          "level": "4-5",
+          "fragen": 12,
+          "anteil": "15%"
+        }
+      ]
+    }
+  ],
+  "features": [
+    "Zeitlimit (Countdown-Timer)",
+    "Zufallsfragen (bei jedem Versuch neu)",
+    "Sofortiges Ergebnis mit Kategorie-Aufschlüsselung",
+    "Bestanden/Nicht bestanden Rückmeldung",
+    "Beliebig oft wiederholbar",
+    "Schwachstellen-Training nach Prüfung"
+  ],
+  "uebergreifende_fragen": [
+    {
+      "text": "Du bereitest Kalbshaxe (Ossobuco) zu. Welche Garmethode, Soße und Gewürze?",
+      "answers": [
+        "Schmoren + Jus + Lorbeer, Pfeffer, Tomatenmark, optional Gremolata",
+        "Frittieren + Ketchup + Zimt",
+        "Grillen + Mayo + Vanille",
+        "Dämpfen + Béchamel + Sternanis"
+      ],
+      "correctIndex": 0,
+      "erklaerung": "Ossobuco = Schmoren (langsam, bis Kollagen sich löst). Jus aus dem Bratensaft. Lorbeer, Pfeffer, Tomatenmark. Gremolata (Zitrone, Petersilie, Knoblauch) als frischer Kontrast.",
+      "bezug": [
+        "Fleisch",
+        "Garmethode",
+        "Soße",
+        "Gewürze"
+      ]
+    },
+    {
+      "text": "Sauce Mornay braucht Produkte aus mehreren Kategorien. Welche?",
+      "answers": [
+        "Milchprodukte (Butter, Milch, Gruyère) + Gewürze (Muskatnuss, Pfeffer) + Roux als Basis",
+        "Nur Käse und Wasser",
+        "Fisch und Sahne",
+        "Fleisch und Tomaten"
+      ],
+      "correctIndex": 0,
+      "erklaerung": "Mornay = Béchamel (Roux aus Butter+Mehl + Milch, gewürzt mit Muskatnuss+Pfeffer) + Gruyère. Verbindet Milchprodukte, Gewürze und Soßentechnik.",
+      "bezug": [
+        "Milch",
+        "Gewürze",
+        "Soße"
+      ]
+    },
+    {
+      "text": "Pochiertes Lachsfilet mit Beurre blanc und glasiertem Gemüse. Erkläre alle drei.",
+      "answers": [
+        "Lachs pochiert bei 65-80°C + Buttersoße (Schalotten-Weißwein-Reduktion montiert) + Gemüse in Butter-Fond-Zucker glänzend garen",
+        "Alles zusammen kochen",
+        "Lachs frittieren, Butter schmelzen",
+        "Nur Geschmackssache"
+      ],
+      "correctIndex": 0,
+      "erklaerung": "Lachs: pochiert in Fischfond (65-80°C, zart). Beurre blanc: Schalotten+Weißwein reduzieren, kalte Butter montieren (nicht kochen!). Glasiert: Gemüse in Butter-Fond-Zucker garen bis glänzend.",
+      "bezug": [
+        "Fisch",
+        "Soße",
+        "Garmethode"
+      ]
+    },
+    {
+      "text": "Wiener Schnitzel mit Erdäpfelsalat — vollständige Zubereitungskette?",
+      "answers": [
+        "Kalbsschnitzel plattieren, panieren (Mehl-Ei-Semmelbrösel), in Butterschmalz schwimmend ausbacken + Vinaigrette für Erdäpfelsalat",
+        "Schweineschnitzel schmoren",
+        "Rindfleisch grillen + Mayo",
+        "Im Ofen backen + Ketchup"
+      ],
+      "correctIndex": 0,
+      "erklaerung": "Kalbfleisch (Fleisch) plattieren, panieren. Kurzbraten/Backen in Butterschmalz (Garmethode). Erdäpfelsalat: Vinaigrette (Soße) aus Essig, Öl, Senf. Pfeffer, Salz (Gewürze). Alle Kategorien vereint!",
+      "bezug": [
+        "Fleisch",
+        "Milch",
+        "Garmethode",
+        "Soße",
+        "Gewürze"
+      ]
+    },
+    {
+      "text": "Brauner Fond herstellen — beschreibe jeden Schritt.",
+      "answers": [
+        "Knochen rösten (Maillard) → Gemüse+Tomatenmark mitrösten → Deglacieren → Mit Wasser auffüllen, simmern → Abschäumen → 6-8 Std. → Passieren + reduzieren",
+        "Knochen in kaltes Wasser, aufkochen, fertig",
+        "Brühwürfel auflösen",
+        "Aus der Dose"
+      ],
+      "correctIndex": 0,
+      "erklaerung": "1) Knochen rösten (Maillard = Geschmack). 2) Gemüse+Tomatenmark mitrösten (Umami). 3) Deglacieren. 4) Wasser, langsam simmern (nicht kochen!). 5) Abschäumen. 6) 6-8h. 7) Passieren + reduzieren.",
+      "bezug": [
+        "Fleisch",
+        "Garmethode",
+        "Soße"
+      ]
+    },
+    {
+      "text": "Welches Milchprodukt + Gewürz + Technik = welche Soße?",
+      "answers": [
+        "Milch + Muskatnuss + Roux = Béchamel / Eigelb + Butter + Zitrone = Hollandaise / Sahne + Pfeffer + Fond = Rahmsauce",
+        "Joghurt + Zimt = Hollandaise",
+        "Buttermilch + Safran = Béchamel",
+        "Quark + Vanille = Jus"
+      ],
+      "correctIndex": 0,
+      "erklaerung": "Die 3 wichtigsten Kombinationen: Milch+Muskatnuss+Roux = Béchamel. Eigelb+Butter+Zitrone = Hollandaise. Sahne+Pfeffer+Fond = Rahmsauce. Soßenkunde = Produkte + Technik verstehen.",
+      "bezug": [
+        "Milch",
+        "Gewürze",
+        "Soße"
+      ]
+    }
+  ]
+}
