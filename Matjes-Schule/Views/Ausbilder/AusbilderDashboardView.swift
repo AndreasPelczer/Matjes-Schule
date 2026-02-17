@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AusbilderDashboardView: View {
     @EnvironmentObject var appState: AppState
+    @EnvironmentObject var dataStore: DataStore
 
     var body: some View {
         NavigationStack {
@@ -36,10 +37,14 @@ struct AusbilderDashboardView: View {
                             .padding()
                         }
 
-                        // Platzhalter-Karten
+                        // Statistik-Karten
+                        let anzahlKlassen = dataStore.klassenFuerAusbilder().count
+                        let anzahlSchueler = dataStore.gesamtSchuelerAnzahl()
+                        let durchschnitt = dataStore.durchschnittsFortschritt()
+
                         DashboardCard(
                             title: "Klassen",
-                            value: "0",
+                            value: "\(anzahlKlassen)",
                             subtitle: "Aktive Klassen",
                             icon: "person.3.fill",
                             color: .blue
@@ -47,7 +52,7 @@ struct AusbilderDashboardView: View {
 
                         DashboardCard(
                             title: "Sch\u{00FC}ler",
-                            value: "0",
+                            value: "\(anzahlSchueler)",
                             subtitle: "Eingeschriebene Sch\u{00FC}ler",
                             icon: "person.fill",
                             color: .green
@@ -55,19 +60,42 @@ struct AusbilderDashboardView: View {
 
                         DashboardCard(
                             title: "Durchschnitt",
-                            value: "-%",
+                            value: anzahlSchueler > 0 ? "\(Int(durchschnitt))%" : "-%",
                             subtitle: "Gesamtfortschritt",
                             icon: "chart.bar.fill",
                             color: .orange
                         )
 
-                        // Hinweis
-                        Text("Dashboard wird mit CloudKit-Integration in Phase 4 vollst\u{00E4}ndig implementiert.")
-                            .font(.system(size: 13, weight: .medium, design: .rounded))
-                            .foregroundColor(.white.opacity(0.5))
-                            .multilineTextAlignment(.center)
-                            .padding(.horizontal, 40)
-                            .padding(.top, 20)
+                        // Klassen-Uebersicht
+                        if !dataStore.klassenFuerAusbilder().isEmpty {
+                            VStack(alignment: .leading, spacing: 12) {
+                                Text("Klassen\u{00FC}bersicht")
+                                    .font(.system(size: 18, weight: .bold, design: .rounded))
+                                    .foregroundColor(.white)
+                                    .padding(.top, 10)
+
+                                ForEach(dataStore.klassenFuerAusbilder()) { klasse in
+                                    let schuelerInKlasse = dataStore.schuelerInKlasse(klasse.id)
+                                    HStack {
+                                        VStack(alignment: .leading, spacing: 2) {
+                                            Text(klasse.name)
+                                                .font(.system(size: 15, weight: .bold, design: .rounded))
+                                                .foregroundColor(.white)
+                                            Text("\(schuelerInKlasse.count) Sch\u{00FC}ler")
+                                                .font(.system(size: 12, weight: .medium, design: .rounded))
+                                                .foregroundColor(.white.opacity(0.5))
+                                        }
+                                        Spacer()
+                                        Text("\(klasse.lehrjahr). LJ")
+                                            .font(.system(size: 13, weight: .bold, design: .rounded))
+                                            .foregroundColor(.orange)
+                                    }
+                                    .padding()
+                                    .background(Color.white.opacity(0.06))
+                                    .cornerRadius(10)
+                                }
+                            }
+                        }
                     }
                     .padding()
                 }
