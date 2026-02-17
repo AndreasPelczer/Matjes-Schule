@@ -77,14 +77,26 @@ Letzte Aktualisierung: 2026-02-17
 
 ---
 
-## Phase 5: Export + Reports (NAECHSTER SCHRITT)
+## Phase 5: Export + Reports ✅ ERLEDIGT
 
-- [ ] PDF-Generierung (UIGraphicsPDFRenderer)
-- [ ] Einzelner Schueler-Fortschrittsbericht als PDF
-- [ ] Klassen-Uebersicht als PDF
-- [ ] Schwachstellen-Analyse: Wo hat ein Schueler Luecken?
-- [ ] Zertifikat bei bestandener Pruefung (Commis / Bossfight)
-- [ ] Export-Teilen via UIActivityViewController (AirDrop, Mail, etc.)
+- [x] PDF-Generierung (UIGraphicsPDFRenderer) mit A4-Layout, Matjes-Branding, orangene Akzentfarbe
+- [x] Einzelner Schueler-Fortschrittsbericht als PDF (Level-Details, Sterne, Pruefungen, Schwachstellen)
+- [x] Klassen-Uebersicht als PDF (Tabelle aller Schueler, Statistiken, Durchschnittswerte)
+- [x] Schwachstellen-Analyse: Level mit 0 Sternen werden rot markiert
+- [x] Zertifikat bei bestandener Pruefung (Commis de Cuisine / Kuechenmeister) mit dekorativem Rahmen
+- [x] Export-Teilen via ShareLink (AirDrop, Mail, Dateien etc.)
+- [x] ExportView mit Segmented Picker (Klassenuebersicht / Schueler-Bericht / Zertifikat)
+- [x] Inline-PDF-Vorschau vor dem Teilen
+- [x] Export-Button in KlasseDetailView integriert
+
+### Export Architektur
+
+| Komponente | Datei | Funktion |
+|---|---|---|
+| FortschrittsExporter | Export/FortschrittsExporter.swift | Text- und PDF-Generierung (3 PDF-Typen + Textberichte) |
+| ExportView | Views/Ausbilder/ExportView.swift | UI fuer Bericht-Auswahl, Vorschau und ShareLink |
+| PDFKitPreview | Views/Ausbilder/ExportView.swift | Inline PDF-Vorschau aus Data |
+| PDFKitView | Views/Components/PDFKitView.swift | PDF-Anzeige aus URL |
 
 ---
 
