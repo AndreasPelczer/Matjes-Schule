@@ -32,19 +32,26 @@ struct SchuelerTabView: View {
             }
             .tag(1)
 
+            BuchReaderView()
+                .tabItem {
+                    Image(systemName: "text.book.closed.fill")
+                    Text("Buch")
+                }
+                .tag(2)
+
             SchuelerCodeView()
                 .tabItem {
                     Image(systemName: dataStore.aktuellerSchueler != nil ? "person.crop.circle.fill.badge.checkmark" : "ticket.fill")
                     Text(dataStore.aktuellerSchueler != nil ? "Profil" : "Code")
                 }
-                .tag(2)
+                .tag(3)
 
             AusbilderLoginView()
                 .tabItem {
                     Image(systemName: "person.badge.key.fill")
                     Text("Ausbilder")
                 }
-                .tag(3)
+                .tag(4)
         }
         .tint(.orange)
     }
