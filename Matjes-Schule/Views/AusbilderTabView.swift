@@ -17,55 +17,55 @@ struct AusbilderTabView: View {
     var subscriptionManager: SubscriptionManager = .shared
 
     var body: some View {
-        ZStack(alignment: .top) {
-            TabView(selection: $selectedTab) {
-                AusbilderDashboardView()
-                    .tabItem {
-                        Image(systemName: "chart.bar.fill")
-                        Text("Dashboard")
-                    }
-                    .tag(0)
-
-                KlassenListView()
-                    .tabItem {
-                        Image(systemName: "person.3.fill")
-                        Text("Klassen")
-                    }
-                    .tag(1)
-
-                FragenkatalogView()
-                    .tabItem {
-                        Image(systemName: "questionmark.circle.fill")
-                        Text("Fragen")
-                    }
-                    .tag(2)
-
-                StartScreenView()
-                    .tabItem {
-                        Image(systemName: "gamecontroller.fill")
-                        Text("Quiz")
-                    }
-                    .tag(3)
-
-                EinstellungenView(
-                    roleManager: roleManager,
-                    subscriptionManager: subscriptionManager
-                )
+        TabView(selection: $selectedTab) {
+            AusbilderDashboardView()
                 .tabItem {
-                    Image(systemName: "gearshape.fill")
-                    Text("Einstellungen")
+                    Image(systemName: "chart.bar.fill")
+                    Text("Dashboard")
                 }
-                .tag(4)
-            }
-            .tint(.orange)
+                .tag(0)
 
-            // Trial Banner
+            KlassenListView()
+                .tabItem {
+                    Image(systemName: "person.3.fill")
+                    Text("Klassen")
+                }
+                .tag(1)
+
+            FragenkatalogView()
+                .tabItem {
+                    Image(systemName: "questionmark.circle.fill")
+                    Text("Fragen")
+                }
+                .tag(2)
+
+            StartScreenView()
+                .tabItem {
+                    Image(systemName: "gamecontroller.fill")
+                    Text("Quiz")
+                }
+                .tag(3)
+
+            EinstellungenView(
+                roleManager: roleManager,
+                subscriptionManager: subscriptionManager
+            )
+            .tabItem {
+                Image(systemName: "gearshape.fill")
+                Text("Einstellungen")
+            }
+            .tag(4)
+        }
+        .tint(.orange)
+        .safeAreaInset(edge: .top) {
             if subscriptionManager.isInTrial && !subscriptionManager.isSubscribed {
                 TrialBannerView(
                     daysRemaining: subscriptionManager.trialDaysRemaining,
                     onTap: { showPaywall = true }
                 )
-                .padding(.top, 4)
+                .padding(.vertical, 6)
+                .frame(maxWidth: .infinity)
+                .background(.ultraThinMaterial)
             }
         }
         .sheet(isPresented: $showPaywall) {
