@@ -3,7 +3,7 @@
 //  Matjes
 //
 //  Haupt-Navigation fuer Azubis.
-//  Tabs: Quiz, Lexikon, Fortschritt, Einstellungen
+//  Tabs: Quiz, Lexikon, Buch, Fortschritt, Einstellungen
 //
 
 import SwiftUI
@@ -36,12 +36,19 @@ struct SchuelerTabView: View {
             }
             .tag(1)
 
+            BuchReaderView()
+                .tabItem {
+                    Image(systemName: "text.book.closed.fill")
+                    Text("Buch")
+                }
+                .tag(2)
+
             SchuelerCodeView()
                 .tabItem {
                     Image(systemName: "chart.bar.fill")
                     Text("Fortschritt")
                 }
-                .tag(2)
+                .tag(3)
 
             EinstellungenView(
                 roleManager: roleManager,
@@ -51,7 +58,7 @@ struct SchuelerTabView: View {
                 Image(systemName: "gearshape.fill")
                 Text("Einstellungen")
             }
-            .tag(3)
+            .tag(4)
         }
         .tint(.orange)
         .overlay(alignment: .top) {

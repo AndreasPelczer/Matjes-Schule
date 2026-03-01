@@ -3,7 +3,7 @@
 //  Matjes
 //
 //  Haupt-Navigation fuer Ausbilder.
-//  Tabs: Dashboard, Klassen, Fragen, Quiz (zum Testen), Einstellungen
+//  Tabs: Dashboard, Klassen, Fragen, Quiz, Buch, Einstellungen
 //
 
 import SwiftUI
@@ -46,6 +46,13 @@ struct AusbilderTabView: View {
                 }
                 .tag(3)
 
+            BuchReaderView()
+                .tabItem {
+                    Image(systemName: "text.book.closed.fill")
+                    Text("Buch")
+                }
+                .tag(4)
+
             EinstellungenView(
                 roleManager: roleManager,
                 subscriptionManager: subscriptionManager
@@ -54,7 +61,7 @@ struct AusbilderTabView: View {
                 Image(systemName: "gearshape.fill")
                 Text("Einstellungen")
             }
-            .tag(4)
+            .tag(5)
         }
         .tint(.orange)
         .overlay(alignment: .top) {
