@@ -1,58 +1,78 @@
 //
 //  SchuelerTabView.swift
-//  MatjesSchule
+//  Matjes
 //
-//  Haupt-Navigation fuer Schueler (Quiz + Lexikon + Buch + Ausbilder-Login)
+//  Haupt-Navigation fuer Azubis.
+//  Tabs: Quiz, Lexikon, Fortschritt, Einstellungen
 //
 
 import SwiftUI
 
 struct SchuelerTabView: View {
     @State private var selectedTab = 0
+    @State private var showPaywall = false
     @EnvironmentObject var appState: AppState
     @EnvironmentObject var dataStore: DataStore
+    var roleManager: RoleManager = .shared
+    var subscriptionManager: SubscriptionManager = .shared
 
     var body: some View {
-        TabView(selection: $selectedTab) {
-            StartScreenView()
+        ZStack(alignment: .top) {
+            TabView(selection: $selectedTab) {
+                StartScreenView()
+                    .tabItem {
+                        Image(systemName: "gamecontroller.fill")
+                        Text("Quiz")
+                    }
+                    .tag(0)
+
+                LexikonHomeView(
+                    produkte: LexikonLoader.loadProdukte(),
+                    garmethoden: LexikonLoader.loadGarmethoden(),
+                    saucen: LexikonLoader.loadSaucen()
+                )
                 .tabItem {
-                    Image(systemName: "gamecontroller.fill")
-                    Text("Quiz")
+                    Image(systemName: "book.fill")
+                    Text("Lexikon")
                 }
-                .tag(0)
+                .tag(1)
 
-            LexikonHomeView(
-                produkte: LexikonLoader.loadProdukte(),
-                garmethoden: LexikonLoader.loadGarmethoden(),
-                saucen: LexikonLoader.loadSaucen()
-            )
-            .tabItem {
-                Image(systemName: "book.fill")
-                Text("Lexikon")
-            }
-            .tag(1)
+                SchuelerCodeView()
+                    .tabItem {
+                        Image(systemName: "chart.bar.fill")
+                        Text("Fortschritt")
+                    }
+                    .tag(2)
 
-            BuchReaderView()
+                EinstellungenView(
+                    roleManager: roleManager,
+                    subscriptionManager: subscriptionManager
+                )
                 .tabItem {
-                    Image(systemName: "text.book.closed.fill")
-                    Text("Buch")
-                }
-                .tag(2)
-
-            SchuelerCodeView()
-                .tabItem {
-                    Image(systemName: dataStore.aktuellerSchueler != nil ? "person.crop.circle.fill.badge.checkmark" : "ticket.fill")
-                    Text(dataStore.aktuellerSchueler != nil ? "Profil" : "Code")
+                    Image(systemName: "gearshape.fill")
+                    Text("Einstellungen")
                 }
                 .tag(3)
+            }
+            .tint(.orange)
 
-            AusbilderLoginView()
-                .tabItem {
-                    Image(systemName: "person.badge.key.fill")
-                    Text("Ausbilder")
-                }
-                .tag(4)
+            // Trial Banner
+            if subscriptionManager.isInTrial && !subscriptionManager.isSubscribed {
+                TrialBannerView(
+                    daysRemaining: subscriptionManager.trialDaysRemaining,
+                    onTap: { showPaywall = true }
+                )
+                .padding(.top, 4)
+            }
         }
-        .tint(.orange)
+        .sheet(isPresented: $showPaywall) {
+            PaywallView(subscriptionManager: subscriptionManager)
+        }
+        .fullScreenCover(isPresented: .init(
+            get: { !subscriptionManager.hasFullAccess },
+            set: { _ in }
+        )) {
+            PaywallView(subscriptionManager: subscriptionManager)
+        }
     }
 }

@@ -128,7 +128,7 @@ struct AusbilderSettingsView: View {
                         HStack {
                             Text("Version")
                             Spacer()
-                            Text("3.0 (Schulversion)")
+                            Text("4.0")
                                 .foregroundColor(.secondary)
                         }
                     }

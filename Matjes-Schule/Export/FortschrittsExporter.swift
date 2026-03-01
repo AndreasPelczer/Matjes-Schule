@@ -56,7 +56,7 @@ struct FortschrittsExporter {
 
         // Titel
         let titelRect = CGRect(x: margin, y: y, width: contentWidth, height: 30)
-        ("Matjes \u{1F41F} Schulversion" as NSString).draw(in: titelRect, withAttributes: titleAttributes(size: 20))
+        ("Matjes \u{1F41F} Ausbildungsspiel" as NSString).draw(in: titelRect, withAttributes: titleAttributes(size: 20))
         y += 28
 
         // Untertitel
@@ -114,7 +114,7 @@ struct FortschrittsExporter {
         context.cgContext.addLine(to: CGPoint(x: pageSize.width - margin, y: y))
         context.cgContext.strokePath()
 
-        let fussText = "Matjes Schulversion \u{00B7} Erstellt am \(df.string(from: Date()))"
+        let fussText = "Matjes Ausbildungsspiel \u{00B7} Erstellt am \(df.string(from: Date()))"
         let rect = CGRect(x: margin, y: y + 5, width: contentWidth, height: 14)
         (fussText as NSString).draw(in: rect, withAttributes: [
             .font: UIFont.systemFont(ofSize: 8),
@@ -214,7 +214,7 @@ struct FortschrittsExporter {
 
         bericht += "── ENDE DES BERICHTS ──────────────────────────────\n"
         bericht += "Generiert: \(Date().description)\n"
-        bericht += "System: Matjes Schulversion\n"
+        bericht += "System: Matjes Ausbildungsspiel\n"
 
         return bericht
     }
@@ -263,7 +263,7 @@ struct FortschrittsExporter {
         }
 
         bericht += "── ENDE DER \u{00DC}BERSICHT ──────────────────────────────\n"
-        bericht += "System: Matjes Schulversion\n"
+        bericht += "System: Matjes Ausbildungsspiel\n"
 
         return bericht
     }
@@ -693,7 +693,7 @@ struct FortschrittsExporter {
                 .font: UIFont.systemFont(ofSize: 9),
                 .foregroundColor: UIColor.lightGray
             ]
-            let fussText = "Matjes \u{00B7} Das Ausbildungsspiel der K\u{00FC}che \u{00B7} Schulversion"
+            let fussText = "Matjes \u{00B7} Das Ausbildungsspiel der K\u{00FC}che \u{00B7} Ausbildungsspiel"
             let fussSize = (fussText as NSString).size(withAttributes: fussAttrs)
             (fussText as NSString).draw(at: CGPoint(x: centerX - fussSize.width / 2, y: fussY), withAttributes: fussAttrs)
         }
