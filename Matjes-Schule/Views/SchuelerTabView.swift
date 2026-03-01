@@ -17,52 +17,52 @@ struct SchuelerTabView: View {
     var subscriptionManager: SubscriptionManager = .shared
 
     var body: some View {
-        ZStack(alignment: .top) {
-            TabView(selection: $selectedTab) {
-                StartScreenView()
-                    .tabItem {
-                        Image(systemName: "gamecontroller.fill")
-                        Text("Quiz")
-                    }
-                    .tag(0)
-
-                LexikonHomeView(
-                    produkte: LexikonLoader.loadProdukte(),
-                    garmethoden: LexikonLoader.loadGarmethoden(),
-                    saucen: LexikonLoader.loadSaucen()
-                )
+        TabView(selection: $selectedTab) {
+            StartScreenView()
                 .tabItem {
-                    Image(systemName: "book.fill")
-                    Text("Lexikon")
+                    Image(systemName: "gamecontroller.fill")
+                    Text("Quiz")
                 }
-                .tag(1)
+                .tag(0)
 
-                SchuelerCodeView()
-                    .tabItem {
-                        Image(systemName: "chart.bar.fill")
-                        Text("Fortschritt")
-                    }
-                    .tag(2)
-
-                EinstellungenView(
-                    roleManager: roleManager,
-                    subscriptionManager: subscriptionManager
-                )
-                .tabItem {
-                    Image(systemName: "gearshape.fill")
-                    Text("Einstellungen")
-                }
-                .tag(3)
+            LexikonHomeView(
+                produkte: LexikonLoader.loadProdukte(),
+                garmethoden: LexikonLoader.loadGarmethoden(),
+                saucen: LexikonLoader.loadSaucen()
+            )
+            .tabItem {
+                Image(systemName: "book.fill")
+                Text("Lexikon")
             }
-            .tint(.orange)
+            .tag(1)
 
-            // Trial Banner
+            SchuelerCodeView()
+                .tabItem {
+                    Image(systemName: "chart.bar.fill")
+                    Text("Fortschritt")
+                }
+                .tag(2)
+
+            EinstellungenView(
+                roleManager: roleManager,
+                subscriptionManager: subscriptionManager
+            )
+            .tabItem {
+                Image(systemName: "gearshape.fill")
+                Text("Einstellungen")
+            }
+            .tag(3)
+        }
+        .tint(.orange)
+        .safeAreaInset(edge: .top) {
             if subscriptionManager.isInTrial && !subscriptionManager.isSubscribed {
                 TrialBannerView(
                     daysRemaining: subscriptionManager.trialDaysRemaining,
                     onTap: { showPaywall = true }
                 )
-                .padding(.top, 4)
+                .padding(.vertical, 6)
+                .frame(maxWidth: .infinity)
+                .background(.ultraThinMaterial)
             }
         }
         .sheet(isPresented: $showPaywall) {
