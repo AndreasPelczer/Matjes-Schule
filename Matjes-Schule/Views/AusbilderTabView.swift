@@ -57,15 +57,13 @@ struct AusbilderTabView: View {
             .tag(4)
         }
         .tint(.orange)
-        .safeAreaInset(edge: .top) {
+        .overlay(alignment: .top) {
             if subscriptionManager.isInTrial && !subscriptionManager.isSubscribed {
                 TrialBannerView(
                     daysRemaining: subscriptionManager.trialDaysRemaining,
                     onTap: { showPaywall = true }
                 )
-                .padding(.vertical, 6)
-                .frame(maxWidth: .infinity)
-                .background(.ultraThinMaterial)
+                .padding(.top, 55)
             }
         }
         .sheet(isPresented: $showPaywall) {
