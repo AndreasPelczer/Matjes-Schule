@@ -1,0 +1,133 @@
+{
+  "identifier" : "F75D7PGFTD.de.binda.matjes",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_applicationInternalID" : "0",
+    "_developerTeamID" : "F75D7PGFTD",
+    "_lastSynchronizedDate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "matjes_subscriptions",
+      "localizations" : [
+        {
+          "description" : "Matjes Abonnements",
+          "displayName" : "Matjes",
+          "locale" : "de"
+        }
+      ],
+      "name" : "Matjes Subscriptions",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "azubi_monatlich",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "azubi_monatlich_trial",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "Quiz, Lexikon und Fortschritt fuer Azubis",
+              "displayName" : "Matjes Azubi Monatlich",
+              "locale" : "de"
+            }
+          ],
+          "productID" : "de.binda.matjes.azubi.monatlich",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Azubi Monatlich",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "azubi_jaehrlich",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "azubi_jaehrlich_trial",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "Quiz, Lexikon und Fortschritt fuer Azubis - Jahresabo",
+              "displayName" : "Matjes Azubi Jaehrlich",
+              "locale" : "de"
+            }
+          ],
+          "productID" : "de.binda.matjes.azubi.jaehrlich",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Azubi Jaehrlich",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "ausbilder_monatlich",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "ausbilder_monatlich_trial",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "Alle Features inklusive Klassenverwaltung und Dashboard",
+              "displayName" : "Matjes Ausbilder Monatlich",
+              "locale" : "de"
+            }
+          ],
+          "productID" : "de.binda.matjes.ausbilder.monatlich",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Ausbilder Monatlich",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "49.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "ausbilder_jaehrlich",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "ausbilder_jaehrlich_trial",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "Alle Features inklusive Klassenverwaltung und Dashboard - Jahresabo",
+              "displayName" : "Matjes Ausbilder Jaehrlich",
+              "locale" : "de"
+            }
+          ],
+          "productID" : "de.binda.matjes.ausbilder.jaehrlich",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Ausbilder Jaehrlich",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
