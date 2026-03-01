@@ -35,12 +35,15 @@ final class RoleManager {
         }
     }
 
-    var hasCompletedOnboarding: Bool {
-        get { UserDefaults.standard.bool(forKey: onboardingKey) }
-        set { UserDefaults.standard.set(newValue, forKey: onboardingKey) }
+    var hasCompletedOnboarding: Bool = false {
+        didSet {
+            UserDefaults.standard.set(hasCompletedOnboarding, forKey: onboardingKey)
+        }
     }
 
     private init() {
+        // Stored properties erst nach init setzen, damit @Observable tracken kann
+        hasCompletedOnboarding = UserDefaults.standard.bool(forKey: onboardingKey)
         if let raw = UserDefaults.standard.string(forKey: key),
            let role = UserRole(rawValue: raw) {
             selectedRole = role
